@@ -1,10 +1,21 @@
 from bs4 import BeautifulSoup
 import requests
 
+
 r=requests.get("https://en.wikipedia.org/wiki/Category:Occupations")
 data=r.text
 
-soup = BeautifulSoup(data)
+soup = BeautifulSoup(data, "html.parser")
 
-for link in soup.find_all("a"):
-  print(link.get('href'))
+sub_headings = soup.find_all("h2")
+print(sub_headings)
+
+container_div = soup.find_all(class_="mw-category-group")
+
+
+ulist = container_div[1]
+print(ulist.ul.li)
+
+
+
+# let's talk on slack or fb? Slack plij. okay
