@@ -10,7 +10,12 @@ def differentiator(word):
 
     try:
         word = word.lower()
+        if word.find(" "):
+            tmp = word.split()
+            word = "_".join(tmp)
+            print(word)
         txt = wn.synsets(word)
+        #print(word.hyponyms())
         # #print(txt)
         # s1 = "zoologist"
         # print(s1 + " " +word + " " + str(s1==word))
@@ -43,14 +48,15 @@ def differentiator(word):
 
     except Exception as err:
 
-        print(err)
+        #print("Definition not found for " + word)
+        print("")
 
 def corpus_generator(filename):
 
     try:
         fhandle = open(filename)
         for line in fhandle:
-            differentiator(line.strip())
+            differentiator(line.strip().strip("\r"))
 
 
         fhandle.close()
@@ -67,4 +73,5 @@ corpus_generator("professions.txt")
 #     txt = line.strip('\s').strip('\t').strip('\n')
 #     txt = txt.lower()
 #     fw.write(line)
-# differentiator(str("Zoologist").strip())
+#differentiator("Music teacher")
+#print(wn.synsets("music_teacher"))

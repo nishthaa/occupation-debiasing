@@ -1,6 +1,6 @@
 Drilling engineer
 apprentice chef
-cobbler	
+cobbler
 surgeon
 student
 hotel porter
@@ -12,15 +12,15 @@ locksmith
 Boiler
 Musician
 servant
-bakery owner	
+bakery owner
 TV cameraman
 Naturopath
 basket-maker
 School principal
 brush maker
-anthropologist	
+anthropologist
 packer
-viniculturist 
+viniculturist
 Pathologist
 Sonographer
 zookeeper
@@ -29,15 +29,15 @@ Human resource adviser
 Intelligence officer
 baker
 Fitness instructor
-glass grinder	
+glass grinder
 journalist
-blast-furnaceman	
+blast-furnaceman
 Forklift driver
 Naval architect
 bank clerk
 Author
-barmaid 
-hand lacemaker	
+barmaid
+hand lacemaker
 registrar
 glazier
 Chemical engineer
@@ -45,8 +45,8 @@ miner
 Police officer
 Storeperson
 environmentalist
-circus artist 
-judge	
+circus artist
+judge
 Intensive care specialist
 roofer
 Game developer
@@ -54,7 +54,7 @@ lift operator
 musician
 technical editor
 caretaker
-economist 
+economist
 nursery nurse
 mathematician
 hardener
@@ -62,23 +62,23 @@ faith healer
 consultant
 car mechanic
 Taxi driver
-croupier	
+croupier
 palmist
 Insurance broker
 Locksmith
-decorator	
+decorator
 glass painter
-forestry manager	
+forestry manager
 helper
-land surveyor	
-security guard	
+land surveyor
+security guard
 Civil engineer
-hatter 
+hatter
 barman
 manicurist
 astrologer
 Body artist
-animator	
+animator
 careers adviser
 Psychologist
 Lifeguard
@@ -93,15 +93,15 @@ warder
 crane operator
 warden
 Plumber
-investment clerk	
+investment clerk
 Bank worker
 Carpenter
-scriptwriter	
+scriptwriter
 auto-electrician
-insurance assessor	
+insurance assessor
 telecaster
 postmaster
-veterinary assistant	
+veterinary assistant
 photographer
 Bar attendant
 Library assistant
@@ -109,11 +109,11 @@ farm worker
 pilot
 travel agency clerk
 Statistician
-secretary 
+secretary
 Mathematician
 dog trainer
-investigator		
-orchestral	
+investigator
+orchestral
 salesperson
 Shearer
 Bookkeeper
@@ -130,77 +130,77 @@ gangster
 Anaesthetist
 Otorhinolaryngologist
 Settlement agent
-script editor	
+script editor
 meteorologist
 usher
 Motor mechanic
 archivist
-cutler	
-airline clerk 
+cutler
+airline clerk
 judge
 ​​​Valuer
 pedicurist
-poulterer	
+poulterer
 Offset printer
 tanner
 programmer
 merchandiser
-sewing machinist	
-draughtsperson 
-welding operator 
+sewing machinist
+draughtsperson
+welding operator
 tyrefitter
 Furniture removalist
-invoice clerk	
+invoice clerk
 employment agent
 driver
 estate agent
 systems programmer
 repairer
 Metal machinist
-engine driver	
+engine driver
 coach
 luggage porter
 singer
 prosthetist
-scaffolder	
+scaffolder
 modeller
-sub-editor 
-glassworker 	
+sub-editor
+glassworker
 chemical operator
 textile printer
 web designer
-butler	
+butler
 Milliner
-farrier	
+farrier
 shift engineer
 Coxswain
 criminal investigator
-section supervisor	
+section supervisor
 historian
 Shoe repairer
-physiotherapist	
+physiotherapist
 Retail buyer
-foster parent	
+foster parent
 Flight attendant
 biotechnologist
 choreographer
 boilermaker
 Geophysicist
 Policy analyst
-hotel receptionist 
+hotel receptionist
 Copywriter
 referee
-umpire	
+umpire
 Train controller
 jewellery maker
 stonecutter
 winery worker
 computer programmer
-housekeeper 
+housekeeper
 Archivist
 film director
-announcer 
-well digger	
+announcer
+well digger
 art metalworker
 Automotive electrician
 ship's captain
@@ -210,9 +210,9 @@ tutor
 prompter
 ​​​Kitchenhand
 window-dresser
-wine maker	
-tunneller	
-hand weaver	
+wine maker
+tunneller
+hand weaver
 prisoner
 Soil scientist
 gunsmith
@@ -224,7 +224,7 @@ sales manager
 Landscape gardener
 Paediatrician
 Audiologist
-minister of religion 
+minister of religion
 Industrial pharmacist
 Historian
 museum curator
@@ -238,41 +238,41 @@ inspector
 doctor
 Wood machinist
 Concierge
-harbour guard	
+harbour guard
 dance teacher
-fashion designer	
+fashion designer
 Dietitian
 Office manager
 airhostess
 radiographer
 policeman
-shop cashier 
+shop cashier
 textile technologist
-sales representative 
+sales representative
 warehouse clerk
 charter agent
-geologist	
+geologist
 Chemist
 radiotherapist
 obstetric
 Wood turner
-varnisher 
+varnisher
 psychaitrist
-pollster	
+pollster
 Insurance agent
 Park ranger
 Actor
-fitter	
+fitter
 Aboriginal
 Army Soldier
 nanny
-personal assistant	
+personal assistant
 Painting trades worker
-botanist	
+botanist
 career counselor
 textiles dyer
 Process engineer
-systems engineer	
+systems engineer
 Dermatologist
 wine-grower
 Bicycle mechanic
@@ -282,7 +282,7 @@ Miner
 Plant mechanic
 window-pane maker
 gravedigger
-historian	
+historian
 Beef cattle farmer
 trainman
 usherette
@@ -291,29 +291,29 @@ Systems analyst
 builder
 Brewer
 jeweler
-travel courier 
-ethnographer	
+travel courier
+ethnographer
 magician
 toolmaker
 psychologist
 Stunt performer
 film projectionist
-commercial traveller	
+commercial traveller
 librarian
 reporter
 shop assistant
-watch-maker 
+watch-maker
 cricketer
 mistress
-counsellor	
+counsellor
 horse breeder
-ice-cream maker	
+ice-cream maker
 silversmith
 animator
 knitter
 costume maker
-athlete 
-explosives expert	
+athlete
+explosives expert
 smith
 Conservation Officer
 officer
@@ -321,13 +321,13 @@ laundry worker
 operator
 Furniture finisher
 Jockey
-glasscutter 
-host 
+glasscutter
+host
 Network administrator
 spinner
 Meat inspector
 Counsellor
-manager	
+manager
 care assistant
 Light technician
 solicitor
@@ -341,30 +341,30 @@ Aquaculture farmer
 Judge
 Special needs teacher
 scientist
-whaler	
-legal assistant	
+whaler
+legal assistant
 career diplomat
 veterinary technician
 Gastroenterologist
-journalist	
+journalist
 Physicist
 tamer
 Pet groomer
-aerial rigger	
+aerial rigger
 Nurse practitioner
-guide	
+guide
 tool setter
 technician
-customs officer 
+customs officer
 engineer
 head teacher
 optometrist
 tattooist
-instructor	
-nurse 
+instructor
+nurse
 reserve warden
-river administrator	
-Auditor 
+river administrator
+Auditor
 Animal attendants
 ​​​Laboratory manager
 carpenter
@@ -376,25 +376,25 @@ Orthoptist
 metrologist
 Landscape architect
 Web designer
-ecologist 
+ecologist
 camera operator
 newspaper editor
 Meter reader
 Art teacher
 ​​​Talent agent
-architect	
+architect
 Midwife
 Shotfirer
 Solicitor
 Tyre fitter
-room maid 
+room maid
 sociologist
 welder
 masseuse
 shipwright
 Petroleum engineer
 fine artist
-editor 
+editor
 Diver
 Solid plasterer
 Gaming worker
@@ -402,47 +402,47 @@ make-up artist
 upholsterer
 hat maker
 translator
-bibliographer	
+bibliographer
 Cook
-warehouse keeper	
+warehouse keeper
 housekeeper
 Parking inspector
 seaman
 Soldier
-​​​Zoologist
-director	
-confectioner 
+Zoologist
+director
+confectioner
 editor
-ceramicist 
+ceramicist
 ​​​Hairdresser
-hydrologist	
+hydrologist
 wire-drawer
 conductor
-astrologer	
+astrologer
 Boat builder
-herbalist	
-radio jockey	
-customs inspector	
+herbalist
+radio jockey
+customs inspector
 dental surgeon
-paediatrician	
-munitions worker	
+paediatrician
+munitions worker
 cabinet maker
 Nutritionist
 Music teacher
-paramedic 
-weigher	
+paramedic
+weigher
 ​​​accountant
 industrialist
 Hospital pharmacist
 Interior designer
 veterinary surgeon
 Doorperson
-conservator 
-watchmaker	
+conservator
+watchmaker
 actuary
 cafe owner
-postman	
-train driver 
+postman
+train driver
 Delivery driver
 textile refiner
 Bus driver
@@ -450,18 +450,18 @@ teller
 town planner
 detective
 Laundry worker
-chemist		
+chemist
 producer
 salesman
 civil servant
 industrial designer
-biscuit maker	
+biscuit maker
 civil engineer
 valuer
-sugar-maker 
+sugar-maker
 Pest controller
 captain
-sculptor	
+sculptor
 shepherd
 farm labourer
 geophysicist
@@ -473,27 +473,27 @@ lawyer
 philosopher
 Nurse educator
 chef
-concrete worker 
+concrete worker
 lecturer
 designer
 station manager
 cooper
 auxiliary worker
 jewellery designer
-watchman 
+watchman
 wagon inspector
 Arborist
 Geologist
 private detective
 Fire fighter
-Butcher 
+Butcher
 jeweller
-swimming instructor	
+swimming instructor
 Gynaecologist
-boiler operator 
+boiler operator
 Navy sailor
 Property developer
-psychologist	
+psychologist
 tractor-driver
 insurance clerk
 Forensic scientist
@@ -507,35 +507,35 @@ Biotechnologist
 trucker
 ergonomist
 Chiropractor
-fish warden	
+fish warden
 Turf grower
-bookmaker	
+bookmaker
 tax specialist
-optician 
+optician
 labourer
 technologist
 chambermaid
-stuntman 
+stuntman
 Audiovisual technician
 Ship's officer
 Psychiatrist
 sailor
 cable car driver
 receptionist
-cleaning staff	
+cleaning staff
 masseur
-domestic help	
-songwriter	
+domestic help
+songwriter
 Neurologist
 waitress
 puppeteer
-coffee roaster	
-coffeehouse keeper 
+coffee roaster
+coffeehouse keeper
 Goldsmith
 event manager
-biochemist	
+biochemist
 Publisher
-Powder coater 
+Powder coater
 cab driver
 Driving instructor
 Migration agent
@@ -550,8 +550,8 @@ Pastrycook
 waiter
 Metal fabricator
 accountant
-actress	
-forester 
+actress
+forester
 musicologist
 Waterside worker
 ​​​Safety inspector
@@ -559,15 +559,15 @@ camera mechanic
 Prison officer
 geologist
 brewer
-beauty therapist	
+beauty therapist
 taxi driver
-postmistress	
+postmistress
 Gasfitter
 music director
 prison officer
 Economist
 Concreter
-publican 
+publican
 Beauty therapist
 Army officer
 dressmaker
@@ -585,20 +585,20 @@ Barista
 canning worker
 Personal assistant
 trainer
-pizza delivery guy	
+pizza delivery guy
 ​​​Cabinetmaker
 plasterer
 potter
 marionetteer
 Sportsperson
-surgery toolmaker	
+surgery toolmaker
 priest
 banking expert
-rope maker	
+rope maker
 ship's officer
 Systems administrator
 website designer
-art restorer	
+art restorer
 senior guard
 personal assistant
 farmer
@@ -609,11 +609,11 @@ track engineer
 Records manager
 microbiologist
 shop worker
-scene-shifter	
+scene-shifter
 mountain guide
 Mortgage broker
-cleaner	
-driller	
+cleaner
+driller
 Multimedia specialist
 executive
 Rheumatologist
@@ -627,53 +627,53 @@ cartographer
 director
 printer
 Director
-collector	
-bookbinder	
+collector
+bookbinder
 Recreation officer
 physicist
 harpooner
 telephone operator
-sewerage cleaner	
+sewerage cleaner
 Confectionery maker
 tailor
 Network engineer
-maltster	
+maltster
 diver
 Archaeologist
 haematologist
 Food technologist
 Fishing hand
 commentator
-image consultant	
+image consultant
 Industrial designer
 Industrial engineer
 dairy worker
 nurse
-craft glazier	
+craft glazier
 Crane chaser
-tobacco technologist	
+tobacco technologist
 public prosecutor
 Radio presenter
-statistician	
+statistician
 Microbiologist
 composer
 policewoman
-astronomer	
+astronomer
 rolling-mill worker
 Road worker
 Travel consultant
-art critic 
-sportsman	
-poultry farmer	
+art critic
+sportsman
+poultry farmer
 coder
-fire officer 
-hairdresser	
+fire officer
+hairdresser
 patent agent
 firefighter
 Sound technician
-landlady	
+landlady
 Metallurgist
-therapist	
+therapist
 Wool classer
 porter
 lift fitter
@@ -682,10 +682,10 @@ author
 Shelf filler
 sericulturist
 dentist
-stockbroker	
+stockbroker
 Greenkeeper
 Surgeon
-butcher 
+butcher
 painter
 Fisheries officer
 ​​​Youth worker
@@ -694,11 +694,11 @@ Transit officer
 telephonist
 tinsmith
 Trade union official
-poultry breeder 
+poultry breeder
 Cardiologist
 Engraver
 cloakroom attendant
-dispatcher	
+dispatcher
 Train driver
 garbage man
 Immigration officer
@@ -707,8 +707,8 @@ Ophthalmologist
 plumber
 transport supervisor
 Surveyor's assistant
-computer programmer 
-wood machinist	
+computer programmer
+wood machinist
 concreter
 spray painter
 Interpreter
@@ -717,70 +717,70 @@ Tour guide
 surveyor's assistant
 Domestic cleaner
 pipe fitter
-boiler attendant	
+boiler attendant
 geographer
 master
 clerk
 Scaffolder
 Urologist
 fish farmer
-waiter 
+waiter
 applications programmer
 writer
-watercourse manager 
+watercourse manager
 postal worker
 Truck driver
-systems designer 
+systems designer
 Floor finisher
-trainer 
+trainer
 Bookmaker
 Court bailiff
 ​​​Paediatric surgeon
 piano tuner
-blacksmith 
+blacksmith
 sausage-maker
 Funeral director
 goatherd
 Translator
-shelf filler	
+shelf filler
 event organiser
 Forester
 juggler
 Librarian
-computer engineer 
+computer engineer
 Silversmith
-stonemason	
-bricklayer	
+stonemason
+bricklayer
 debt collector
 livestock farmer
 Screen printer
 interpreter
-art photographer	
-locksmith	
+art photographer
+locksmith
 Project builder
 biologist
 fireman
 shunter
 Barrister
-nutritionist			
+nutritionist
 Abattoir worker
 pawnbroker
 craft smith
-dish washer	
+dish washer
 Radio producer
 paver
 Accountant
-circus performer	
+circus performer
 Podiatrist
 auctioneer
-pottery maker	
-tourist guide	
+pottery maker
+tourist guide
 forester
-goldsmith	
+goldsmith
 secretary
 Upholsterer
 ​​​Quantity Surveyor
-weaver 
+weaver
 ceramics
 Neurosurgeon
 Optical mechanic
@@ -789,11 +789,11 @@ flight attendant
 auditor
 Nurse manager
 flight engineer
-prosthetist	
+prosthetist
 Horse trainer
-builders 
+builders
 Motorcycle mechanic
-weaver	
+weaver
 Fashion designer
 Hotel or motel manager
 psychotherapist
@@ -805,43 +805,43 @@ tannery worker
 aircraft mechanic
 dry-cleaner
 Set designer
-worker	
+worker
 clergyman
 Handyperson
 Speech pathologist
-computer network manager	
+computer network manager
 gardener
 Surveyor
 psychiatrist
-script writer 
+script writer
 Tool pusher
 financial officer
 Photographer
 Art director
 interior designer
-articled clerk 
+articled clerk
 dispatch clerk
 Dentist
-bookkeeper	
-shoemaker 
-sweet factory worker 
+bookkeeper
+shoemaker
+sweet factory worker
 Debt collector
-hostess	
+hostess
 tram driver
 lexicographer
-assessor 
+assessor
 Private investigator
 politician
 bodybuilder
 Wine maker
 stove fitter
-home tutor	
+home tutor
 ​​​Baker
 Deck hand
-geneticist	
+geneticist
 social activist
 Tree faller
-beautician 
+beautician
 boatman
 Steel fixer
 site manager
@@ -849,10 +849,10 @@ mechanic
 Embalmer
 paediatric
 naturalist
-miller		
+miller
 dresser
 social worker
-airline ticket agent	
+airline ticket agent
 Ambulance officer
 researcher
 tax adviser
@@ -870,16 +870,16 @@ information technology engineer
 orthotist
 air steward
 decorator
-enamel worker	
-company lawyer	
+enamel worker
+company lawyer
 fashion model
 architect
 watchwoman
 plywood maker
-adviser 
+adviser
 sheriff
-governess 
-animal technician	
+governess
+animal technician
 fire officer
 Bricklayer
 blasters foreman
@@ -887,21 +887,21 @@ Cartographer
 Social worker
 barber
 dietician
-Cardiothoracic 
+Cardiothoracic
 Signwriter
-midwife	
+midwife
 Payroll clerk
 Panelbeater
 cook
 film designer
 security guard
 optician
-real estate agent 
+real estate agent
 soldier
-bartender	
+bartender
 investment banker
 Model
-ore crusher		
+ore crusher
 Pharmacist
 fisherman
 Career counsellor
@@ -910,19 +910,19 @@ Structural engineer
 Driller
 driving instructor
 broadcaster
-surgical toolmaker 
+surgical toolmaker
 Food processing worker
 Ship's master
 Sheep farmer
 butcher
 ​​​Radiation oncologist
-archeologist	
-scene painter	
+archeologist
+scene painter
 ship broker
 agronomist
 gambler
-quality inspector	
-draughtsman	
+quality inspector
+draughtsman
 Receptionist
 IT engineer
 vet
@@ -931,7 +931,7 @@ sugar maker
 Glazier
 Nurseryperson
 Roof plumber
-hand embroiderer	
+hand embroiderer
 photographic model
 publisher
 film critic
@@ -940,8 +940,8 @@ sweet maker
 Chef
 sound engineer
 Printing machinist
-sales assistant 
-window cleaner	
+sales assistant
+window cleaner
 ​​​Nanny
 Law clerk
 cheese maker
@@ -950,11 +950,11 @@ Joiner
 assistant
 police officer
 hotel manager
-lifeguard 
+lifeguard
 Architect
 lithographer
 Radiologist
 doorkeeper
 Laboratory technician
 lift attendant
-stuntwoman	
+stuntwoman

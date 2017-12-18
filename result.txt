@@ -1,9 +1,12 @@
 cobbler,a person who makes or repairs shoes,neutral,none
+surgeon,a physician who specializes in surgery,neutral,none
+student,a learner who is enrolled in an educational institution,neutral,none
 pharmacist,a health professional trained in the art of preparing and dispensing drugs,neutral,none
 gunsmith,someone who makes or repairs guns,neutral,none
 locksmith,someone who makes or repairs locks,neutral,none
 boiler,sealed vessel where water is converted to steam,neutral,none
 musician,someone who plays a musical instrument (as a profession),neutral,none
+servant,a person working in the service of another (especially in the household),neutral,none
 naturopath,a therapist who practices naturopathy,neutral,none
 anthropologist,a social scientist who specializes in anthropology,neutral,none
 packer,a workman employed to pack things into containers,neutral,none
@@ -19,6 +22,7 @@ judge,a public official authorized to decide questions brought before a court of
 roofer,a craftsman who lays or repairs roofs,neutral,none
 musician,someone who plays a musical instrument (as a profession),neutral,none
 caretaker,a custodian who is hired to take care of something (property or a person),neutral,none
+economist,an expert in the science of economics,neutral,none
 mathematician,a person skilled in mathematics,neutral,none
 consultant,an expert who gives advice,neutral,none
 croupier,someone who collects and pays bets at a gaming table,neutral,none
@@ -26,6 +30,7 @@ palmist,fortuneteller who predicts your future by the lines on your palms,neutra
 locksmith,someone who makes or repairs locks,neutral,none
 decorator,a person who specializes in designing architectural interiors and their furnishings,neutral,none
 helper,a person who contributes to the fulfillment of a need or furtherance of an effort or purpose,neutral,none
+hatter,someone who makes and sells hats,neutral,none
 barman,an employee who mixes and serves alcoholic drinks at a bar,neutral,none
 manicurist,a beautician who cleans and trims and polishes the fingernails,neutral,none
 astrologer,someone who predicts the future by the positions of the planets and sun and Moon,neutral,none
@@ -38,14 +43,17 @@ warder,a person who works in a prison and is in charge of prisoners,neutral,none
 warden,the chief official in charge of a prison,neutral,none
 plumber,a craftsman who installs and repairs pipes and fixtures and appliances,neutral,none
 carpenter,a woodworker who makes or repairs wooden objects,neutral,none
+scriptwriter,someone who writes scripts for plays or movies or broadcast dramas,neutral,none
 telecaster,a television broadcaster,neutral,none
 postmaster,the person in charge of a post office,neutral,none
 photographer,someone who takes photographs professionally,neutral,none
 pilot,someone who is licensed to operate an aircraft in flight,neutral,none
 statistician,a mathematician who specializes in statistics,neutral,none
+secretary,a person who is head of an administrative department of government,neutral,none
 mathematician,a person skilled in mathematics,neutral,none
 investigator,a scientist who devotes himself to doing research,neutral,none
 orchestral,relating to or composed for an orchestra,neutral,none
+salesperson,a person employed to represent a business and to sell its merchandise (as to customers in a store or to customers who are visited),neutral,none
 shearer,Scottish ballet dancer and actress (born in 1926),neutral,none
 bookkeeper,someone who records the transactions of a business,neutral,none
 waiter,a person whose occupation is to serve at table (as in a restaurant),neutral,none
@@ -66,9 +74,10 @@ merchandiser,a businessperson engaged in retail trade,neutral,none
 driver,the operator of a motor vehicle,neutral,none
 repairer,a skilled worker who mends or repairs things,neutral,none
 coach,(sports) someone in charge of training an athlete or a team,neutral,none
-inger,a member of western Finnish people formerly living in the Baltic province where Saint Petersburg was built,neutral,none
+singer,a person who sings,neutral,none
 prosthetist,an expert in prosthetics,neutral,none
 modeller,a person who creates models,neutral,none
+glassworker,someone who cuts flat glass to size,neutral,none
 butler,a manservant (usually the head servant of a household) who has charge of wines and the table,neutral,none
 milliner,someone who makes and sells hats,neutral,none
 farrier,a person who shoes horses,neutral,none
@@ -80,7 +89,10 @@ geophysicist,a geologist who uses physical principles to study the properties of
 copywriter,a person employed to write advertising or publicity copy,neutral,none
 referee,(sports) the chief official (as in boxing or American football) who is expected to ensure fair play,neutral,none
 umpire,an official at a baseball game,neutral,none
+stonecutter,someone who cuts or carves stone,neutral,none
+housekeeper,a servant who is employed to perform domestic task in a household,neutral,none
 archivist,a person in charge of collecting and cataloguing archives,neutral,none
+announcer,someone who proclaims a message publicly,neutral,none
 tutor,a person who gives private instruction (as in singing, acting, etc.),neutral,none
 prompter,someone who assists a performer by providing the next words of a forgotten speech,neutral,none
 prisoner,a person who is confined; especially a prisoner of war,neutral,none
@@ -101,12 +113,14 @@ geologist,a specialist in geology,neutral,none
 chemist,a scientist who specializes in chemistry,neutral,none
 radiotherapist,a medical specialist who uses radioactive substances and X-rays in the treatment of disease,neutral,none
 obstetric,of or relating to or used in or practicing obstetrics,neutral,none
+varnisher,someone who applies a finishing coat of varnish,neutral,none
 pollster,someone who conducts surveys of public opinion,neutral,none
 actor,a theatrical performer,neutral,none
 fitter,someone who fits a garment to a particular person,neutral,none
 aboriginal,a dark-skinned member of a race of people living in Australia when Europeans arrived,neutral,none
 botanist,a biologist specializing in the study of plants,neutral,none
 dermatologist,a doctor who specializes in the physiology and pathology of the skin,neutral,none
+stonemason,a craftsman who works with stone or brick,neutral,none
 miner,laborer who works in a mine,neutral,none
 gravedigger,a person who earns a living by digging graves,neutral,none
 historian,a person who is an authority on history and who studies it and writes about it,neutral,none
@@ -123,18 +137,23 @@ librarian,a professional person trained in library science and engaged in librar
 reporter,a person who investigates and reports or edits news stories,neutral,none
 cricketer,an athlete who plays cricket,neutral,none
 counsellor,someone who has supervisory duties at a summer camp,neutral,none
+silversmith,someone who makes or repairs articles of silver,neutral,none
 animator,someone who imparts energy and vitality and spirit to other people,neutral,none
 knitter,someone who makes garments (or fabrics) by intertwining yarn or thread,neutral,none
+athlete,a person trained to compete in sports,neutral,none
+smith,Rhodesian statesman who declared independence of Zimbabwe from Great Britain (born in 1919),neutral,none
 officer,any person in the armed services who holds a position of authority or command,neutral,none
 operator,(mathematics) a symbol or function representing a mathematical operation,neutral,none
 jockey,someone employed to ride horses in horse races,neutral,none
-pinner,a woman's cap with two long flaps pinned on,neutral,none
+spinner,someone who spins (who twists fibers into threads),neutral,none
 counsellor,someone who has supervisory duties at a summer camp,neutral,none
 manager,someone who controls resources and expenditures,neutral,none
+solicitor,a petitioner who solicits contributions or trade or votes,neutral,none
 pharmacologist,someone trained in the science of drugs (their composition and uses and effects),neutral,none
 cabinetmaker,a woodworker who specializes in making furniture,neutral,none
 dancer,a performer who dances professionally,neutral,none
 judge,a public official authorized to decide questions brought before a court of justice,neutral,none
+scientist,a person with advanced knowledge of one or more sciences,neutral,none
 whaler,a seaman who works on a ship that hunts whales,neutral,none
 gastroenterologist,a physician who specializes in diseases of the gastrointestinal tract,neutral,none
 journalist,a writer for newspapers and magazines,neutral,none
@@ -145,29 +164,40 @@ technician,someone whose occupation involves training in a specific technical pr
 engineer,a person who uses scientific knowledge to solve practical problems,neutral,none
 optometrist,a person skilled in testing for defects of vision in order to prescribe corrective glasses,neutral,none
 instructor,a person whose occupation is teaching,neutral,none
+nurse,one skilled in caring for young children or the sick (usually under the supervision of a physician),neutral,none
+auditor,someone who listens attentively,neutral,none
 carpenter,a woodworker who makes or repairs wooden objects,neutral,none
 conference,a prearranged meeting for consultation or exchange of information or discussion (especially one with a formal agenda),neutral,none
 digger,a laborer who digs,neutral,none
 orthoptist,a specialist in orthoptics,neutral,none
+ecologist,a biologist who studies the relation between organisms and their environment,neutral,none
 architect,someone who creates plans to be used in making something (such as buildings),neutral,none
 solicitor,a petitioner who solicits contributions or trade or votes,neutral,none
+sociologist,a social scientist who studies the institutions and development of human society,neutral,none
 welder,joins pieces of metal by welding them together,neutral,none
+shipwright,a carpenter who helps build and launch wooden vessels,neutral,none
+editor,a person responsible for the editorial aspects of publication; the person who determines the final content of a text (especially of a newspaper or magazine),neutral,none
 diver,someone who works underwater,neutral,none
 upholsterer,a craftsman who upholsters furniture,neutral,none
 translator,a person who translates written messages from one language to another,neutral,none
 bibliographer,someone trained in compiling bibliographies,neutral,none
 cook,someone who cooks food,neutral,none
 housekeeper,a servant who is employed to perform domestic task in a household,neutral,none
+zoologist,a specialist in the branch of biology dealing with animals,neutral,none
 director,someone who controls resources and expenditures,neutral,none
+confectioner,someone who makes candies and other sweets,neutral,none
 editor,a person responsible for the editorial aspects of publication; the person who determines the final content of a text (especially of a newspaper or magazine),neutral,none
+ceramicist,a craftsman who shapes pottery on a potter's wheel and bakes them it a kiln,neutral,none
 hydrologist,a geologist skilled in hydrology,neutral,none
 conductor,the person who leads a musical group,neutral,none
 astrologer,someone who predicts the future by the positions of the planets and sun and Moon,neutral,none
 herbalist,a therapist who heals by the use of herbs,neutral,none
 paediatrician,a specialist in the care of babies,neutral,none
 nutritionist,a specialist in the study of nutrition,neutral,none
+paramedic,a person trained to assist medical professionals and to give emergency medical treatment,neutral,none
 weigher,an official who weighs and records the weight,neutral,none
 industrialist,someone who manages or has significant financial interest in an industrial enterprise,neutral,none
+conservator,the custodian of a collection (as a museum or library),neutral,none
 watchmaker,someone who makes or repairs watches,neutral,none
 actuary,someone versed in the collection and interpretation of numerical data (especially someone who uses statistics to calculate insurance premiums),neutral,none
 teller,United States physicist (born in Hungary) who worked on the first atom bomb and the first hydrogen bomb (1908-2003),neutral,none
@@ -176,6 +206,8 @@ chemist,a scientist who specializes in chemistry,neutral,none
 producer,someone who manufactures something,neutral,none
 valuer,someone who assesses the monetary worth of possessions,neutral,none
 captain,an officer holding a rank below a major but above a lieutenant,neutral,none
+sculptor,an artist who creates sculptures,neutral,none
+shepherd,a clergyman who watches over a group of people,neutral,none
 geophysicist,a geologist who uses physical principles to study the properties of the earth,neutral,none
 cashier,an employee of a bank who receives and pays out money,neutral,none
 goldsmith,an artisan who makes jewelry and other objects out of gold,neutral,none
@@ -185,21 +217,27 @@ chef,a professional cook,neutral,none
 lecturer,a public lecturer at certain universities,neutral,none
 designer,a person who specializes in designing architectural interiors and their furnishings,neutral,none
 cooper,United States industrialist who built the first American locomotive; founded Cooper Union in New York City to offer free courses in the arts and sciences (1791-1883),neutral,none
+watchman,a guard who keeps watch,neutral,none
 arborist,a specialist in treating damaged trees,neutral,none
 geologist,a specialist in geology,neutral,none
+butcher,a retailer of meat,neutral,none
 jeweller,someone who makes jewelry,neutral,none
 gynaecologist,a specialist in gynecology,neutral,none
 psychologist,a scientist trained in psychology,neutral,none
 steelworker,a worker engaged in making steel,neutral,none
 buyer,a person who buys,neutral,none
+storekeeper,a merchant who owns or manages a shop,neutral,none
 trucker,someone who drives a truck as an occupation,neutral,none
 chiropractor,a therapist who practices chiropractic,neutral,none
 bookmaker,a maker of books; someone who edits or publishes or binds books,neutral,none
+optician,a worker who makes glasses for remedying defects of vision,neutral,none
 labourer,someone who works with their hands; someone engaged in manual labor,neutral,none
 technologist,a person who uses scientific knowledge to solve practical problems,neutral,none
 chambermaid,a maid who is employed to clean and care for bedrooms (now primarily in hotels),neutral,none
 psychiatrist,a physician who specializes in psychiatry,neutral,none
+sailor,any member of a ship's crew,neutral,none
 receptionist,a secretary whose main duty is to answer the telephone and receive visitors,neutral,none
+songwriter,a composer of words or music for popular songs,neutral,none
 neurologist,a medical specialist in the nervous system and the disorders affecting it,neutral,none
 puppeteer,one who operates puppets or marionettes,neutral,none
 goldsmith,an artisan who makes jewelry and other objects out of gold,neutral,none
@@ -211,11 +249,13 @@ woodcutter,cuts down trees and chops wood as a job,neutral,none
 joiner,a person who likes to join groups,neutral,none
 waiter,a person whose occupation is to serve at table (as in a restaurant),neutral,none
 accountant,someone who maintains and audits business accounts,neutral,none
+forester,English writer of adventure novels featuring Captain Horatio Hornblower (1899-1966),neutral,none
 musicologist,a student of musicology,neutral,none
 geologist,a specialist in geology,neutral,none
 brewer,someone who brews beer or ale from malt and hops and water,neutral,none
 economist,an expert in the science of economics,neutral,none
 concreter,capable of being perceived by the senses; not abstract or imaginary,neutral,none
+publican,the keeper of a public house,neutral,none
 dressmaker,someone who makes or mends dresses,neutral,none
 actuary,someone versed in the collection and interpretation of numerical data (especially someone who uses statistics to calculate insurance premiums),neutral,none
 typesetter,one who sets written material into type,neutral,none
@@ -249,9 +289,11 @@ archaeologist,an anthropologist who studies prehistoric people and their culture
 haematologist,a doctor who specializes in diseases of the blood and blood-forming organs,neutral,none
 commentator,an expert who observes and comments on something,neutral,none
 nurse,one skilled in caring for young children or the sick (usually under the supervision of a physician),neutral,none
+statistician,a mathematician who specializes in statistics,neutral,none
 microbiologist,a specialist in microbiology,neutral,none
 composer,someone who composes music as a profession,neutral,none
 astronomer,a physicist who studies astronomy,neutral,none
+sportsman,someone who engages in sports,neutral,none
 coder,a person who designs and writes and tests computer programs,neutral,none
 hairdresser,someone who cuts or beautifies hair,neutral,none
 firefighter,a member of a fire department who tries to extinguish fires,neutral,none
@@ -259,8 +301,11 @@ metallurgist,an engineer trained in the extraction and refining and alloying and
 therapist,a person skilled in a particular type of therapy,neutral,none
 porter,a person employed to carry luggage and supplies,neutral,none
 author,writes (books or stories or articles or the like) professionally (for pay),neutral,none
+sericulturist,a producer of raw silk,neutral,none
 dentist,a person qualified to practice dentistry,neutral,none
+stockbroker,an agent in the buying and selling of stocks and bonds,neutral,none
 surgeon,a physician who specializes in surgery,neutral,none
+butcher,a retailer of meat,neutral,none
 painter,an artist who paints,neutral,none
 galvaniser,a skilled worker who coats iron or steel with zinc,neutral,none
 telephonist,someone who helps callers get the person they are calling,neutral,none
@@ -277,20 +322,24 @@ geographer,an expert on geography,neutral,none
 master,an artist of consummate skill,neutral,none
 clerk,an employee who performs clerical work (e.g., keeps records or accounts),neutral,none
 urologist,a specialist in urology,neutral,none
+waiter,a person whose occupation is to serve at table (as in a restaurant),neutral,none
 writer,writes (books or stories or articles or the like) professionally (for pay),neutral,none
+trainer,one who trains other persons or animals,neutral,none
 bookmaker,a maker of books; someone who edits or publishes or binds books,neutral,none
+blacksmith,a smith who forges and shapes iron with a hammer and anvil,neutral,none
 goatherd,a person who tends a flock of goats,neutral,none
 translator,a person who translates written messages from one language to another,neutral,none
 forester,English writer of adventure novels featuring Captain Horatio Hornblower (1899-1966),neutral,none
 juggler,a performer who juggles objects and performs tricks of manual dexterity,neutral,none
 librarian,a professional person trained in library science and engaged in library services,neutral,none
 silversmith,someone who makes or repairs articles of silver,neutral,none
+stonemason,a craftsman who works with stone or brick,neutral,none
 bricklayer,a craftsman skilled in building with bricks,neutral,none
 interpreter,someone who mediates between speakers of different languages,neutral,none
 locksmith,someone who makes or repairs locks,neutral,none
 biologist,(biology) a scientist who studies living organisms,neutral,none
 fireman,play in which children pretend to put out a fire,neutral,none
-hunter,someone who hunts game,neutral,none
+shunter,a small locomotive used to move cars around but not to make trips,neutral,none
 barrister,a British or Canadian lawyer who speaks in the higher courts of law on behalf of either the defense or prosecution,neutral,none
 nutritionist,a specialist in the study of nutrition,neutral,none
 pawnbroker,a person who lends money at interest in exchange for personal property that is deposited as security,neutral,none
@@ -299,12 +348,15 @@ podiatrist,a specialist in care for the feet,neutral,none
 auctioneer,an agent who conducts an auction,neutral,none
 forester,English writer of adventure novels featuring Captain Horatio Hornblower (1899-1966),neutral,none
 goldsmith,an artisan who makes jewelry and other objects out of gold,neutral,none
+secretary,a person who is head of an administrative department of government,neutral,none
 upholsterer,a craftsman who upholsters furniture,neutral,none
-ceramic,an artifact made of hard brittle material produced from nonmetallic minerals by firing at high temperatures,neutral,none
+weaver,a craftsman who weaves cloth,neutral,none
+ceramics,the art of making and decorating pottery,neutral,none
 neurosurgeon,someone who does surgery on the nervous system (especially the brain),neutral,none
 manager,someone who controls resources and expenditures,neutral,none
 auditor,someone who listens attentively,neutral,none
 prosthetist,an expert in prosthetics,neutral,none
+builders,a substance added to soaps or detergents to increase their cleansing action,neutral,none
 weaver,a craftsman who weaves cloth,neutral,none
 psychotherapist,a therapist who deals with mental and emotional disorders,neutral,none
 conservator,the custodian of a collection (as a museum or library),neutral,none
@@ -317,10 +369,13 @@ psychiatrist,a physician who specializes in psychiatry,neutral,none
 photographer,someone who takes photographs professionally,neutral,none
 dentist,a person qualified to practice dentistry,neutral,none
 bookkeeper,someone who records the transactions of a business,neutral,none
+shoemaker,a person who makes or repairs shoes,neutral,none
 lexicographer,a compiler or writer of a dictionary; a student of the lexical component of language,neutral,none
+assessor,an official who evaluates property for the purpose of taxing it,neutral,none
 politician,a leader engaged in civil administration,neutral,none
 bodybuilder,someone who does special exercises to develop a brawny musculature,neutral,none
 geneticist,a biologist who specializes in genetics,neutral,none
+beautician,someone who works in a beauty parlor,neutral,none
 boatman,someone who drives or rides in a boat,neutral,none
 mechanic,a craftsman skilled in operating machine tools,neutral,none
 embalmer,a mortician who treats corpses with preservatives,neutral,none
@@ -338,6 +393,8 @@ metallurgist,an engineer trained in the extraction and refining and alloying and
 tracklayer,a workman who lays and repairs railroad tracks,neutral,none
 decorator,a person who specializes in designing architectural interiors and their furnishings,neutral,none
 architect,someone who creates plans to be used in making something (such as buildings),neutral,none
+adviser,an expert who gives advice,neutral,none
+sheriff,the principal law-enforcement officer in a county,neutral,none
 bricklayer,a craftsman skilled in building with bricks,neutral,none
 cartographer,a person who makes maps,neutral,none
 barber,United States composer (1910-1981),neutral,none
@@ -363,16 +420,20 @@ chef,a professional cook,neutral,none
 hydrologist,a geologist skilled in hydrology,neutral,none
 joiner,a person who likes to join groups,neutral,none
 assistant,a person who contributes to the fulfillment of a need or furtherance of an effort or purpose,neutral,none
+lifeguard,an attendant employed at a beach or pool to protect swimmers from accidents,neutral,none
 architect,someone who creates plans to be used in making something (such as buildings),neutral,none
 lithographer,a printmaker who uses lithography,neutral,none
 radiologist,a medical specialist who uses radioactive substances and X-rays in the treatment of disease,neutral,none
 doorkeeper,an official stationed at the entrance of a courtroom or legislative chamber,neutral,none
 cobbler,a person who makes or repairs shoes,neutral,none
+surgeon,a physician who specializes in surgery,neutral,none
+student,a learner who is enrolled in an educational institution,neutral,none
 pharmacist,a health professional trained in the art of preparing and dispensing drugs,neutral,none
 gunsmith,someone who makes or repairs guns,neutral,none
 locksmith,someone who makes or repairs locks,neutral,none
 boiler,sealed vessel where water is converted to steam,neutral,none
 musician,someone who plays a musical instrument (as a profession),neutral,none
+servant,a person working in the service of another (especially in the household),neutral,none
 naturopath,a therapist who practices naturopathy,neutral,none
 anthropologist,a social scientist who specializes in anthropology,neutral,none
 packer,a workman employed to pack things into containers,neutral,none
@@ -388,6 +449,7 @@ judge,a public official authorized to decide questions brought before a court of
 roofer,a craftsman who lays or repairs roofs,neutral,none
 musician,someone who plays a musical instrument (as a profession),neutral,none
 caretaker,a custodian who is hired to take care of something (property or a person),neutral,none
+economist,an expert in the science of economics,neutral,none
 mathematician,a person skilled in mathematics,neutral,none
 consultant,an expert who gives advice,neutral,none
 croupier,someone who collects and pays bets at a gaming table,neutral,none
@@ -395,6 +457,7 @@ palmist,fortuneteller who predicts your future by the lines on your palms,neutra
 locksmith,someone who makes or repairs locks,neutral,none
 decorator,a person who specializes in designing architectural interiors and their furnishings,neutral,none
 helper,a person who contributes to the fulfillment of a need or furtherance of an effort or purpose,neutral,none
+hatter,someone who makes and sells hats,neutral,none
 barman,an employee who mixes and serves alcoholic drinks at a bar,neutral,none
 manicurist,a beautician who cleans and trims and polishes the fingernails,neutral,none
 astrologer,someone who predicts the future by the positions of the planets and sun and Moon,neutral,none
@@ -407,14 +470,17 @@ warder,a person who works in a prison and is in charge of prisoners,neutral,none
 warden,the chief official in charge of a prison,neutral,none
 plumber,a craftsman who installs and repairs pipes and fixtures and appliances,neutral,none
 carpenter,a woodworker who makes or repairs wooden objects,neutral,none
+scriptwriter,someone who writes scripts for plays or movies or broadcast dramas,neutral,none
 telecaster,a television broadcaster,neutral,none
 postmaster,the person in charge of a post office,neutral,none
 photographer,someone who takes photographs professionally,neutral,none
 pilot,someone who is licensed to operate an aircraft in flight,neutral,none
 statistician,a mathematician who specializes in statistics,neutral,none
+secretary,a person who is head of an administrative department of government,neutral,none
 mathematician,a person skilled in mathematics,neutral,none
 investigator,a scientist who devotes himself to doing research,neutral,none
 orchestral,relating to or composed for an orchestra,neutral,none
+salesperson,a person employed to represent a business and to sell its merchandise (as to customers in a store or to customers who are visited),neutral,none
 shearer,Scottish ballet dancer and actress (born in 1926),neutral,none
 bookkeeper,someone who records the transactions of a business,neutral,none
 waiter,a person whose occupation is to serve at table (as in a restaurant),neutral,none
@@ -435,9 +501,10 @@ merchandiser,a businessperson engaged in retail trade,neutral,none
 driver,the operator of a motor vehicle,neutral,none
 repairer,a skilled worker who mends or repairs things,neutral,none
 coach,(sports) someone in charge of training an athlete or a team,neutral,none
-inger,a member of western Finnish people formerly living in the Baltic province where Saint Petersburg was built,neutral,none
+singer,a person who sings,neutral,none
 prosthetist,an expert in prosthetics,neutral,none
 modeller,a person who creates models,neutral,none
+glassworker,someone who cuts flat glass to size,neutral,none
 butler,a manservant (usually the head servant of a household) who has charge of wines and the table,neutral,none
 milliner,someone who makes and sells hats,neutral,none
 farrier,a person who shoes horses,neutral,none
@@ -449,7 +516,10 @@ geophysicist,a geologist who uses physical principles to study the properties of
 copywriter,a person employed to write advertising or publicity copy,neutral,none
 referee,(sports) the chief official (as in boxing or American football) who is expected to ensure fair play,neutral,none
 umpire,an official at a baseball game,neutral,none
+stonecutter,someone who cuts or carves stone,neutral,none
+housekeeper,a servant who is employed to perform domestic task in a household,neutral,none
 archivist,a person in charge of collecting and cataloguing archives,neutral,none
+announcer,someone who proclaims a message publicly,neutral,none
 tutor,a person who gives private instruction (as in singing, acting, etc.),neutral,none
 prompter,someone who assists a performer by providing the next words of a forgotten speech,neutral,none
 prisoner,a person who is confined; especially a prisoner of war,neutral,none
@@ -470,12 +540,14 @@ geologist,a specialist in geology,neutral,none
 chemist,a scientist who specializes in chemistry,neutral,none
 radiotherapist,a medical specialist who uses radioactive substances and X-rays in the treatment of disease,neutral,none
 obstetric,of or relating to or used in or practicing obstetrics,neutral,none
+varnisher,someone who applies a finishing coat of varnish,neutral,none
 pollster,someone who conducts surveys of public opinion,neutral,none
 actor,a theatrical performer,neutral,none
 fitter,someone who fits a garment to a particular person,neutral,none
 aboriginal,a dark-skinned member of a race of people living in Australia when Europeans arrived,neutral,none
 botanist,a biologist specializing in the study of plants,neutral,none
 dermatologist,a doctor who specializes in the physiology and pathology of the skin,neutral,none
+stonemason,a craftsman who works with stone or brick,neutral,none
 miner,laborer who works in a mine,neutral,none
 gravedigger,a person who earns a living by digging graves,neutral,none
 historian,a person who is an authority on history and who studies it and writes about it,neutral,none
@@ -492,18 +564,23 @@ librarian,a professional person trained in library science and engaged in librar
 reporter,a person who investigates and reports or edits news stories,neutral,none
 cricketer,an athlete who plays cricket,neutral,none
 counsellor,someone who has supervisory duties at a summer camp,neutral,none
+silversmith,someone who makes or repairs articles of silver,neutral,none
 animator,someone who imparts energy and vitality and spirit to other people,neutral,none
 knitter,someone who makes garments (or fabrics) by intertwining yarn or thread,neutral,none
+athlete,a person trained to compete in sports,neutral,none
+smith,Rhodesian statesman who declared independence of Zimbabwe from Great Britain (born in 1919),neutral,none
 officer,any person in the armed services who holds a position of authority or command,neutral,none
 operator,(mathematics) a symbol or function representing a mathematical operation,neutral,none
 jockey,someone employed to ride horses in horse races,neutral,none
-pinner,a woman's cap with two long flaps pinned on,neutral,none
+spinner,someone who spins (who twists fibers into threads),neutral,none
 counsellor,someone who has supervisory duties at a summer camp,neutral,none
 manager,someone who controls resources and expenditures,neutral,none
+solicitor,a petitioner who solicits contributions or trade or votes,neutral,none
 pharmacologist,someone trained in the science of drugs (their composition and uses and effects),neutral,none
 cabinetmaker,a woodworker who specializes in making furniture,neutral,none
 dancer,a performer who dances professionally,neutral,none
 judge,a public official authorized to decide questions brought before a court of justice,neutral,none
+scientist,a person with advanced knowledge of one or more sciences,neutral,none
 whaler,a seaman who works on a ship that hunts whales,neutral,none
 gastroenterologist,a physician who specializes in diseases of the gastrointestinal tract,neutral,none
 journalist,a writer for newspapers and magazines,neutral,none
@@ -514,29 +591,40 @@ technician,someone whose occupation involves training in a specific technical pr
 engineer,a person who uses scientific knowledge to solve practical problems,neutral,none
 optometrist,a person skilled in testing for defects of vision in order to prescribe corrective glasses,neutral,none
 instructor,a person whose occupation is teaching,neutral,none
+nurse,one skilled in caring for young children or the sick (usually under the supervision of a physician),neutral,none
+auditor,someone who listens attentively,neutral,none
 carpenter,a woodworker who makes or repairs wooden objects,neutral,none
 conference,a prearranged meeting for consultation or exchange of information or discussion (especially one with a formal agenda),neutral,none
 digger,a laborer who digs,neutral,none
 orthoptist,a specialist in orthoptics,neutral,none
+ecologist,a biologist who studies the relation between organisms and their environment,neutral,none
 architect,someone who creates plans to be used in making something (such as buildings),neutral,none
 solicitor,a petitioner who solicits contributions or trade or votes,neutral,none
+sociologist,a social scientist who studies the institutions and development of human society,neutral,none
 welder,joins pieces of metal by welding them together,neutral,none
+shipwright,a carpenter who helps build and launch wooden vessels,neutral,none
+editor,a person responsible for the editorial aspects of publication; the person who determines the final content of a text (especially of a newspaper or magazine),neutral,none
 diver,someone who works underwater,neutral,none
 upholsterer,a craftsman who upholsters furniture,neutral,none
 translator,a person who translates written messages from one language to another,neutral,none
 bibliographer,someone trained in compiling bibliographies,neutral,none
 cook,someone who cooks food,neutral,none
 housekeeper,a servant who is employed to perform domestic task in a household,neutral,none
+zoologist,a specialist in the branch of biology dealing with animals,neutral,none
 director,someone who controls resources and expenditures,neutral,none
+confectioner,someone who makes candies and other sweets,neutral,none
 editor,a person responsible for the editorial aspects of publication; the person who determines the final content of a text (especially of a newspaper or magazine),neutral,none
+ceramicist,a craftsman who shapes pottery on a potter's wheel and bakes them it a kiln,neutral,none
 hydrologist,a geologist skilled in hydrology,neutral,none
 conductor,the person who leads a musical group,neutral,none
 astrologer,someone who predicts the future by the positions of the planets and sun and Moon,neutral,none
 herbalist,a therapist who heals by the use of herbs,neutral,none
 paediatrician,a specialist in the care of babies,neutral,none
 nutritionist,a specialist in the study of nutrition,neutral,none
+paramedic,a person trained to assist medical professionals and to give emergency medical treatment,neutral,none
 weigher,an official who weighs and records the weight,neutral,none
 industrialist,someone who manages or has significant financial interest in an industrial enterprise,neutral,none
+conservator,the custodian of a collection (as a museum or library),neutral,none
 watchmaker,someone who makes or repairs watches,neutral,none
 actuary,someone versed in the collection and interpretation of numerical data (especially someone who uses statistics to calculate insurance premiums),neutral,none
 teller,United States physicist (born in Hungary) who worked on the first atom bomb and the first hydrogen bomb (1908-2003),neutral,none
@@ -545,6 +633,8 @@ chemist,a scientist who specializes in chemistry,neutral,none
 producer,someone who manufactures something,neutral,none
 valuer,someone who assesses the monetary worth of possessions,neutral,none
 captain,an officer holding a rank below a major but above a lieutenant,neutral,none
+sculptor,an artist who creates sculptures,neutral,none
+shepherd,a clergyman who watches over a group of people,neutral,none
 geophysicist,a geologist who uses physical principles to study the properties of the earth,neutral,none
 cashier,an employee of a bank who receives and pays out money,neutral,none
 goldsmith,an artisan who makes jewelry and other objects out of gold,neutral,none
@@ -554,21 +644,27 @@ chef,a professional cook,neutral,none
 lecturer,a public lecturer at certain universities,neutral,none
 designer,a person who specializes in designing architectural interiors and their furnishings,neutral,none
 cooper,United States industrialist who built the first American locomotive; founded Cooper Union in New York City to offer free courses in the arts and sciences (1791-1883),neutral,none
+watchman,a guard who keeps watch,neutral,none
 arborist,a specialist in treating damaged trees,neutral,none
 geologist,a specialist in geology,neutral,none
+butcher,a retailer of meat,neutral,none
 jeweller,someone who makes jewelry,neutral,none
 gynaecologist,a specialist in gynecology,neutral,none
 psychologist,a scientist trained in psychology,neutral,none
 steelworker,a worker engaged in making steel,neutral,none
 buyer,a person who buys,neutral,none
+storekeeper,a merchant who owns or manages a shop,neutral,none
 trucker,someone who drives a truck as an occupation,neutral,none
 chiropractor,a therapist who practices chiropractic,neutral,none
 bookmaker,a maker of books; someone who edits or publishes or binds books,neutral,none
+optician,a worker who makes glasses for remedying defects of vision,neutral,none
 labourer,someone who works with their hands; someone engaged in manual labor,neutral,none
 technologist,a person who uses scientific knowledge to solve practical problems,neutral,none
 chambermaid,a maid who is employed to clean and care for bedrooms (now primarily in hotels),neutral,none
 psychiatrist,a physician who specializes in psychiatry,neutral,none
+sailor,any member of a ship's crew,neutral,none
 receptionist,a secretary whose main duty is to answer the telephone and receive visitors,neutral,none
+songwriter,a composer of words or music for popular songs,neutral,none
 neurologist,a medical specialist in the nervous system and the disorders affecting it,neutral,none
 puppeteer,one who operates puppets or marionettes,neutral,none
 goldsmith,an artisan who makes jewelry and other objects out of gold,neutral,none
@@ -580,11 +676,13 @@ woodcutter,cuts down trees and chops wood as a job,neutral,none
 joiner,a person who likes to join groups,neutral,none
 waiter,a person whose occupation is to serve at table (as in a restaurant),neutral,none
 accountant,someone who maintains and audits business accounts,neutral,none
+forester,English writer of adventure novels featuring Captain Horatio Hornblower (1899-1966),neutral,none
 musicologist,a student of musicology,neutral,none
 geologist,a specialist in geology,neutral,none
 brewer,someone who brews beer or ale from malt and hops and water,neutral,none
 economist,an expert in the science of economics,neutral,none
 concreter,capable of being perceived by the senses; not abstract or imaginary,neutral,none
+publican,the keeper of a public house,neutral,none
 dressmaker,someone who makes or mends dresses,neutral,none
 actuary,someone versed in the collection and interpretation of numerical data (especially someone who uses statistics to calculate insurance premiums),neutral,none
 typesetter,one who sets written material into type,neutral,none
@@ -618,9 +716,11 @@ archaeologist,an anthropologist who studies prehistoric people and their culture
 haematologist,a doctor who specializes in diseases of the blood and blood-forming organs,neutral,none
 commentator,an expert who observes and comments on something,neutral,none
 nurse,one skilled in caring for young children or the sick (usually under the supervision of a physician),neutral,none
+statistician,a mathematician who specializes in statistics,neutral,none
 microbiologist,a specialist in microbiology,neutral,none
 composer,someone who composes music as a profession,neutral,none
 astronomer,a physicist who studies astronomy,neutral,none
+sportsman,someone who engages in sports,neutral,none
 coder,a person who designs and writes and tests computer programs,neutral,none
 hairdresser,someone who cuts or beautifies hair,neutral,none
 firefighter,a member of a fire department who tries to extinguish fires,neutral,none
@@ -628,8 +728,11 @@ metallurgist,an engineer trained in the extraction and refining and alloying and
 therapist,a person skilled in a particular type of therapy,neutral,none
 porter,a person employed to carry luggage and supplies,neutral,none
 author,writes (books or stories or articles or the like) professionally (for pay),neutral,none
+sericulturist,a producer of raw silk,neutral,none
 dentist,a person qualified to practice dentistry,neutral,none
+stockbroker,an agent in the buying and selling of stocks and bonds,neutral,none
 surgeon,a physician who specializes in surgery,neutral,none
+butcher,a retailer of meat,neutral,none
 painter,an artist who paints,neutral,none
 galvaniser,a skilled worker who coats iron or steel with zinc,neutral,none
 telephonist,someone who helps callers get the person they are calling,neutral,none
@@ -646,20 +749,24 @@ geographer,an expert on geography,neutral,none
 master,an artist of consummate skill,neutral,none
 clerk,an employee who performs clerical work (e.g., keeps records or accounts),neutral,none
 urologist,a specialist in urology,neutral,none
+waiter,a person whose occupation is to serve at table (as in a restaurant),neutral,none
 writer,writes (books or stories or articles or the like) professionally (for pay),neutral,none
+trainer,one who trains other persons or animals,neutral,none
 bookmaker,a maker of books; someone who edits or publishes or binds books,neutral,none
+blacksmith,a smith who forges and shapes iron with a hammer and anvil,neutral,none
 goatherd,a person who tends a flock of goats,neutral,none
 translator,a person who translates written messages from one language to another,neutral,none
 forester,English writer of adventure novels featuring Captain Horatio Hornblower (1899-1966),neutral,none
 juggler,a performer who juggles objects and performs tricks of manual dexterity,neutral,none
 librarian,a professional person trained in library science and engaged in library services,neutral,none
 silversmith,someone who makes or repairs articles of silver,neutral,none
+stonemason,a craftsman who works with stone or brick,neutral,none
 bricklayer,a craftsman skilled in building with bricks,neutral,none
 interpreter,someone who mediates between speakers of different languages,neutral,none
 locksmith,someone who makes or repairs locks,neutral,none
 biologist,(biology) a scientist who studies living organisms,neutral,none
 fireman,play in which children pretend to put out a fire,neutral,none
-hunter,someone who hunts game,neutral,none
+shunter,a small locomotive used to move cars around but not to make trips,neutral,none
 barrister,a British or Canadian lawyer who speaks in the higher courts of law on behalf of either the defense or prosecution,neutral,none
 nutritionist,a specialist in the study of nutrition,neutral,none
 pawnbroker,a person who lends money at interest in exchange for personal property that is deposited as security,neutral,none
@@ -668,12 +775,15 @@ podiatrist,a specialist in care for the feet,neutral,none
 auctioneer,an agent who conducts an auction,neutral,none
 forester,English writer of adventure novels featuring Captain Horatio Hornblower (1899-1966),neutral,none
 goldsmith,an artisan who makes jewelry and other objects out of gold,neutral,none
+secretary,a person who is head of an administrative department of government,neutral,none
 upholsterer,a craftsman who upholsters furniture,neutral,none
-ceramic,an artifact made of hard brittle material produced from nonmetallic minerals by firing at high temperatures,neutral,none
+weaver,a craftsman who weaves cloth,neutral,none
+ceramics,the art of making and decorating pottery,neutral,none
 neurosurgeon,someone who does surgery on the nervous system (especially the brain),neutral,none
 manager,someone who controls resources and expenditures,neutral,none
 auditor,someone who listens attentively,neutral,none
 prosthetist,an expert in prosthetics,neutral,none
+builders,a substance added to soaps or detergents to increase their cleansing action,neutral,none
 weaver,a craftsman who weaves cloth,neutral,none
 psychotherapist,a therapist who deals with mental and emotional disorders,neutral,none
 conservator,the custodian of a collection (as a museum or library),neutral,none
@@ -686,10 +796,13 @@ psychiatrist,a physician who specializes in psychiatry,neutral,none
 photographer,someone who takes photographs professionally,neutral,none
 dentist,a person qualified to practice dentistry,neutral,none
 bookkeeper,someone who records the transactions of a business,neutral,none
+shoemaker,a person who makes or repairs shoes,neutral,none
 lexicographer,a compiler or writer of a dictionary; a student of the lexical component of language,neutral,none
+assessor,an official who evaluates property for the purpose of taxing it,neutral,none
 politician,a leader engaged in civil administration,neutral,none
 bodybuilder,someone who does special exercises to develop a brawny musculature,neutral,none
 geneticist,a biologist who specializes in genetics,neutral,none
+beautician,someone who works in a beauty parlor,neutral,none
 boatman,someone who drives or rides in a boat,neutral,none
 mechanic,a craftsman skilled in operating machine tools,neutral,none
 embalmer,a mortician who treats corpses with preservatives,neutral,none
@@ -707,6 +820,8 @@ metallurgist,an engineer trained in the extraction and refining and alloying and
 tracklayer,a workman who lays and repairs railroad tracks,neutral,none
 decorator,a person who specializes in designing architectural interiors and their furnishings,neutral,none
 architect,someone who creates plans to be used in making something (such as buildings),neutral,none
+adviser,an expert who gives advice,neutral,none
+sheriff,the principal law-enforcement officer in a county,neutral,none
 bricklayer,a craftsman skilled in building with bricks,neutral,none
 cartographer,a person who makes maps,neutral,none
 barber,United States composer (1910-1981),neutral,none
@@ -732,6 +847,520 @@ chef,a professional cook,neutral,none
 hydrologist,a geologist skilled in hydrology,neutral,none
 joiner,a person who likes to join groups,neutral,none
 assistant,a person who contributes to the fulfillment of a need or furtherance of an effort or purpose,neutral,none
+lifeguard,an attendant employed at a beach or pool to protect swimmers from accidents,neutral,none
+architect,someone who creates plans to be used in making something (such as buildings),neutral,none
+lithographer,a printmaker who uses lithography,neutral,none
+radiologist,a medical specialist who uses radioactive substances and X-rays in the treatment of disease,neutral,none
+doorkeeper,an official stationed at the entrance of a courtroom or legislative chamber,neutral,none
+cobbler,a person who makes or repairs shoes,neutral,none
+surgeon,a physician who specializes in surgery,neutral,none
+student,a learner who is enrolled in an educational institution,neutral,none
+pharmacist,a health professional trained in the art of preparing and dispensing drugs,neutral,none
+music_teacher,someone who teaches music,neutral,none
+police_officer,a member of a police force,neutral,none
+gunsmith,someone who makes or repairs guns,neutral,none
+locksmith,someone who makes or repairs locks,neutral,none
+boiler,sealed vessel where water is converted to steam,neutral,none
+musician,someone who plays a musical instrument (as a profession),neutral,none
+servant,a person working in the service of another (especially in the household),neutral,none
+naturopath,a therapist who practices naturopathy,neutral,none
+school_principal,the educator who has executive authority for a school,neutral,none
+anthropologist,a social scientist who specializes in anthropology,neutral,none
+packer,a workman employed to pack things into containers,neutral,none
+pathologist,a doctor who specializes in medical diagnosis,neutral,none
+intelligence_officer,a person secretly employed in espionage for a government,neutral,none
+baker,someone who bakes commercially,neutral,none
+journalist,a writer for newspapers and magazines,neutral,none
+bank_clerk,an employee of a bank who receives and pays out money,neutral,none
+author,writes (books or stories or articles or the like) professionally (for pay),neutral,none
+registrar,a person employed to keep a record of the owners of stocks and bonds issued by the company,neutral,none
+glazier,someone who cuts flat glass to size,neutral,none
+miner,laborer who works in a mine,neutral,none
+police_officer,a member of a police force,neutral,none
+environmentalist,someone who works to protect the environment from destruction or pollution,neutral,none
+judge,a public official authorized to decide questions brought before a court of justice,neutral,none
+roofer,a craftsman who lays or repairs roofs,neutral,none
+musician,someone who plays a musical instrument (as a profession),neutral,none
+caretaker,a custodian who is hired to take care of something (property or a person),neutral,none
+economist,an expert in the science of economics,neutral,none
+mathematician,a person skilled in mathematics,neutral,none
+consultant,an expert who gives advice,neutral,none
+croupier,someone who collects and pays bets at a gaming table,neutral,none
+palmist,fortuneteller who predicts your future by the lines on your palms,neutral,none
+insurance_broker,an agent who sells insurance,neutral,none
+locksmith,someone who makes or repairs locks,neutral,none
+decorator,a person who specializes in designing architectural interiors and their furnishings,neutral,none
+helper,a person who contributes to the fulfillment of a need or furtherance of an effort or purpose,neutral,none
+security_guard,a guard who keeps watch,neutral,none
+civil_engineer,an engineer trained to design and construct and maintain public works (roads or bridges or harbors etc.),neutral,none
+hatter,someone who makes and sells hats,neutral,none
+barman,an employee who mixes and serves alcoholic drinks at a bar,neutral,none
+manicurist,a beautician who cleans and trims and polishes the fingernails,neutral,none
+astrologer,someone who predicts the future by the positions of the planets and sun and Moon,neutral,none
+animator,someone who imparts energy and vitality and spirit to other people,neutral,none
+psychologist,a scientist trained in psychology,neutral,none
+lifeguard,an attendant employed at a beach or pool to protect swimmers from accidents,neutral,none
+botanist,a biologist specializing in the study of plants,neutral,none
+stonemason,a craftsman who works with stone or brick,neutral,none
+travel_agent,someone who sells or arranges trips or tours for customers,neutral,none
+ticket_collector,someone who is paid to admit only those who have purchased tickets,neutral,none
+warder,a person who works in a prison and is in charge of prisoners,neutral,none
+warden,the chief official in charge of a prison,neutral,none
+plumber,a craftsman who installs and repairs pipes and fixtures and appliances,neutral,none
+carpenter,a woodworker who makes or repairs wooden objects,neutral,none
+scriptwriter,someone who writes scripts for plays or movies or broadcast dramas,neutral,none
+telecaster,a television broadcaster,neutral,none
+postmaster,the person in charge of a post office,neutral,none
+photographer,someone who takes photographs professionally,neutral,none
+farm_worker,a hired hand on a farm,neutral,none
+pilot,someone who is licensed to operate an aircraft in flight,neutral,none
+statistician,a mathematician who specializes in statistics,neutral,none
+secretary,a person who is head of an administrative department of government,neutral,none
+mathematician,a person skilled in mathematics,neutral,none
+investigator,a scientist who devotes himself to doing research,neutral,none
+orchestral,relating to or composed for an orchestra,neutral,none
+salesperson,a person employed to represent a business and to sell its merchandise (as to customers in a store or to customers who are visited),neutral,none
+shearer,Scottish ballet dancer and actress (born in 1926),neutral,none
+bookkeeper,someone who records the transactions of a business,neutral,none
+disc_jockey,a person who announces and plays popular recorded music,neutral,none
+waiter,a person whose occupation is to serve at table (as in a restaurant),neutral,none
+osteopath,a therapist who manipulates the skeleton and muscles,neutral,none
+electrician,a person who installs or repairs electrical or telephone lines,neutral,none
+endocrinologist,physician who specializes in the diagnosis and treatment of conditions affecting the endocrine system,neutral,none
+gangster,a criminal who is a member of gang,neutral,none
+otorhinolaryngologist,a specialist in the disorders of the ear or nose or throat,neutral,none
+meteorologist,a specialist who studies processes in the earth's atmosphere that cause weather conditions,neutral,none
+usher,Irish prelate who deduced from the Bible that Creation occurred in the year 4004 BC (1581-1656),neutral,none
+archivist,a person in charge of collecting and cataloguing archives,neutral,none
+cutler,a dealer in cutlery,neutral,none
+judge,a public official authorized to decide questions brought before a court of justice,neutral,none
+poulterer,a dealer in poultry and poultry products,neutral,none
+tanner,a small coin of the United Kingdom worth six pennies; not minted since 1970,neutral,none
+programmer,a person who designs and writes and tests computer programs,neutral,none
+merchandiser,a businessperson engaged in retail trade,neutral,none
+employment_agent,someone who runs an employment agency,neutral,none
+driver,the operator of a motor vehicle,neutral,none
+estate_agent,a person who is authorized to act as an agent for the sale of land,neutral,none
+repairer,a skilled worker who mends or repairs things,neutral,none
+engine_driver,the operator of a railway locomotive,neutral,none
+coach,(sports) someone in charge of training an athlete or a team,neutral,none
+singer,a person who sings,neutral,none
+prosthetist,an expert in prosthetics,neutral,none
+modeller,a person who creates models,neutral,none
+glassworker,someone who cuts flat glass to size,neutral,none
+butler,a manservant (usually the head servant of a household) who has charge of wines and the table,neutral,none
+milliner,someone who makes and sells hats,neutral,none
+farrier,a person who shoes horses,neutral,none
+coxswain,the helmsman of a ship's boat or a racing crew,neutral,none
+historian,a person who is an authority on history and who studies it and writes about it,neutral,none
+physiotherapist,therapist who treats injury or dysfunction with exercises and other physical treatments of the disorder,neutral,none
+foster_parent,a person who acts as parent and guardian for a child in place of the child's natural parents but without legally adopting the child,neutral,none
+flight_attendant,an attendant on an airplane,neutral,none
+choreographer,someone who creates new dances,neutral,none
+geophysicist,a geologist who uses physical principles to study the properties of the earth,neutral,none
+copywriter,a person employed to write advertising or publicity copy,neutral,none
+referee,(sports) the chief official (as in boxing or American football) who is expected to ensure fair play,neutral,none
+umpire,an official at a baseball game,neutral,none
+stonecutter,someone who cuts or carves stone,neutral,none
+computer_programmer,a person who designs and writes and tests computer programs,neutral,none
+housekeeper,a servant who is employed to perform domestic task in a household,neutral,none
+archivist,a person in charge of collecting and cataloguing archives,neutral,none
+film_director,the person who directs the making of a film,neutral,none
+announcer,someone who proclaims a message publicly,neutral,none
+prison_guard,someone who guards prisoners,neutral,none
+tutor,a person who gives private instruction (as in singing, acting, etc.),neutral,none
+prompter,someone who assists a performer by providing the next words of a forgotten speech,neutral,none
+wine_maker,someone who makes wine,neutral,none
+prisoner,a person who is confined; especially a prisoner of war,neutral,none
+gunsmith,someone who makes or repairs guns,neutral,none
+teacher,a person whose occupation is teaching,neutral,none
+physiotherapist,therapist who treats injury or dysfunction with exercises and other physical treatments of the disorder,neutral,none
+landscape_gardener,someone who arranges features of the landscape or garden attractively,neutral,none
+paediatrician,a specialist in the care of babies,neutral,none
+minister_of_religion,a person authorized to conduct religious worship,neutral,none
+historian,a person who is an authority on history and who studies it and writes about it,neutral,none
+meteorologist,a specialist who studies processes in the earth's atmosphere that cause weather conditions,neutral,none
+chief,a person who is in charge,neutral,none
+fortune_teller,a person who foretells your personal future,neutral,none
+inspector,a high ranking police officer,neutral,none
+doctor,a licensed medical practitioner,neutral,none
+concierge,a French caretaker of apartments or a hotel; lives on the premises and oversees people entering and leaving and handles mail and acts as janitor or porter,neutral,none
+fashion_designer,someone who designs clothing,neutral,none
+dietitian,a specialist in the study of nutrition,neutral,none
+radiographer,a person who makes radiographs,neutral,none
+policeman,a member of a police force,neutral,none
+sales_representative,a person employed to represent a business and to sell its merchandise (as to customers in a store or to customers who are visited),neutral,none
+geologist,a specialist in geology,neutral,none
+chemist,a scientist who specializes in chemistry,neutral,none
+radiotherapist,a medical specialist who uses radioactive substances and X-rays in the treatment of disease,neutral,none
+obstetric,of or relating to or used in or practicing obstetrics,neutral,none
+varnisher,someone who applies a finishing coat of varnish,neutral,none
+pollster,someone who conducts surveys of public opinion,neutral,none
+insurance_agent,an agent who sells insurance,neutral,none
+actor,a theatrical performer,neutral,none
+fitter,someone who fits a garment to a particular person,neutral,none
+aboriginal,a dark-skinned member of a race of people living in Australia when Europeans arrived,neutral,none
+botanist,a biologist specializing in the study of plants,neutral,none
+dermatologist,a doctor who specializes in the physiology and pathology of the skin,neutral,none
+stonemason,a craftsman who works with stone or brick,neutral,none
+miner,laborer who works in a mine,neutral,none
+gravedigger,a person who earns a living by digging graves,neutral,none
+historian,a person who is an authority on history and who studies it and writes about it,neutral,none
+trainman,an employee of a railroad,neutral,none
+hairdresser,someone who cuts or beautifies hair,neutral,none
+systems_analyst,a person skilled at systems analysis,neutral,none
+builder,a substance added to soaps or detergents to increase their cleansing action,neutral,none
+brewer,someone who brews beer or ale from malt and hops and water,neutral,none
+jeweler,someone who makes jewelry,neutral,none
+ethnographer,an anthropologist who does ethnography,neutral,none
+magician,someone who performs magic tricks to amuse an audience,neutral,none
+toolmaker,someone skilled in making or repairing tools,neutral,none
+psychologist,a scientist trained in psychology,neutral,none
+commercial_traveller,a salesman who travels to call on customers,neutral,none
+librarian,a professional person trained in library science and engaged in library services,neutral,none
+reporter,a person who investigates and reports or edits news stories,neutral,none
+shop_assistant,a salesperson in a store,neutral,none
+cricketer,an athlete who plays cricket,neutral,none
+counsellor,someone who has supervisory duties at a summer camp,neutral,none
+silversmith,someone who makes or repairs articles of silver,neutral,none
+animator,someone who imparts energy and vitality and spirit to other people,neutral,none
+knitter,someone who makes garments (or fabrics) by intertwining yarn or thread,neutral,none
+athlete,a person trained to compete in sports,neutral,none
+smith,Rhodesian statesman who declared independence of Zimbabwe from Great Britain (born in 1919),neutral,none
+officer,any person in the armed services who holds a position of authority or command,neutral,none
+operator,(mathematics) a symbol or function representing a mathematical operation,neutral,none
+jockey,someone employed to ride horses in horse races,neutral,none
+spinner,someone who spins (who twists fibers into threads),neutral,none
+counsellor,someone who has supervisory duties at a summer camp,neutral,none
+manager,someone who controls resources and expenditures,neutral,none
+solicitor,a petitioner who solicits contributions or trade or votes,neutral,none
+pharmacologist,someone trained in the science of drugs (their composition and uses and effects),neutral,none
+cabinetmaker,a woodworker who specializes in making furniture,neutral,none
+dancer,a performer who dances professionally,neutral,none
+judge,a public official authorized to decide questions brought before a court of justice,neutral,none
+scientist,a person with advanced knowledge of one or more sciences,neutral,none
+whaler,a seaman who works on a ship that hunts whales,neutral,none
+legal_assistant,a person with specialized training who assists lawyers,neutral,none
+gastroenterologist,a physician who specializes in diseases of the gastrointestinal tract,neutral,none
+journalist,a writer for newspapers and magazines,neutral,none
+physicist,a scientist trained in physics,neutral,none
+tamer,an animal trainer who tames wild animals,neutral,none
+nurse_practitioner,a registered nurse who has received special training and can perform many of the duties of a physician,neutral,none
+guide,someone employed to conduct others,neutral,none
+technician,someone whose occupation involves training in a specific technical process,neutral,none
+engineer,a person who uses scientific knowledge to solve practical problems,neutral,none
+head_teacher,the educator who has executive authority for a school,neutral,none
+optometrist,a person skilled in testing for defects of vision in order to prescribe corrective glasses,neutral,none
+instructor,a person whose occupation is teaching,neutral,none
+nurse,one skilled in caring for young children or the sick (usually under the supervision of a physician),neutral,none
+auditor,someone who listens attentively,neutral,none
+carpenter,a woodworker who makes or repairs wooden objects,neutral,none
+conference,a prearranged meeting for consultation or exchange of information or discussion (especially one with a formal agenda),neutral,none
+digger,a laborer who digs,neutral,none
+orthoptist,a specialist in orthoptics,neutral,none
+landscape_architect,someone who arranges features of the landscape or garden attractively,neutral,none
+ecologist,a biologist who studies the relation between organisms and their environment,neutral,none
+camera_operator,a photographer who operates a movie camera,neutral,none
+newspaper_editor,the editor of a newspaper,neutral,none
+art_teacher,someone who teaches art,neutral,none
+architect,someone who creates plans to be used in making something (such as buildings),neutral,none
+solicitor,a petitioner who solicits contributions or trade or votes,neutral,none
+sociologist,a social scientist who studies the institutions and development of human society,neutral,none
+welder,joins pieces of metal by welding them together,neutral,none
+shipwright,a carpenter who helps build and launch wooden vessels,neutral,none
+editor,a person responsible for the editorial aspects of publication; the person who determines the final content of a text (especially of a newspaper or magazine),neutral,none
+diver,someone who works underwater,neutral,none
+upholsterer,a craftsman who upholsters furniture,neutral,none
+translator,a person who translates written messages from one language to another,neutral,none
+bibliographer,someone trained in compiling bibliographies,neutral,none
+cook,someone who cooks food,neutral,none
+housekeeper,a servant who is employed to perform domestic task in a household,neutral,none
+zoologist,a specialist in the branch of biology dealing with animals,neutral,none
+director,someone who controls resources and expenditures,neutral,none
+confectioner,someone who makes candies and other sweets,neutral,none
+editor,a person responsible for the editorial aspects of publication; the person who determines the final content of a text (especially of a newspaper or magazine),neutral,none
+ceramicist,a craftsman who shapes pottery on a potter's wheel and bakes them it a kiln,neutral,none
+hydrologist,a geologist skilled in hydrology,neutral,none
+conductor,the person who leads a musical group,neutral,none
+astrologer,someone who predicts the future by the positions of the planets and sun and Moon,neutral,none
+herbalist,a therapist who heals by the use of herbs,neutral,none
+dental_surgeon,a dentist qualified to perform surgical procedures,neutral,none
+paediatrician,a specialist in the care of babies,neutral,none
+nutritionist,a specialist in the study of nutrition,neutral,none
+music_teacher,someone who teaches music,neutral,none
+paramedic,a person trained to assist medical professionals and to give emergency medical treatment,neutral,none
+weigher,an official who weighs and records the weight,neutral,none
+industrialist,someone who manages or has significant financial interest in an industrial enterprise,neutral,none
+interior_designer,a person who specializes in designing architectural interiors and their furnishings,neutral,none
+veterinary_surgeon,a doctor who practices veterinary medicine,neutral,none
+conservator,the custodian of a collection (as a museum or library),neutral,none
+watchmaker,someone who makes or repairs watches,neutral,none
+actuary,someone versed in the collection and interpretation of numerical data (especially someone who uses statistics to calculate insurance premiums),neutral,none
+bus_driver,someone who drives a bus,neutral,none
+teller,United States physicist (born in Hungary) who worked on the first atom bomb and the first hydrogen bomb (1908-2003),neutral,none
+detective,a police officer who investigates crimes,neutral,none
+chemist,a scientist who specializes in chemistry,neutral,none
+producer,someone who manufactures something,neutral,none
+civil_servant,a public official who is a member of the civil service,neutral,none
+civil_engineer,an engineer trained to design and construct and maintain public works (roads or bridges or harbors etc.),neutral,none
+valuer,someone who assesses the monetary worth of possessions,neutral,none
+captain,an officer holding a rank below a major but above a lieutenant,neutral,none
+sculptor,an artist who creates sculptures,neutral,none
+shepherd,a clergyman who watches over a group of people,neutral,none
+geophysicist,a geologist who uses physical principles to study the properties of the earth,neutral,none
+cashier,an employee of a bank who receives and pays out money,neutral,none
+goldsmith,an artisan who makes jewelry and other objects out of gold,neutral,none
+lawyer,a professional person authorized to practice law; conducts lawsuits or gives legal advice,neutral,none
+philosopher,a specialist in philosophy,neutral,none
+chef,a professional cook,neutral,none
+lecturer,a public lecturer at certain universities,neutral,none
+designer,a person who specializes in designing architectural interiors and their furnishings,neutral,none
+cooper,United States industrialist who built the first American locomotive; founded Cooper Union in New York City to offer free courses in the arts and sciences (1791-1883),neutral,none
+watchman,a guard who keeps watch,neutral,none
+arborist,a specialist in treating damaged trees,neutral,none
+geologist,a specialist in geology,neutral,none
+private_detective,someone who can be employed as a detective to collect information,neutral,none
+fire_fighter,a member of a fire department who tries to extinguish fires,neutral,none
+butcher,a retailer of meat,neutral,none
+jeweller,someone who makes jewelry,neutral,none
+gynaecologist,a specialist in gynecology,neutral,none
+psychologist,a scientist trained in psychology,neutral,none
+steelworker,a worker engaged in making steel,neutral,none
+buyer,a person who buys,neutral,none
+graphic_designer,someone who specializes in graphic design,neutral,none
+storekeeper,a merchant who owns or manages a shop,neutral,none
+trucker,someone who drives a truck as an occupation,neutral,none
+chiropractor,a therapist who practices chiropractic,neutral,none
+bookmaker,a maker of books; someone who edits or publishes or binds books,neutral,none
+optician,a worker who makes glasses for remedying defects of vision,neutral,none
+labourer,someone who works with their hands; someone engaged in manual labor,neutral,none
+technologist,a person who uses scientific knowledge to solve practical problems,neutral,none
+chambermaid,a maid who is employed to clean and care for bedrooms (now primarily in hotels),neutral,none
+ship's_officer,a person authorized to serve in a position of authority on a vessel,neutral,none
+psychiatrist,a physician who specializes in psychiatry,neutral,none
+sailor,any member of a ship's crew,neutral,none
+receptionist,a secretary whose main duty is to answer the telephone and receive visitors,neutral,none
+domestic_help,a servant who is paid to perform menial tasks around the household,neutral,none
+songwriter,a composer of words or music for popular songs,neutral,none
+neurologist,a medical specialist in the nervous system and the disorders affecting it,neutral,none
+puppeteer,one who operates puppets or marionettes,neutral,none
+goldsmith,an artisan who makes jewelry and other objects out of gold,neutral,none
+biochemist,someone with special training in biochemistry,neutral,none
+publisher,a firm in the publishing business,neutral,none
+actor,a theatrical performer,neutral,none
+fishmonger,someone who sells fish,neutral,none
+woodcutter,cuts down trees and chops wood as a job,neutral,none
+joiner,a person who likes to join groups,neutral,none
+waiter,a person whose occupation is to serve at table (as in a restaurant),neutral,none
+accountant,someone who maintains and audits business accounts,neutral,none
+forester,English writer of adventure novels featuring Captain Horatio Hornblower (1899-1966),neutral,none
+musicologist,a student of musicology,neutral,none
+geologist,a specialist in geology,neutral,none
+brewer,someone who brews beer or ale from malt and hops and water,neutral,none
+music_director,the person who leads a musical group,neutral,none
+economist,an expert in the science of economics,neutral,none
+concreter,capable of being perceived by the senses; not abstract or imaginary,neutral,none
+publican,the keeper of a public house,neutral,none
+army_officer,an officer in the armed forces,neutral,none
+dressmaker,someone who makes or mends dresses,neutral,none
+actuary,someone versed in the collection and interpretation of numerical data (especially someone who uses statistics to calculate insurance premiums),neutral,none
+refuse_collector,someone employed to collect and dispose of refuse,neutral,none
+typesetter,one who sets written material into type,neutral,none
+landlord,a landowner who leases to others,neutral,none
+beekeeper,a farmer who keeps bees for their honey,neutral,none
+trainee,someone who is being trained,neutral,none
+trainer,one who trains other persons or animals,neutral,none
+plasterer,a worker skilled in applying plaster,neutral,none
+potter,a craftsman who shapes pottery on a potter's wheel and bakes them it a kiln,neutral,none
+priest,a clergyman in Christian churches who has the authority to perform or administer various religious rites; one of the Holy Orders,neutral,none
+ship's_officer,a person authorized to serve in a position of authority on a vessel,neutral,none
+farmer,a person who operates a farm,neutral,none
+diplomat,an official engaged in international negotiations,neutral,none
+microbiologist,a specialist in microbiology,neutral,none
+cleaner,a preparation used in cleaning something,neutral,none
+executive,a person responsible for the administration of a business,neutral,none
+rheumatologist,a physician specializing in rheumatic diseases,neutral,none
+systems_analyst,a person skilled at systems analysis,neutral,none
+model,a hypothetical description of a complex entity or process,neutral,none
+financial_analyst,an analyst who studies the financial performance of corporations,neutral,none
+auctioneer,an agent who conducts an auction,neutral,none
+cartographer,a person who makes maps,neutral,none
+director,someone who controls resources and expenditures,neutral,none
+printer,someone whose occupation is printing,neutral,none
+director,someone who controls resources and expenditures,neutral,none
+collector,a person who collects things,neutral,none
+bookbinder,a worker whose trade is binding books,neutral,none
+physicist,a scientist trained in physics,neutral,none
+harpooner,someone who launches harpoons,neutral,none
+telephone_operator,someone who helps callers get the person they are calling,neutral,none
+tailor,a person whose occupation is making and altering garments,neutral,none
+maltster,a maker of malt,neutral,none
+diver,someone who works underwater,neutral,none
+archaeologist,an anthropologist who studies prehistoric people and their culture,neutral,none
+haematologist,a doctor who specializes in diseases of the blood and blood-forming organs,neutral,none
+commentator,an expert who observes and comments on something,neutral,none
+nurse,one skilled in caring for young children or the sick (usually under the supervision of a physician),neutral,none
+public_prosecutor,a government official who conducts criminal prosecutions on behalf of the state,neutral,none
+statistician,a mathematician who specializes in statistics,neutral,none
+microbiologist,a specialist in microbiology,neutral,none
+composer,someone who composes music as a profession,neutral,none
+astronomer,a physicist who studies astronomy,neutral,none
+art_critic,a critic of paintings,neutral,none
+sportsman,someone who engages in sports,neutral,none
+coder,a person who designs and writes and tests computer programs,neutral,none
+hairdresser,someone who cuts or beautifies hair,neutral,none
+firefighter,a member of a fire department who tries to extinguish fires,neutral,none
+metallurgist,an engineer trained in the extraction and refining and alloying and fabrication of metals,neutral,none
+therapist,a person skilled in a particular type of therapy,neutral,none
+porter,a person employed to carry luggage and supplies,neutral,none
+author,writes (books or stories or articles or the like) professionally (for pay),neutral,none
+sericulturist,a producer of raw silk,neutral,none
+dentist,a person qualified to practice dentistry,neutral,none
+stockbroker,an agent in the buying and selling of stocks and bonds,neutral,none
+surgeon,a physician who specializes in surgery,neutral,none
+butcher,a retailer of meat,neutral,none
+painter,an artist who paints,neutral,none
+galvaniser,a skilled worker who coats iron or steel with zinc,neutral,none
+telephonist,someone who helps callers get the person they are calling,neutral,none
+tinsmith,someone who makes or repairs tinware,neutral,none
+cardiologist,a specialist in cardiology; a specialist in the structure and function and disorders of the heart,neutral,none
+engraver,a skilled worker who can inscribe designs or writing onto a surface by carving or etching,neutral,none
+dispatcher,the official who signals the beginning of a race or competition,neutral,none
+garbage_man,someone employed to collect and dispose of refuse,neutral,none
+ophthalmologist,a medical doctor specializing in the diagnosis and treatment of diseases of the eye,neutral,none
+plumber,a craftsman who installs and repairs pipes and fixtures and appliances,neutral,none
+computer_programmer,a person who designs and writes and tests computer programs,neutral,none
+concreter,capable of being perceived by the senses; not abstract or imaginary,neutral,none
+interpreter,someone who mediates between speakers of different languages,neutral,none
+economist,an expert in the science of economics,neutral,none
+tour_guide,a guide who leads others on a tour,neutral,none
+pipe_fitter,a craftsman who installs and repairs pipes and fixtures and appliances,neutral,none
+geographer,an expert on geography,neutral,none
+master,an artist of consummate skill,neutral,none
+clerk,an employee who performs clerical work (e.g., keeps records or accounts),neutral,none
+urologist,a specialist in urology,neutral,none
+waiter,a person whose occupation is to serve at table (as in a restaurant),neutral,none
+writer,writes (books or stories or articles or the like) professionally (for pay),neutral,none
+truck_driver,someone who drives a truck as an occupation,neutral,none
+trainer,one who trains other persons or animals,neutral,none
+bookmaker,a maker of books; someone who edits or publishes or binds books,neutral,none
+piano_tuner,someone who tunes pianos,neutral,none
+blacksmith,a smith who forges and shapes iron with a hammer and anvil,neutral,none
+funeral_director,one whose business is the management of funerals,neutral,none
+goatherd,a person who tends a flock of goats,neutral,none
+translator,a person who translates written messages from one language to another,neutral,none
+forester,English writer of adventure novels featuring Captain Horatio Hornblower (1899-1966),neutral,none
+juggler,a performer who juggles objects and performs tricks of manual dexterity,neutral,none
+librarian,a professional person trained in library science and engaged in library services,neutral,none
+silversmith,someone who makes or repairs articles of silver,neutral,none
+stonemason,a craftsman who works with stone or brick,neutral,none
+bricklayer,a craftsman skilled in building with bricks,neutral,none
+interpreter,someone who mediates between speakers of different languages,neutral,none
+locksmith,someone who makes or repairs locks,neutral,none
+biologist,(biology) a scientist who studies living organisms,neutral,none
+fireman,play in which children pretend to put out a fire,neutral,none
+shunter,a small locomotive used to move cars around but not to make trips,neutral,none
+barrister,a British or Canadian lawyer who speaks in the higher courts of law on behalf of either the defense or prosecution,neutral,none
+nutritionist,a specialist in the study of nutrition,neutral,none
+pawnbroker,a person who lends money at interest in exchange for personal property that is deposited as security,neutral,none
+dish_washer,a machine for washing dishes,neutral,none
+accountant,someone who maintains and audits business accounts,neutral,none
+podiatrist,a specialist in care for the feet,neutral,none
+auctioneer,an agent who conducts an auction,neutral,none
+forester,English writer of adventure novels featuring Captain Horatio Hornblower (1899-1966),neutral,none
+goldsmith,an artisan who makes jewelry and other objects out of gold,neutral,none
+secretary,a person who is head of an administrative department of government,neutral,none
+upholsterer,a craftsman who upholsters furniture,neutral,none
+weaver,a craftsman who weaves cloth,neutral,none
+ceramics,the art of making and decorating pottery,neutral,none
+neurosurgeon,someone who does surgery on the nervous system (especially the brain),neutral,none
+manager,someone who controls resources and expenditures,neutral,none
+flight_attendant,an attendant on an airplane,neutral,none
+auditor,someone who listens attentively,neutral,none
+flight_engineer,the flight crewman responsible for mechanical operation while in flight,neutral,none
+prosthetist,an expert in prosthetics,neutral,none
+builders,a substance added to soaps or detergents to increase their cleansing action,neutral,none
+weaver,a craftsman who weaves cloth,neutral,none
+fashion_designer,someone who designs clothing,neutral,none
+psychotherapist,a therapist who deals with mental and emotional disorders,neutral,none
+conservator,the custodian of a collection (as a museum or library),neutral,none
+train_dispatcher,a railroad employer who is in charge of a railway yard,neutral,none
+journalist,a writer for newspapers and magazines,neutral,none
+worker,a person who works at a specific occupation,neutral,none
+clergyman,a member of the clergy and a spiritual leader of the Christian Church,neutral,none
+gardener,someone who takes care of a garden,neutral,none
+surveyor,an engineer who determines the boundaries and elevations of land or structures,neutral,none
+psychiatrist,a physician who specializes in psychiatry,neutral,none
+financial_officer,an officer charged with receiving and disbursing funds,neutral,none
+photographer,someone who takes photographs professionally,neutral,none
+art_director,the director in charge of the artistic features of a theatrical production (costumes and scenery and lighting),neutral,none
+interior_designer,a person who specializes in designing architectural interiors and their furnishings,neutral,none
+dentist,a person qualified to practice dentistry,neutral,none
+bookkeeper,someone who records the transactions of a business,neutral,none
+shoemaker,a person who makes or repairs shoes,neutral,none
+lexicographer,a compiler or writer of a dictionary; a student of the lexical component of language,neutral,none
+assessor,an official who evaluates property for the purpose of taxing it,neutral,none
+private_investigator,someone who can be employed as a detective to collect information,neutral,none
+politician,a leader engaged in civil administration,neutral,none
+bodybuilder,someone who does special exercises to develop a brawny musculature,neutral,none
+wine_maker,someone who makes wine,neutral,none
+geneticist,a biologist who specializes in genetics,neutral,none
+beautician,someone who works in a beauty parlor,neutral,none
+boatman,someone who drives or rides in a boat,neutral,none
+mechanic,a craftsman skilled in operating machine tools,neutral,none
+embalmer,a mortician who treats corpses with preservatives,neutral,none
+paediatric,of or relating to the medical care of children,neutral,none
+naturalist,an advocate of the doctrine that the world can be understood in scientific terms,neutral,none
+miller,United States bandleader of a popular big band (1909-1944),neutral,none
+dresser,furniture with drawers for keeping clothes,neutral,none
+social_worker,someone employed to provide social services (especially to the disadvantaged),neutral,none
+researcher,a scientist who devotes himself to doing research,neutral,none
+gardener,someone who takes care of a garden,neutral,none
+banker,a financier who owns or is an executive in a bank,neutral,none
+beggar,a pauper who lives by begging,neutral,none
+dancer,a performer who dances professionally,neutral,none
+florist,someone who grows and deals in flowers,neutral,none
+metallurgist,an engineer trained in the extraction and refining and alloying and fabrication of metals,neutral,none
+tracklayer,a workman who lays and repairs railroad tracks,neutral,none
+decorator,a person who specializes in designing architectural interiors and their furnishings,neutral,none
+architect,someone who creates plans to be used in making something (such as buildings),neutral,none
+adviser,an expert who gives advice,neutral,none
+sheriff,the principal law-enforcement officer in a county,neutral,none
+bricklayer,a craftsman skilled in building with bricks,neutral,none
+cartographer,a person who makes maps,neutral,none
+social_worker,someone employed to provide social services (especially to the disadvantaged),neutral,none
+barber,United States composer (1910-1981),neutral,none
+dietician,a specialist in the study of nutrition,neutral,none
+cook,someone who cooks food,neutral,none
+security_guard,a guard who keeps watch,neutral,none
+optician,a worker who makes glasses for remedying defects of vision,neutral,none
+real_estate_agent,a person who is authorized to act as an agent for the sale of land,neutral,none
+bartender,an employee who mixes and serves alcoholic drinks at a bar,neutral,none
+investment_banker,a banker who deals chiefly in underwriting new securities,neutral,none
+model,a hypothetical description of a complex entity or process,neutral,none
+pharmacist,a health professional trained in the art of preparing and dispensing drugs,neutral,none
+fisherman,someone whose occupation is catching fish,neutral,none
+broadcaster,someone who broadcasts on radio or television,neutral,none
+butcher,a retailer of meat,neutral,none
+archeologist,an anthropologist who studies prehistoric people and their culture,neutral,none
+scene_painter,an artist specializing in scenic subjects,neutral,none
+ship_broker,an agent for the ship owner; obtains cargo and may arrange for its loading or discharge,neutral,none
+agronomist,an expert in soil management and field-crop production,neutral,none
+gambler,a person who wagers money on the outcome of games or sporting events,neutral,none
+draughtsman,a skilled worker who draws plans of buildings or machines,neutral,none
+receptionist,a secretary whose main duty is to answer the telephone and receive visitors,neutral,none
+vet,a doctor who practices veterinary medicine,neutral,none
+optometrist,a person skilled in testing for defects of vision in order to prescribe corrective glasses,neutral,none
+glazier,someone who cuts flat glass to size,neutral,none
+publisher,a firm in the publishing business,neutral,none
+chef,a professional cook,neutral,none
+window_cleaner,someone who cleans windows for pay,neutral,none
+hydrologist,a geologist skilled in hydrology,neutral,none
+joiner,a person who likes to join groups,neutral,none
+assistant,a person who contributes to the fulfillment of a need or furtherance of an effort or purpose,neutral,none
+police_officer,a member of a police force,neutral,none
+hotel_manager,an owner or manager of hotels,neutral,none
+lifeguard,an attendant employed at a beach or pool to protect swimmers from accidents,neutral,none
 architect,someone who creates plans to be used in making something (such as buildings),neutral,none
 lithographer,a printmaker who uses lithography,neutral,none
 radiologist,a medical specialist who uses radioactive substances and X-rays in the treatment of disease,neutral,none
