@@ -1,0 +1,960 @@
+Drilling engineer
+apprentice chef
+cobbler	
+surgeon
+student
+hotel porter
+pharmacist
+music teacher
+police officer
+Gunsmith
+locksmith
+Boiler
+Musician
+servant
+bakery owner	
+TV cameraman
+Naturopath
+basket-maker
+School principal
+brush maker
+anthropologist	
+packer
+viniculturist 
+Pathologist
+Sonographer
+zookeeper
+Orthopaedic surgeon
+Human resource adviser
+Intelligence officer
+baker
+Fitness instructor
+glass grinder	
+journalist
+blast-furnaceman	
+Forklift driver
+Naval architect
+bank clerk
+Author
+barmaid 
+hand lacemaker	
+registrar
+glazier
+Chemical engineer
+miner
+Police officer
+Storeperson
+environmentalist
+circus artist 
+judge	
+Intensive care specialist
+roofer
+Game developer
+lift operator
+musician
+technical editor
+caretaker
+economist 
+nursery nurse
+mathematician
+hardener
+faith healer
+consultant
+car mechanic
+Taxi driver
+croupier	
+palmist
+Insurance broker
+Locksmith
+decorator	
+glass painter
+forestry manager	
+helper
+land surveyor	
+security guard	
+Civil engineer
+hatter 
+barman
+manicurist
+astrologer
+Body artist
+animator	
+careers adviser
+Psychologist
+Lifeguard
+Botanist
+Orthotist
+Stonemason
+travel agent
+ticket collector
+Legal secretary
+clergywoman
+warder
+crane operator
+warden
+Plumber
+investment clerk	
+Bank worker
+Carpenter
+scriptwriter	
+auto-electrician
+insurance assessor	
+telecaster
+postmaster
+veterinary assistant	
+photographer
+Bar attendant
+Library assistant
+farm worker
+pilot
+travel agency clerk
+Statistician
+secretary 
+Mathematician
+dog trainer
+investigator		
+orchestral	
+salesperson
+Shearer
+Bookkeeper
+Product examiner
+disc jockey
+Waiter
+Osteopath
+Petrophysicist
+Stockbroking dealer
+makeup artist
+electrician
+Endocrinologist
+gangster
+Anaesthetist
+Otorhinolaryngologist
+Settlement agent
+script editor	
+meteorologist
+usher
+Motor mechanic
+archivist
+cutler	
+airline clerk 
+judge
+​​​Valuer
+pedicurist
+poulterer	
+Offset printer
+tanner
+programmer
+merchandiser
+sewing machinist	
+draughtsperson 
+welding operator 
+tyrefitter
+Furniture removalist
+invoice clerk	
+employment agent
+driver
+estate agent
+systems programmer
+repairer
+Metal machinist
+engine driver	
+coach
+luggage porter
+singer
+prosthetist
+scaffolder	
+modeller
+sub-editor 
+glassworker 	
+chemical operator
+textile printer
+web designer
+butler	
+Milliner
+farrier	
+shift engineer
+Coxswain
+criminal investigator
+section supervisor	
+historian
+Shoe repairer
+physiotherapist	
+Retail buyer
+foster parent	
+Flight attendant
+biotechnologist
+choreographer
+boilermaker
+Geophysicist
+Policy analyst
+hotel receptionist 
+Copywriter
+referee
+umpire	
+Train controller
+jewellery maker
+stonecutter
+winery worker
+computer programmer
+housekeeper 
+Archivist
+film director
+announcer 
+well digger	
+art metalworker
+Automotive electrician
+ship's captain
+prison guard
+Picture framer
+tutor
+prompter
+​​​Kitchenhand
+window-dresser
+wine maker	
+tunneller	
+hand weaver	
+prisoner
+Soil scientist
+gunsmith
+radio broadcaster
+Jewellery designer
+teacher
+Physiotherapist
+sales manager
+Landscape gardener
+Paediatrician
+Audiologist
+minister of religion 
+Industrial pharmacist
+Historian
+museum curator
+Meteorologist
+brush-maker
+chimney sweep
+chief
+Roof tiler
+fortune teller
+inspector
+doctor
+Wood machinist
+Concierge
+harbour guard	
+dance teacher
+fashion designer	
+Dietitian
+Office manager
+airhostess
+radiographer
+policeman
+shop cashier 
+textile technologist
+sales representative 
+warehouse clerk
+charter agent
+geologist	
+Chemist
+radiotherapist
+obstetric
+Wood turner
+varnisher 
+psychaitrist
+pollster	
+Insurance agent
+Park ranger
+Actor
+fitter	
+Aboriginal
+Army Soldier
+nanny
+personal assistant	
+Painting trades worker
+botanist	
+career counselor
+textiles dyer
+Process engineer
+systems engineer	
+Dermatologist
+wine-grower
+Bicycle mechanic
+stonemason
+company accountant
+Miner
+Plant mechanic
+window-pane maker
+gravedigger
+historian	
+Beef cattle farmer
+trainman
+usherette
+hairdresser
+Systems analyst
+builder
+Brewer
+jeweler
+travel courier 
+ethnographer	
+magician
+toolmaker
+psychologist
+Stunt performer
+film projectionist
+commercial traveller	
+librarian
+reporter
+shop assistant
+watch-maker 
+cricketer
+mistress
+counsellor	
+horse breeder
+ice-cream maker	
+silversmith
+animator
+knitter
+costume maker
+athlete 
+explosives expert	
+smith
+Conservation Officer
+officer
+laundry worker
+operator
+Furniture finisher
+Jockey
+glasscutter 
+host 
+Network administrator
+spinner
+Meat inspector
+Counsellor
+manager	
+care assistant
+Light technician
+solicitor
+Pharmacologist
+cabinetmaker
+Dancer
+Drycleaner
+pizza maker
+Civil celebrant
+Aquaculture farmer
+Judge
+Special needs teacher
+scientist
+whaler	
+legal assistant	
+career diplomat
+veterinary technician
+Gastroenterologist
+journalist	
+Physicist
+tamer
+Pet groomer
+aerial rigger	
+Nurse practitioner
+guide	
+tool setter
+technician
+customs officer 
+engineer
+head teacher
+optometrist
+tattooist
+instructor	
+nurse 
+reserve warden
+river administrator	
+Auditor 
+Animal attendants
+​​​Laboratory manager
+carpenter
+Conference
+digger
+Library technician
+Orthoptist
+​​​Obstetrician
+metrologist
+Landscape architect
+Web designer
+ecologist 
+camera operator
+newspaper editor
+Meter reader
+Art teacher
+​​​Talent agent
+architect	
+Midwife
+Shotfirer
+Solicitor
+Tyre fitter
+room maid 
+sociologist
+welder
+masseuse
+shipwright
+Petroleum engineer
+fine artist
+editor 
+Diver
+Solid plasterer
+Gaming worker
+make-up artist
+upholsterer
+hat maker
+translator
+bibliographer	
+Cook
+warehouse keeper	
+housekeeper
+Parking inspector
+seaman
+Soldier
+​​​Zoologist
+director	
+confectioner 
+editor
+ceramicist 
+​​​Hairdresser
+hydrologist	
+wire-drawer
+conductor
+astrologer	
+Boat builder
+herbalist	
+radio jockey	
+customs inspector	
+dental surgeon
+paediatrician	
+munitions worker	
+cabinet maker
+Nutritionist
+Music teacher
+paramedic 
+weigher	
+​​​accountant
+industrialist
+Hospital pharmacist
+Interior designer
+veterinary surgeon
+Doorperson
+conservator 
+watchmaker	
+actuary
+cafe owner
+postman	
+train driver 
+Delivery driver
+textile refiner
+Bus driver
+teller
+town planner
+detective
+Laundry worker
+chemist		
+producer
+salesman
+civil servant
+industrial designer
+biscuit maker	
+civil engineer
+valuer
+sugar-maker 
+Pest controller
+captain
+sculptor	
+shepherd
+farm labourer
+geophysicist
+TV presenter
+cashier
+goldsmith
+theif
+lawyer
+philosopher
+Nurse educator
+chef
+concrete worker 
+lecturer
+designer
+station manager
+cooper
+auxiliary worker
+jewellery designer
+watchman 
+wagon inspector
+Arborist
+Geologist
+private detective
+Fire fighter
+Butcher 
+jeweller
+swimming instructor	
+Gynaecologist
+boiler operator 
+Navy sailor
+Property developer
+psychologist	
+tractor-driver
+insurance clerk
+Forensic scientist
+General clerk
+Grape grower
+Steelworker
+buyer
+Graphic designer
+storekeeper
+Biotechnologist
+trucker
+ergonomist
+Chiropractor
+fish warden	
+Turf grower
+bookmaker	
+tax specialist
+optician 
+labourer
+technologist
+chambermaid
+stuntman 
+Audiovisual technician
+Ship's officer
+Psychiatrist
+sailor
+cable car driver
+receptionist
+cleaning staff	
+masseur
+domestic help	
+songwriter	
+Neurologist
+waitress
+puppeteer
+coffee roaster	
+coffeehouse keeper 
+Goldsmith
+event manager
+biochemist	
+Publisher
+Powder coater 
+cab driver
+Driving instructor
+Migration agent
+actor
+fishmonger
+woodcutter
+Helicopter pilot
+Human resource manager
+joiner
+art glazier
+Pastrycook
+waiter
+Metal fabricator
+accountant
+actress	
+forester 
+musicologist
+Waterside worker
+​​​Safety inspector
+camera mechanic
+Prison officer
+geologist
+brewer
+beauty therapist	
+taxi driver
+postmistress	
+Gasfitter
+music director
+prison officer
+Economist
+Concreter
+publican 
+Beauty therapist
+Army officer
+dressmaker
+Actuary
+refuse collector
+typesetter
+landlord
+glass melter
+Property manager
+beekeeper
+mosaic maker
+trainee
+​​​University lecturer
+Barista
+canning worker
+Personal assistant
+trainer
+pizza delivery guy	
+​​​Cabinetmaker
+plasterer
+potter
+marionetteer
+Sportsperson
+surgery toolmaker	
+priest
+banking expert
+rope maker	
+ship's officer
+Systems administrator
+website designer
+art restorer	
+senior guard
+personal assistant
+farmer
+diplomat
+Streetsweeper operator
+button maker
+track engineer
+Records manager
+microbiologist
+shop worker
+scene-shifter	
+mountain guide
+Mortgage broker
+cleaner	
+driller	
+Multimedia specialist
+executive
+Rheumatologist
+silkworm breeder
+systems analyst
+model
+Plastics technician
+financial analyst
+Auctioneer
+cartographer
+director
+printer
+Director
+collector	
+bookbinder	
+Recreation officer
+physicist
+harpooner
+telephone operator
+sewerage cleaner	
+Confectionery maker
+tailor
+Network engineer
+maltster	
+diver
+Archaeologist
+haematologist
+Food technologist
+Fishing hand
+commentator
+image consultant	
+Industrial designer
+Industrial engineer
+dairy worker
+nurse
+craft glazier	
+Crane chaser
+tobacco technologist	
+public prosecutor
+Radio presenter
+statistician	
+Microbiologist
+composer
+policewoman
+astronomer	
+rolling-mill worker
+Road worker
+Travel consultant
+art critic 
+sportsman	
+poultry farmer	
+coder
+fire officer 
+hairdresser	
+patent agent
+firefighter
+Sound technician
+landlady	
+Metallurgist
+therapist	
+Wool classer
+porter
+lift fitter
+Ship's engineer
+author
+Shelf filler
+sericulturist
+dentist
+stockbroker	
+Greenkeeper
+Surgeon
+butcher 
+painter
+Fisheries officer
+​​​Youth worker
+galvaniser
+Transit officer
+telephonist
+tinsmith
+Trade union official
+poultry breeder 
+Cardiologist
+Engraver
+cloakroom attendant
+dispatcher	
+Train driver
+garbage man
+Immigration officer
+Acupuncturist
+Ophthalmologist
+plumber
+transport supervisor
+Surveyor's assistant
+computer programmer 
+wood machinist	
+concreter
+spray painter
+Interpreter
+economist
+Tour guide
+surveyor's assistant
+Domestic cleaner
+pipe fitter
+boiler attendant	
+geographer
+master
+clerk
+Scaffolder
+Urologist
+fish farmer
+waiter 
+applications programmer
+writer
+watercourse manager 
+postal worker
+Truck driver
+systems designer 
+Floor finisher
+trainer 
+Bookmaker
+Court bailiff
+​​​Paediatric surgeon
+piano tuner
+blacksmith 
+sausage-maker
+Funeral director
+goatherd
+Translator
+shelf filler	
+event organiser
+Forester
+juggler
+Librarian
+computer engineer 
+Silversmith
+stonemason	
+bricklayer	
+debt collector
+livestock farmer
+Screen printer
+interpreter
+art photographer	
+locksmith	
+Project builder
+biologist
+fireman
+shunter
+Barrister
+nutritionist			
+Abattoir worker
+pawnbroker
+craft smith
+dish washer	
+Radio producer
+paver
+Accountant
+circus performer	
+Podiatrist
+auctioneer
+pottery maker	
+tourist guide	
+forester
+goldsmith	
+secretary
+Upholsterer
+​​​Quantity Surveyor
+weaver 
+ceramics
+Neurosurgeon
+Optical mechanic
+manager
+flight attendant
+auditor
+Nurse manager
+flight engineer
+prosthetist	
+Horse trainer
+builders 
+Motorcycle mechanic
+weaver	
+Fashion designer
+Hotel or motel manager
+psychotherapist
+Conservator
+train dispatcher
+Journalist
+Navy technician
+tannery worker
+aircraft mechanic
+dry-cleaner
+Set designer
+worker	
+clergyman
+Handyperson
+Speech pathologist
+computer network manager	
+gardener
+Surveyor
+psychiatrist
+script writer 
+Tool pusher
+financial officer
+Photographer
+Art director
+interior designer
+articled clerk 
+dispatch clerk
+Dentist
+bookkeeper	
+shoemaker 
+sweet factory worker 
+Debt collector
+hostess	
+tram driver
+lexicographer
+assessor 
+Private investigator
+politician
+bodybuilder
+Wine maker
+stove fitter
+home tutor	
+​​​Baker
+Deck hand
+geneticist	
+social activist
+Tree faller
+beautician 
+boatman
+Steel fixer
+site manager
+mechanic
+Embalmer
+paediatric
+naturalist
+miller		
+dresser
+social worker
+airline ticket agent	
+Ambulance officer
+researcher
+tax adviser
+Gardener
+banker
+service mechanic
+beggar
+wood carver
+dancer
+Florist
+metallurgist
+tracklayer
+library assistant
+information technology engineer
+orthotist
+air steward
+decorator
+enamel worker	
+company lawyer	
+fashion model
+architect
+watchwoman
+plywood maker
+adviser 
+sheriff
+governess 
+animal technician	
+fire officer
+Bricklayer
+blasters foreman
+Cartographer
+Social worker
+barber
+dietician
+Cardiothoracic 
+Signwriter
+midwife	
+Payroll clerk
+Panelbeater
+cook
+film designer
+security guard
+optician
+real estate agent 
+soldier
+bartender	
+investment banker
+Model
+ore crusher		
+Pharmacist
+fisherman
+Career counsellor
+Flying instructor
+Structural engineer
+Driller
+driving instructor
+broadcaster
+surgical toolmaker 
+Food processing worker
+Ship's master
+Sheep farmer
+butcher
+​​​Radiation oncologist
+archeologist	
+scene painter	
+ship broker
+agronomist
+gambler
+quality inspector	
+draughtsman	
+Receptionist
+IT engineer
+vet
+Optometrist
+sugar maker
+Glazier
+Nurseryperson
+Roof plumber
+hand embroiderer	
+photographic model
+publisher
+film critic
+weir and dam operator
+sweet maker
+Chef
+sound engineer
+Printing machinist
+sales assistant 
+window cleaner	
+​​​Nanny
+Law clerk
+cheese maker
+Hydrologist
+Joiner
+assistant
+police officer
+hotel manager
+lifeguard 
+Architect
+lithographer
+Radiologist
+doorkeeper
+Laboratory technician
+lift attendant
+stuntwoman	

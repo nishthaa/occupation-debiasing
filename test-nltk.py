@@ -5,35 +5,45 @@ FEMALE_SPECIFIC = ["female", "she", "woman","her", "feminine"]
 
 def differentiator(word):
 
+    male_score = 0
+    female_score = 0
+
     try:
         word = word.lower()
         txt = wn.synsets(word)
-        print(txt)
+        # #print(txt)
+        # s1 = "zoologist"
+        # print(s1 + " " +word + " " + str(s1==word))
         defn = txt[0].definition()
-        print(defn)
         tokenized_defn = defn.split()
-        print(tokenized_defn)
 
         fh = open("result.txt", "a")
 
+
+
         for token in MALE_SPECIFIC:
             if(token in tokenized_defn):
-                print(defn.find(token))
-                addition = word + "," + "specific,male\n"
-                fh.write(addition)
+                #print(defn.find(token))
+                male_score+=1
                 return
 
         for token in FEMALE_SPECIFIC:
             if(token in tokenized_defn):
-                addition = word + "," + "specific,female\n"
-                fh.write(addition)
+                female_score+=1
                 return
 
-        fh.write(word + ",neutral,none\n")
+        if male_score > female_score:
+            addition = word + "," + defn + ",specific,male\n"
+        elif male_score < female_score:
+            addition = word + "," + defn + ",specific,female\n"
+        else:
+            addition = word + "," + defn + ",neutral,none\n"
+        fh.write(addition)
         fh.close()
-    except:
 
-        print("Definition not found for " + word)
+    except Exception as err:
+
+        print(err)
 
 def corpus_generator(filename):
 
@@ -42,12 +52,19 @@ def corpus_generator(filename):
         for line in fhandle:
             differentiator(line.strip())
 
+
         fhandle.close()
 
     except Exception as err:
 
         print(err)
 
-corpus_generator("occupations.txt")
-
-#differentiator("zoologist")
+corpus_generator("professions.txt")
+# fh = open("occupations.txt", "r")
+# fw = open("professions.txt", "a")
+#
+# for line in fh:
+#     txt = line.strip('\s').strip('\t').strip('\n')
+#     txt = txt.lower()
+#     fw.write(line)
+# differentiator(str("Zoologist").strip())
