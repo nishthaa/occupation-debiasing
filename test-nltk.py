@@ -10,7 +10,7 @@ def differentiator(word):
 
     try:
         word = word.lower()
-        if word.find(" "):
+        if word.find(" ") or word.find("-"):
             tmp = word.split()
             word = "_".join(tmp)
             print(word)
@@ -57,15 +57,13 @@ def corpus_generator(filename):
         fhandle = open(filename)
         for line in fhandle:
             differentiator(line.strip().strip("\r"))
-
-
         fhandle.close()
 
     except Exception as err:
 
         print(err)
 
-corpus_generator("professions.txt")
+corpus_generator("arcana-occupations.txt")
 # fh = open("occupations.txt", "r")
 # fw = open("professions.txt", "a")
 #
@@ -73,5 +71,5 @@ corpus_generator("professions.txt")
 #     txt = line.strip('\s').strip('\t').strip('\n')
 #     txt = txt.lower()
 #     fw.write(line)
-#differentiator("Music teacher")
+#differentiator("Music-teacher")
 #print(wn.synsets("music_teacher"))

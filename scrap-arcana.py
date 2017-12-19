@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+
 import requests
 
 fhandle = open("arcana-occupations.txt","a")
