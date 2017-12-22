@@ -13,6 +13,7 @@ alewife,flesh of shad-like fish abundant along the Atlantic coast or in coastal 
 alienist,a psychiatrist and specialist in the legal aspects of mental illness,neutral,none
 almoner,an official in a British hospital who looks after the social and material needs of the patients,neutral,none
 amanuensis,someone skilled in the transcription of speech (especially dictation),neutral,none
+anaesthetist,a specialist who administers an anesthetic to a patient before he is treated,specific,male
 anchorman,a television reporter who coordinates a broadcast to which several correspondents contribute,neutral,none
 animal_trainer,one who trains or exhibits animals,neutral,none
 animator,someone who imparts energy and vitality and spirit to other people,neutral,none
@@ -49,6 +50,7 @@ baseball_player,an athlete who plays baseball,neutral,none
 basketmaker,someone skilled in weaving baskets,neutral,none
 bassoonist,a musician who plays the bassoon,neutral,none
 batman,an orderly assigned to serve a British military officer,neutral,none
+bawd,a woman who engages in sexual intercourse for money,specific,female
 beadle,a minor parish official who serves a ceremonial function,neutral,none
 beaver,the soft brown fur of the beaver,neutral,none
 bedder,an ornamental plant suitable for planting in a flowerbed,neutral,none
@@ -60,16 +62,19 @@ bell_ringer,a person who rings church bells (as for summoning the congregation),
 bellhop,someone employed as an errand boy and luggage carrier around hotels,neutral,none
 bellman,someone employed as an errand boy and luggage carrier around hotels,neutral,none
 bender,a tool for bending,neutral,none
+biddy,adult female chicken,specific,female
 bill_poster,someone who pastes up bills or placards on walls or billboards,neutral,none
 binder,a machine that cuts grain and binds it in sheaves,neutral,none
 biologist,(biology) a scientist who studies living organisms,neutral,none
 bishop,a senior member of the Christian clergy having spiritual and administrative authority; appointed in Christian churches to oversee priests or ministers; considered in some churches to be successors of the twelve Apostles of Christ,neutral,none
 bleacher,a worker who bleaches (cloth or flour etc.),neutral,none
 bloomer,a flower that blooms in a particular way,neutral,none
+bluestocking,a woman having literary or intellectual interests,specific,female
 bluffer,a person who tries to bluff other people,neutral,none
 boatman,someone who drives or rides in a boat,neutral,none
 boatswain,a petty officer on a merchant ship who controls the work of other seamen,neutral,none
 bodyguard,someone who escorts and protects a prominent person,neutral,none
+bondman,a male bound to serve without wages,specific,male
 bonesetter,someone (not necessarily a licensed physician) who sets broken bones,neutral,none
 boniface,(Roman Catholic Church) Anglo-Saxon missionary who was sent to Frisia and Germany to spread the Christian faith; was martyred in Frisia (680-754),neutral,none
 bookbinder,a worker whose trade is binding books,neutral,none
@@ -110,11 +115,9 @@ cardinal,(Roman Catholic Church) one of a group of more than 100 prominent bisho
 cardiologist,a specialist in cardiology; a specialist in the structure and function and disorders of the heart,neutral,none
 carpenter,a woodworker who makes or repairs wooden objects,neutral,none
 carter,Englishman and Egyptologist who in 1922 discovered and excavated the tomb of Tutankhamen (1873-1939),neutral,none
-carter,Englishman and Egyptologist who in 1922 discovered and excavated the tomb of Tutankhamen (1873-1939),neutral,none
 cartier,French explorer who explored the St. Lawrence river and laid claim to the region for France (1491-1557),neutral,none
 cartographer,a person who makes maps,neutral,none
 cartoonist,a person who draws cartoons,neutral,none
-cartwright,English clergyman who invented the power loom (1743-1823),neutral,none
 cartwright,English clergyman who invented the power loom (1743-1823),neutral,none
 carver,United States botanist and agricultural chemist who developed many uses for peanuts and soy beans and sweet potatoes (1864-1943),neutral,none
 cashier,an employee of a bank who receives and pays out money,neutral,none
@@ -129,8 +132,11 @@ chambermaid,a maid who is employed to clean and care for bedrooms (now primarily
 chancellor,the British cabinet minister responsible for finance,neutral,none
 chandler,United States writer of detective thrillers featuring the character of Philip Marlowe (1888-1959),neutral,none
 chaplain,a clergyman ministering to some institution,neutral,none
+chapman,United States pioneer who planted apple trees as he traveled (1774-1845),specific,male
 charlatan,a flamboyant deceiver; one who attracts customers with tricks or jokes,neutral,none
+charwoman,a human female employed to do housework,specific,female
 chaser,a person who is pursuing and trying to overtake or capture,neutral,none
+chauffeur,a man paid to drive a privately owned car,specific,male
 chef,a professional cook,neutral,none
 chemist,a scientist who specializes in chemistry,neutral,none
 chiffonier,a tall elegant chest of drawers,neutral,none
@@ -144,6 +150,7 @@ clerk,an employee who performs clerical work (e.g., keeps records or accounts),n
 clockmaker,someone whose occupation is making or repairing clocks and watches,neutral,none
 clothier,a merchant who sells men's clothing,neutral,none
 coach,(sports) someone in charge of training an athlete or a team,neutral,none
+coachman,a man who drives a coach (or carriage),specific,male
 coalman,someone who delivers coal,neutral,none
 coiner,a maker of counterfeit coins,neutral,none
 collier,someone who works in a coal mine,neutral,none
@@ -167,6 +174,7 @@ cosmetologist,an expert in the use of cosmetics,neutral,none
 cosmonaut,a person trained to travel in a spacecraft,neutral,none
 costume_designer,someone who designs or supplies costumes (as for a play or masquerade),neutral,none
 courier,a person who carries a message,neutral,none
+courtesan,a woman who cohabits with an important man,neutral,none
 courtier,an attendant at the court of a sovereign,neutral,none
 cowherd,a hired hand who tends cattle and performs other duties on horseback,neutral,none
 cowper,English surgeon who discovered Cowper's gland (1666-1709),neutral,none
@@ -181,9 +189,11 @@ cryptographer,decoder skilled in the analysis of codes and cryptograms,neutral,n
 crystallographer,a specialist in crystallography,neutral,none
 curate,a person authorized to conduct religious worship,neutral,none
 curator,the custodian of a collection (as a museum or library),neutral,none
+currier,United States lithographer who (with his partner James Ives) produced thousands of prints signed `Currier & Ives' (1813-1888),specific,male
 custodian,one having charge of buildings or grounds or animals,neutral,none
 cutler,a dealer in cutlery,neutral,none
 cutpurse,a thief who steals from the pockets or purses of others in public places,neutral,none
+dairymaid,a woman who works in a dairy,specific,female
 dairyman,the owner or manager of a dairy,neutral,none
 dancer,a performer who dances professionally,neutral,none
 dba,(law) a name under which a corporation conducts business that is not the legal name of the corporation as shown in its articles of incorporation,neutral,none
@@ -191,7 +201,6 @@ day_laborer,a laborer who works by the day; for daily wages,neutral,none
 dean,an administrator in charge of a division of a university or college,neutral,none
 dentist,a person qualified to practice dentistry,neutral,none
 dermatologist,a doctor who specializes in the physiology and pathology of the skin,neutral,none
-designer,a person who specializes in designing architectural interiors and their furnishings,neutral,none
 detective,a police officer who investigates crimes,neutral,none
 dictator,a speaker who dictates to a secretary or a recording machine,neutral,none
 dietician,a specialist in the study of nutrition,neutral,none
@@ -205,6 +214,7 @@ diver,someone who works underwater,neutral,none
 docker,a laborer who loads and unloads vessels in a port,neutral,none
 doctor_of_medicine,a doctor's degree in medicine,neutral,none
 doctor,a licensed medical practitioner,neutral,none
+dominatrix,a dominating woman (especially one who plays that role in a sadomasochistic sexual relationship),specific,female
 doorman,someone who guards an entrance,neutral,none
 dowser,someone who uses a divining rod to find underground water,neutral,none
 draftsman,a skilled worker who draws plans of buildings or machines,neutral,none
@@ -255,10 +265,12 @@ factor,anything that contributes causally to a result,neutral,none
 factory_worker,a workman in a mill or factory,neutral,none
 famulus,a close attendant (as to a scholar),neutral,none
 fashion_designer,someone who designs clothing,neutral,none
+father,a male parent (also used as a term of address to your father),specific,male
 fbi_agent,a special law-enforcement agent of the Federal Bureau of Investigation,neutral,none
 fbi,a federal law enforcement agency that is the principal investigative arm of the Department of Justice,neutral,none
 special_agent,someone whose authority is limited to the special undertaking they have been instructed to perform,neutral,none
 feller,a person who fells trees,neutral,none
+ferryman,a man who operates a ferry,specific,male
 fiddler,a musician who plays the violin,neutral,none
 fighter_pilot,a military or naval pilot of fighter planes,neutral,none
 film_director,the person who directs the making of a film,neutral,none
@@ -276,15 +288,18 @@ florist,someone who grows and deals in flowers,neutral,none
 flutist,someone who plays the flute,neutral,none
 fool,a person who lacks good judgment,neutral,none
 footballer,an athlete who plays American football,neutral,none
+footman,a man employed as a servant in a large establishment (as a palace) to run errands and do chores,specific,male
 footpad,a highwayman who robs on foot,neutral,none
 foreman,a person who exercises control over workers,neutral,none
 forger,someone who operates a forge,neutral,none
 fortune_teller,a person who foretells your personal future,neutral,none
+friar,a male member of a religious order that originally relied solely on alms,specific,male
 fruiterer,a person who sells fruit,neutral,none
 fruitier,tasting or smelling richly of or as of fruit,neutral,none
 fuller,United States jurist and chief justice of the United States Supreme Court (1833-1910),neutral,none
 furniture_maker,a woodworker who specializes in making furniture,neutral,none
 furrier,someone whose occupation is making or repairing fur garments,neutral,none
+gaffer,an elderly man,specific,male
 gambler,a person who wagers money on the outcome of games or sporting events,neutral,none
 gamekeeper,a person employed to take care of game and wildlife,neutral,none
 gangster,a criminal who is a member of gang,neutral,none
@@ -318,6 +333,7 @@ greengrocer,a grocer who sells fresh fruits and vegetables,neutral,none
 grenadier,an infantryman equipped with grenades,neutral,none
 grinder,a large sandwich made of a long crusty roll split lengthwise and filled with meats and cheese (and tomato and onion and lettuce and condiments); different names are used in different sections of the United States,neutral,none
 grocer,a retail merchant who sells foodstuffs (and some household supplies),neutral,none
+groom,a man participant in his own marriage ceremony,specific,male
 guardsman,a soldier who is a member of a unit called `the guard' or `guards',neutral,none
 guide,someone employed to conduct others,neutral,none
 guitarist,a musician who plays the guitar,neutral,none
@@ -328,17 +344,23 @@ gynecologist,a specialist in gynecology,neutral,none
 haberdasher,a merchant who sells men's clothing,neutral,none
 hacker,someone who plays golf poorly,neutral,none
 hairdresser,someone who cuts or beautifies hair,neutral,none
+halberdier,a guard who carries a halberd (as a symbol of his duty),specific,male
+handyman,a man skilled in various odd jobs and other small tasks,specific,male
+harlot,a woman who engages in sexual intercourse for money,specific,female
 harper,someone who plays the harp,neutral,none
 harpist,someone who plays the harp,neutral,none
 hatmaker,someone who makes and sells hats,neutral,none
 hatter,someone who makes and sells hats,neutral,none
+hawker,someone who travels about selling his wares (as on the streets or at carnivals),specific,male
 headmaster,presiding officer of a school,neutral,none
+headmistress,a woman headmaster,specific,female
 hedger,a respondent who avoids giving a clear direct answer,neutral,none
 henchman,someone who assists in a plot,neutral,none
 herder,German philosopher who advocated intuition over reason (1744-1803),neutral,none
 hermit,one retired from society for religious reasons,neutral,none
 herpetologist,a zoologist who studies reptiles and amphibians,neutral,none
 hewer,a person who hews,neutral,none
+highwayman,a holdup man who stops a vehicle and steals from it,specific,male
 hind,any of several mostly spotted fishes that resemble groupers,neutral,none
 historian,a person who is an authority on history and who studies it and writes about it,neutral,none
 historiographer,a person who is an authority on history and who studies it and writes about it,neutral,none
@@ -352,6 +374,7 @@ horseleech,any of several large freshwater leeches,neutral,none
 hosier,a tradesman who sells hosiery and (in England) knitwear,neutral,none
 hostler,someone employed in a stable to take care of the horses,neutral,none
 hotel_manager,an owner or manager of hotels,neutral,none
+housewife,a wife who manages a household while her husband earns the family income,specific,female
 huckster,a seller of shoddy goods,neutral,none
 hunter,someone who hunts game,neutral,none
 huntsman,someone who hunts game,neutral,none
@@ -380,7 +403,6 @@ jester,a professional clown employed to entertain a king or nobleman in the Midd
 jobber,someone who buys large quantities of goods and resells to merchants rather than to the ultimate customers,neutral,none
 jockey,someone employed to ride horses in horse races,neutral,none
 joiner,a person who likes to join groups,neutral,none
-joiner,a person who likes to join groups,neutral,none
 jongleur,a singer of folk songs,neutral,none
 journalist,a writer for newspapers and magazines,neutral,none
 judge,a public official authorized to decide questions brought before a court of justice,neutral,none
@@ -388,12 +410,15 @@ juggler,a performer who juggles objects and performs tricks of manual dexterity,
 jurist,a legal scholar versed in civil law or the law of nations,neutral,none
 knacker,someone who buys old buildings or ships and breaks them up to recover the materials in them,neutral,none
 laborer,someone who works with their hands; someone engaged in manual labor,neutral,none
+lady,a polite name for any woman,specific,female
 lagger,someone who takes more time than necessary; someone who lags behind,neutral,none
 landed_gentry,the gentry who own land (considered as a class),neutral,none
+landlady,a landlord who is a woman,specific,female
 landlord,a landowner who leases to others,neutral,none
 landsman,a person who lives and works on land,neutral,none
 lapidary,an expert on precious stones and the art of cutting and engraving them,neutral,none
 laster,immediately past,neutral,none
+laundress,a working woman who takes in washing,specific,female
 law_enforcement,ensuring obedience to the laws,neutral,none
 lecturer,a public lecturer at certain universities,neutral,none
 leech,carnivorous or bloodsucking aquatic or terrestrial worms typically having a sucker at each end,neutral,none
@@ -418,7 +443,11 @@ machinist,a craftsman skilled in operating machine tools,neutral,none
 maderer,roused to anger,neutral,none
 magistrate,a lay judge or civil authority who administers the law (especially one who conducts a court dealing with minor offenses),neutral,none
 magnate,a very wealthy or powerful businessman,neutral,none
+maid,a female domestic,specific,female
+maidservant,a female domestic,specific,female
+mail_carrier,a man who delivers the mail,specific,male
 mailer,United States writer (born in 1923),neutral,none
+mailman,a man who delivers the mail,specific,male
 management_consultant,adviser to business about efficient management practices,neutral,none
 management,the act of managing something,neutral,none
 manager,someone who controls resources and expenditures,neutral,none
@@ -426,14 +455,18 @@ manicurist,a beautician who cleans and trims and polishes the fingernails,neutra
 manufacturer,a business engaged in manufacturing some product,neutral,none
 mapper,a clerk who marks data on a chart,neutral,none
 marine,a member of the United States Marine Corps,neutral,none
+mariner,a man who serves as a sailor,specific,male
 marshal,a law officer having duties similar to those of a sheriff in carrying out the judgments of a court of law,neutral,none
 mason,American Revolutionary leader from Virginia whose objections led to the drafting of the Bill of Rights (1725-1792),neutral,none
+masseur,a male massager,specific,male
+masseuse,a female massager,specific,female
 mc,one million periods per second,neutral,none
 matador,the principal bullfighter who is appointed to make the final passes and kill the bull,neutral,none
 mathematician,a person skilled in mathematics,neutral,none
 mechanic,a craftsman skilled in operating machine tools,neutral,none
 mediator,a negotiator who acts as a link between parties,neutral,none
 medic,any of several Old World herbs of the genus Medicago having small flowers and trifoliate compound leaves,neutral,none
+mercator,Flemish geographer who lived in Germany; he invented the Mercator projection of maps of the globe (1512-1594),specific,male
 mercenary,a person hired to fight for another country than their own,neutral,none
 mercer,a dealer in textiles (especially silks),neutral,none
 merchant,a businessperson engaged in retail trade,neutral,none
@@ -442,6 +475,7 @@ messenger,a person who carries a message,neutral,none
 midshipman,a temporary rank held by young naval officers in training,neutral,none
 military_officer,any person in the armed services who holds a position of authority or command,neutral,none
 militia,civilians trained as soldiers but not part of the regular army,neutral,none
+milkmaid,a woman who works in a dairy,specific,female
 milkman,someone who delivers milk,neutral,none
 miller,United States bandleader of a popular big band (1909-1944),neutral,none
 milliner,someone who makes and sells hats,neutral,none
@@ -466,8 +500,8 @@ muralist,a painter of murals,neutral,none
 music_teacher,someone who teaches music,neutral,none
 musician,someone who plays a musical instrument (as a profession),neutral,none
 musketeer,a foot soldier armed with a musket,neutral,none
+nanny,a woman who is the custodian of children,specific,female
 napier,Scottish mathematician who invented logarithms; introduced the use of the decimal point in writing numbers (1550-1617),neutral,none
-navigator,the ship's officer in charge of navigation,neutral,none
 navigator,the ship's officer in charge of navigation,neutral,none
 necker,a lover who necks,neutral,none
 negotiator,someone who negotiates (confers with others in order to reach a settlement),neutral,none
@@ -479,7 +513,9 @@ notary,someone legally empowered to witness signatures and certify a document's 
 novelist,one who writes novels,neutral,none
 numerologist,a believer in numerology,neutral,none
 numismatist,a collector and student of money (and coins in particular),neutral,none
+nun,a woman religious,specific,female
 nurse,one skilled in caring for young children or the sick (usually under the supervision of a physician),neutral,none
+nursemaid,a woman who is the custodian of children,specific,female
 oboist,a musician who plays the oboe,neutral,none
 obstetrician,a physician specializing in obstetrics,neutral,none
 occupier,someone who lives at a particular place for a prolonged period or who was born there,neutral,none
@@ -497,6 +533,7 @@ ostiary,the lowest of the minor Holy Orders in the unreformed Western Church but
 ostler,someone employed in a stable to take care of the horses,neutral,none
 otorhinolaryngologist,a specialist in the disorders of the ear or nose or throat,neutral,none
 packer,a workman employed to pack things into containers,neutral,none
+packman,someone who travels about selling his wares (as on the streets or at carnivals),specific,male
 painter,an artist who paints,neutral,none
 paleontologist,a specialist in paleontology,neutral,none
 palmer,United States golfer (born in 1929),neutral,none
@@ -509,9 +546,9 @@ pasteler,lacking in body or vigor,neutral,none
 pastor,a person authorized to conduct religious worship,neutral,none
 pathologist,a doctor who specializes in medical diagnosis,neutral,none
 pavior,a machine for laying pavement,neutral,none
+peddler,someone who travels about selling his wares (as on the streets or at carnivals),specific,male
 pediatrician,a specialist in the care of babies,neutral,none
 percussionist,a musician who plays percussion instruments,neutral,none
-perfumer,a person who makes (and sells) perfumes,neutral,none
 perfumer,a person who makes (and sells) perfumes,neutral,none
 pettifogger,a person (especially a lawyer or politician) who uses unscrupulous or unethical methods,neutral,none
 pharmacist,a health professional trained in the art of preparing and dispensing drugs,neutral,none
@@ -536,11 +573,11 @@ pitman,English educator who invented a system of phonetic shorthand (1813-1897),
 plaiter,someone who plaits (hair or fabric etc.),neutral,none
 plasterer,a worker skilled in applying plaster,neutral,none
 playwright,someone who writes plays,neutral,none
+plowman,a man who plows,specific,male
 plumber,a craftsman who installs and repairs pipes and fixtures and appliances,neutral,none
 poacher,someone who hunts or fishes illegally on the property of another,neutral,none
 podiatrist,a specialist in care for the feet,neutral,none
 poet,a writer of poems (the term is usually reserved for writers of good poetry),neutral,none
-pointer,a mark to indicate a direction or relation,neutral,none
 pointer,a mark to indicate a direction or relation,neutral,none
 police_detective,a police officer who investigates crimes,neutral,none
 police_officer,a member of a police force,neutral,none
@@ -553,6 +590,7 @@ presenter,someone who presents a message of some sort (as a petition or an addre
 president,an executive officer of a firm or corporation,neutral,none
 prestidigitator,someone who performs magic tricks to amuse an audience,neutral,none
 pricker,a small sharp-pointed tip resembling a spike on a stem or leaf,neutral,none
+princess,a female member of a royal family other than the queen (especially the daughter of a sovereign),specific,female
 principal,the original amount of a debt on which interest is calculated,neutral,none
 printer,someone whose occupation is printing,neutral,none
 private_detective,someone who can be employed as a detective to collect information,neutral,none
@@ -570,6 +608,8 @@ publican,the keeper of a public house,neutral,none
 publisher,a firm in the publishing business,neutral,none
 purser,an officer aboard a ship who keeps accounts and attends to the passengers' welfare,neutral,none
 quack,an untrained person who pretends to be a physician and who dispenses medical advice,neutral,none
+quarrier,a man who works in a quarry,specific,male
+quarryman,a man who works in a quarry,specific,male
 quartermaster,an army officer who provides clothing and subsistence for troops,neutral,none
 radiographer,a person who makes radiographs,neutral,none
 radiologist,a medical specialist who uses radioactive substances and X-rays in the treatment of disease,neutral,none
@@ -579,6 +619,7 @@ real_estate_broker,a person who is authorized to act as an agent for the sale of
 reaper,someone who helps to gather the harvest,neutral,none
 receptionist,a secretary whose main duty is to answer the telephone and receive visitors,neutral,none
 rectifier,electrical device that transforms alternating into direct current,neutral,none
+reeve,female ruff,specific,female
 referee,(sports) the chief official (as in boxing or American football) who is expected to ensure fair play,neutral,none
 refuse_collector,someone employed to collect and dispose of refuse,neutral,none
 registrar,a person employed to keep a record of the owners of stocks and bonds issued by the company,neutral,none
@@ -609,6 +650,7 @@ sawbones,a physician who specializes in surgery,neutral,none
 sawyer,one who is employed to saw wood,neutral,none
 saxophonist,a musician who plays the saxophone,neutral,none
 school_superintendent,the superintendent of a school system,neutral,none
+schoolmarm,a woman schoolteacher (especially one regarded as strict),specific,female
 schoolmaster,presiding officer of a school,neutral,none
 scout,a person employed to keep watch for some anticipated event,neutral,none
 screenwriter,someone who writes screenplays,neutral,none
@@ -632,6 +674,7 @@ sergeant,any of several noncommissioned officer ranks in the Army or Air Force o
 servant,a person working in the service of another (especially in the household),neutral,none
 sharecropper,small farmers and tenants,neutral,none
 shearer,Scottish ballet dancer and actress (born in 1926),neutral,none
+sheepman,a man who raises (or tends) sheep,specific,male
 shepherd,a clergyman who watches over a group of people,neutral,none
 sheriff,the principal law-enforcement officer in a county,neutral,none
 shingler,a worker who shingles roofs,neutral,none
@@ -650,10 +693,10 @@ software_engineer,a person who designs and writes and tests computer programs,ne
 solicitor,a petitioner who solicits contributions or trade or votes,neutral,none
 sommelier,a waiter who manages wine service in a hotel or restaurant,neutral,none
 speakeasy,(during prohibition) an illegal barroom,neutral,none
-special_agent,someone whose authority is limited to the special undertaking they have been instructed to perform,neutral,none
 speech_therapist,a therapist who treats speech defects and disorders,neutral,none
 spicer,completely neat and clean,neutral,none
 spinner,someone who spins (who twists fibers into threads),neutral,none
+spinster,an elderly unmarried woman,specific,female
 splitter,a worker who splits fish and removes the backbone,neutral,none
 sportsman,someone who engages in sports,neutral,none
 spy,(military) a secret agent hired by a state to obtain information about its enemies or by a business to obtain industrial secrets from competitors,neutral,none
@@ -682,6 +725,7 @@ supervisor,one who supervises or has charge and direction of,neutral,none
 surgeon,a physician who specializes in surgery,neutral,none
 surveyor,an engineer who determines the boundaries and elevations of land or structures,neutral,none
 sutler,a supplier of victuals or supplies to an army,neutral,none
+swain,a man who is the lover of a girl or young woman,neutral,none
 sweep,a wide scope,neutral,none
 swimmer,a trained athlete who participates in swimming meets,neutral,none
 swineherd,a herder or swine,neutral,none
@@ -708,6 +752,7 @@ telephone_operator,someone who helps callers get the person they are calling,neu
 tennis_player,an athlete who plays tennis,neutral,none
 tenter,a framework with hooks used for stretching and drying cloth,neutral,none
 test_pilot,a pilot hired to fly experimental airplanes through maneuvers designed to test them,neutral,none
+thatcher,British stateswoman; first woman to serve as Prime Minister (born in 1925),specific,female
 theatre_director,someone who supervises the actors and directs the action in the production of a show,neutral,none
 theologian,someone who is learned in theology or who speculates about theology,neutral,none
 theologist,someone who is learned in theology or who speculates about theology,neutral,none
@@ -737,6 +782,7 @@ trencherman,a person who is devoted to eating and drinking to excess,neutral,non
 troubadour,a singer of folk songs,neutral,none
 truck_driver,someone who drives a truck as an occupation,neutral,none
 tumbler,a gymnast who performs rolls and somersaults and twists etc.,neutral,none
+turner,United States slave and insurrectionist who in 1831 led a rebellion of slaves in Virginia; he was captured and executed (1800-1831),specific,male
 turnkey,someone who guards prisoners,neutral,none
 tutor,a person who gives private instruction (as in singing, acting, etc.),neutral,none
 tyler,elected vice president and became the 10th President of the United States when Harrison died (1790-1862),neutral,none
@@ -749,6 +795,7 @@ upholder,someone who upholds or maintains,neutral,none
 upholsterer,a craftsman who upholsters furniture,neutral,none
 urologist,a specialist in urology,neutral,none
 usher,Irish prelate who deduced from the Bible that Creation occurred in the year 4004 BC (1581-1656),neutral,none
+valet,a manservant who acts as a personal attendant to his employer,specific,male
 verger,a church officer who takes care of the interior of the building and acts as an attendant (carries the verge) during ceremonies,neutral,none
 vibraphonist,a musician who plays the vibraphone,neutral,none
 vicar,a Roman Catholic priest who acts for another higher-ranking clergyman,neutral,none
@@ -760,6 +807,7 @@ violist,a musician who plays the viola,neutral,none
 wagoner,the driver of a wagon,neutral,none
 wainwright,a wagon maker,neutral,none
 waiter,a person whose occupation is to serve at table (as in a restaurant),neutral,none
+waitress,a woman waiter,specific,female
 walker,New Zealand runner who in 1975 became the first person to run a mile in less that 3 minutes and 50 seconds (born in 1952),neutral,none
 waller,United States jazz musician (1904-1943),neutral,none
 warden,the chief official in charge of a prison,neutral,none
@@ -775,6 +823,7 @@ weeder,a farmhand hired to remove weeds,neutral,none
 weeper,a person who weeps,neutral,none
 weigher,an official who weighs and records the weight,neutral,none
 welder,joins pieces of metal by welding them together,neutral,none
+wet_nurse,a woman hired to suckle a child of someone else,specific,female
 wetter,a chemical agent capable of reducing the surface tension of a liquid in which it is dissolved,neutral,none
 whacker,something especially big or impressive of its kind,neutral,none
 whaler,a seaman who works on a ship that hunts whales,neutral,none
@@ -795,3 +844,225 @@ xylophonist,someone who plays a xylophone,neutral,none
 yardman,worker in a railway yard,neutral,none
 yeoman,officer in the (ceremonial) bodyguard of the British monarch,neutral,none
 zoologist,a specialist in the branch of biology dealing with animals,neutral,none
+cobbler,a person who makes or repairs shoes,neutral,none
+boiler,sealed vessel where water is converted to steam,neutral,none
+naturopath,a therapist who practices naturopathy,neutral,none
+basket_maker,early Amerindians related to the Pueblo; known for skill in making baskets,neutral,none
+school_principal,the educator who has executive authority for a school,neutral,none
+intelligence_officer,a person secretly employed in espionage for a government,neutral,none
+baker,someone who bakes commercially,neutral,none
+bank_clerk,an employee of a bank who receives and pays out money,neutral,none
+barmaid,a female bartender,specific,female
+environmentalist,someone who works to protect the environment from destruction or pollution,neutral,none
+caretaker,a custodian who is hired to take care of something (property or a person),neutral,none
+croupier,someone who collects and pays bets at a gaming table,neutral,none
+palmist,fortuneteller who predicts your future by the lines on your palms,neutral,none
+insurance_broker,an agent who sells insurance,neutral,none
+decorator,a person who specializes in designing architectural interiors and their furnishings,neutral,none
+helper,a person who contributes to the fulfillment of a need or furtherance of an effort or purpose,neutral,none
+barman,an employee who mixes and serves alcoholic drinks at a bar,neutral,none
+travel_agent,someone who sells or arranges trips or tours for customers,neutral,none
+ticket_collector,someone who is paid to admit only those who have purchased tickets,neutral,none
+scriptwriter,someone who writes scripts for plays or movies or broadcast dramas,neutral,none
+telecaster,a television broadcaster,neutral,none
+postmaster,the person in charge of a post office,neutral,none
+farm_worker,a hired hand on a farm,neutral,none
+orchestral,relating to or composed for an orchestra,neutral,none
+salesperson,a person employed to represent a business and to sell its merchandise (as to customers in a store or to customers who are visited),neutral,none
+osteopath,a therapist who manipulates the skeleton and muscles,neutral,none
+endocrinologist,physician who specializes in the diagnosis and treatment of conditions affecting the endocrine system,neutral,none
+meteorologist,a specialist who studies processes in the earth's atmosphere that cause weather conditions,neutral,none
+poulterer,a dealer in poultry and poultry products,neutral,none
+merchandiser,a businessperson engaged in retail trade,neutral,none
+employment_agent,someone who runs an employment agency,neutral,none
+estate_agent,a person who is authorized to act as an agent for the sale of land,neutral,none
+repairer,a skilled worker who mends or repairs things,neutral,none
+prosthetist,an expert in prosthetics,neutral,none
+glassworker,someone who cuts flat glass to size,neutral,none
+farrier,a person who shoes horses,neutral,none
+coxswain,the helmsman of a ship's boat or a racing crew,neutral,none
+foster_parent,a person who acts as parent and guardian for a child in place of the child's natural parents but without legally adopting the child,neutral,none
+choreographer,someone who creates new dances,neutral,none
+copywriter,a person employed to write advertising or publicity copy,neutral,none
+umpire,an official at a baseball game,neutral,none
+housekeeper,a servant who is employed to perform domestic task in a household,neutral,none
+announcer,someone who proclaims a message publicly,neutral,none
+prison_guard,someone who guards prisoners,neutral,none
+prompter,someone who assists a performer by providing the next words of a forgotten speech,neutral,none
+window_dresser,someone who decorates shop windows,neutral,none
+wine_maker,someone who makes wine,neutral,none
+prisoner,a person who is confined; especially a prisoner of war,neutral,none
+landscape_gardener,someone who arranges features of the landscape or garden attractively,neutral,none
+paediatrician,a specialist in the care of babies,neutral,none
+minister_of_religion,a person authorized to conduct religious worship,neutral,none
+chief,a person who is in charge,neutral,none
+inspector,a high ranking police officer,neutral,none
+dietitian,a specialist in the study of nutrition,neutral,none
+policeman,a member of a police force,neutral,none
+sales_representative,a person employed to represent a business and to sell its merchandise (as to customers in a store or to customers who are visited),neutral,none
+radiotherapist,a medical specialist who uses radioactive substances and X-rays in the treatment of disease,neutral,none
+obstetric,of or relating to or used in or practicing obstetrics,neutral,none
+varnisher,someone who applies a finishing coat of varnish,neutral,none
+pollster,someone who conducts surveys of public opinion,neutral,none
+insurance_agent,an agent who sells insurance,neutral,none
+aboriginal,a dark-skinned member of a race of people living in Australia when Europeans arrived,neutral,none
+trainman,an employee of a railroad,neutral,none
+usherette,a female usher,specific,female
+jeweler,someone who makes jewelry,neutral,none
+ethnographer,an anthropologist who does ethnography,neutral,none
+magician,someone who performs magic tricks to amuse an audience,neutral,none
+commercial_traveller,a salesman who travels to call on customers,neutral,none
+cricketer,an athlete who plays cricket,neutral,none
+mistress,an adulterous woman; a woman who has an ongoing extramarital sexual relationship with a man,neutral,none
+counsellor,someone who has supervisory duties at a summer camp,neutral,none
+silversmith,someone who makes or repairs articles of silver,neutral,none
+knitter,someone who makes garments (or fabrics) by intertwining yarn or thread,neutral,none
+athlete,a person trained to compete in sports,neutral,none
+smith,Rhodesian statesman who declared independence of Zimbabwe from Great Britain (born in 1919),neutral,none
+officer,any person in the armed services who holds a position of authority or command,neutral,none
+host,a person who invites guests to a social event (such as a party in his or her own home) and who is responsible for them while they are there,neutral,none
+pharmacologist,someone trained in the science of drugs (their composition and uses and effects),neutral,none
+scientist,a person with advanced knowledge of one or more sciences,neutral,none
+legal_assistant,a person with specialized training who assists lawyers,neutral,none
+tamer,an animal trainer who tames wild animals,neutral,none
+nurse_practitioner,a registered nurse who has received special training and can perform many of the duties of a physician,neutral,none
+head_teacher,the educator who has executive authority for a school,neutral,none
+auditor,someone who listens attentively,neutral,none
+conference,a prearranged meeting for consultation or exchange of information or discussion (especially one with a formal agenda),neutral,none
+digger,a laborer who digs,neutral,none
+orthoptist,a specialist in orthoptics,neutral,none
+landscape_architect,someone who arranges features of the landscape or garden attractively,neutral,none
+camera_operator,a photographer who operates a movie camera,neutral,none
+newspaper_editor,the editor of a newspaper,neutral,none
+art_teacher,someone who teaches art,neutral,none
+architect,someone who creates plans to be used in making something (such as buildings),neutral,none
+midwife,a woman skilled in aiding the delivery of babies,specific,female
+sociologist,a social scientist who studies the institutions and development of human society,neutral,none
+bibliographer,someone trained in compiling bibliographies,neutral,none
+seaman,a man who serves as a sailor,specific,male
+soldier,an enlisted man or woman who serves in an army,neutral,none
+ceramicist,a craftsman who shapes pottery on a potter's wheel and bakes them it a kiln,neutral,none
+hydrologist,a geologist skilled in hydrology,neutral,none
+conductor,the person who leads a musical group,neutral,none
+herbalist,a therapist who heals by the use of herbs,neutral,none
+dental_surgeon,a dentist qualified to perform surgical procedures,neutral,none
+nutritionist,a specialist in the study of nutrition,neutral,none
+veterinary_surgeon,a doctor who practices veterinary medicine,neutral,none
+conservator,the custodian of a collection (as a museum or library),neutral,none
+postman,a man who delivers the mail,specific,male
+bus_driver,someone who drives a bus,neutral,none
+teller,United States physicist (born in Hungary) who worked on the first atom bomb and the first hydrogen bomb (1908-2003),neutral,none
+producer,someone who manufactures something,neutral,none
+salesman,a man salesperson,specific,male
+valuer,someone who assesses the monetary worth of possessions,neutral,none
+lawyer,a professional person authorized to practice law; conducts lawsuits or gives legal advice,neutral,none
+arborist,a specialist in treating damaged trees,neutral,none
+fire_fighter,a member of a fire department who tries to extinguish fires,neutral,none
+butcher,a retailer of meat,neutral,none
+jeweller,someone who makes jewelry,neutral,none
+gynaecologist,a specialist in gynecology,neutral,none
+steelworker,a worker engaged in making steel,neutral,none
+buyer,a person who buys,neutral,none
+storekeeper,a merchant who owns or manages a shop,neutral,none
+trucker,someone who drives a truck as an occupation,neutral,none
+chiropractor,a therapist who practices chiropractic,neutral,none
+bookmaker,a maker of books; someone who edits or publishes or binds books,neutral,none
+labourer,someone who works with their hands; someone engaged in manual labor,neutral,none
+ship's_officer,a person authorized to serve in a position of authority on a vessel,neutral,none
+domestic_help,a servant who is paid to perform menial tasks around the household,neutral,none
+songwriter,a composer of words or music for popular songs,neutral,none
+neurologist,a medical specialist in the nervous system and the disorders affecting it,neutral,none
+puppeteer,one who operates puppets or marionettes,neutral,none
+biochemist,someone with special training in biochemistry,neutral,none
+actress,a female actor,specific,female
+forester,English writer of adventure novels featuring Captain Horatio Hornblower (1899-1966),neutral,none
+musicologist,a student of musicology,neutral,none
+postmistress,a woman postmaster,specific,female
+music_director,the person who leads a musical group,neutral,none
+concreter,capable of being perceived by the senses; not abstract or imaginary,neutral,none
+army_officer,an officer in the armed forces,neutral,none
+typesetter,one who sets written material into type,neutral,none
+trainee,someone who is being trained,neutral,none
+trainer,one who trains other persons or animals,neutral,none
+priest,a clergyman in Christian churches who has the authority to perform or administer various religious rites; one of the Holy Orders,neutral,none
+farmer,a person who operates a farm,neutral,none
+microbiologist,a specialist in microbiology,neutral,none
+cleaner,a preparation used in cleaning something,neutral,none
+rheumatologist,a physician specializing in rheumatic diseases,neutral,none
+financial_analyst,an analyst who studies the financial performance of corporations,neutral,none
+auctioneer,an agent who conducts an auction,neutral,none
+collector,a person who collects things,neutral,none
+harpooner,someone who launches harpoons,neutral,none
+maltster,a maker of malt,neutral,none
+haematologist,a doctor who specializes in diseases of the blood and blood-forming organs,neutral,none
+commentator,an expert who observes and comments on something,neutral,none
+public_prosecutor,a government official who conducts criminal prosecutions on behalf of the state,neutral,none
+policewoman,a woman policeman,specific,female
+astronomer,a physicist who studies astronomy,neutral,none
+art_critic,a critic of paintings,neutral,none
+coder,a person who designs and writes and tests computer programs,neutral,none
+metallurgist,an engineer trained in the extraction and refining and alloying and fabrication of metals,neutral,none
+porter,a person employed to carry luggage and supplies,neutral,none
+sericulturist,a producer of raw silk,neutral,none
+stockbroker,an agent in the buying and selling of stocks and bonds,neutral,none
+galvaniser,a skilled worker who coats iron or steel with zinc,neutral,none
+telephonist,someone who helps callers get the person they are calling,neutral,none
+garbage_man,someone employed to collect and dispose of refuse,neutral,none
+tour_guide,a guide who leads others on a tour,neutral,none
+pipe_fitter,a craftsman who installs and repairs pipes and fixtures and appliances,neutral,none
+master,an artist of consummate skill,neutral,none
+blacksmith,a smith who forges and shapes iron with a hammer and anvil,neutral,none
+funeral_director,one whose business is the management of funerals,neutral,none
+fireman,play in which children pretend to put out a fire,neutral,none
+shunter,a small locomotive used to move cars around but not to make trips,neutral,none
+pawnbroker,a person who lends money at interest in exchange for personal property that is deposited as security,neutral,none
+dish_washer,a machine for washing dishes,neutral,none
+ceramics,the art of making and decorating pottery,neutral,none
+neurosurgeon,someone who does surgery on the nervous system (especially the brain),neutral,none
+flight_engineer,the flight crewman responsible for mechanical operation while in flight,neutral,none
+builders,a substance added to soaps or detergents to increase their cleansing action,neutral,none
+psychotherapist,a therapist who deals with mental and emotional disorders,neutral,none
+train_dispatcher,a railroad employer who is in charge of a railway yard,neutral,none
+dry_cleaner,the operator of dry-cleaning establishment,neutral,none
+worker,a person who works at a specific occupation,neutral,none
+clergyman,a member of the clergy and a spiritual leader of the Christian Church,neutral,none
+financial_officer,an officer charged with receiving and disbursing funds,neutral,none
+art_director,the director in charge of the artistic features of a theatrical production (costumes and scenery and lighting),neutral,none
+shoemaker,a person who makes or repairs shoes,neutral,none
+hostess,a woman host,specific,female
+lexicographer,a compiler or writer of a dictionary; a student of the lexical component of language,neutral,none
+assessor,an official who evaluates property for the purpose of taxing it,neutral,none
+private_investigator,someone who can be employed as a detective to collect information,neutral,none
+bodybuilder,someone who does special exercises to develop a brawny musculature,neutral,none
+geneticist,a biologist who specializes in genetics,neutral,none
+beautician,someone who works in a beauty parlor,neutral,none
+paediatric,of or relating to the medical care of children,neutral,none
+naturalist,an advocate of the doctrine that the world can be understood in scientific terms,neutral,none
+tracklayer,a workman who lays and repairs railroad tracks,neutral,none
+fashion_model,a woman who wears clothes to display fashions,specific,female
+adviser,an expert who gives advice,neutral,none
+governess,a woman entrusted with the care and supervision of a child (especially in a private home),specific,female
+barber,United States composer (1910-1981),neutral,none
+real_estate_agent,a person who is authorized to act as an agent for the sale of land,neutral,none
+broadcaster,someone who broadcasts on radio or television,neutral,none
+archeologist,an anthropologist who studies prehistoric people and their culture,neutral,none
+scene_painter,an artist specializing in scenic subjects,neutral,none
+ship_broker,an agent for the ship owner; obtains cargo and may arrange for its loading or discharge,neutral,none
+agronomist,an expert in soil management and field-crop production,neutral,none
+draughtsman,a skilled worker who draws plans of buildings or machines,neutral,none
+vet,a doctor who practices veterinary medicine,neutral,none
+window_cleaner,someone who cleans windows for pay,neutral,none
+assistant,a person who contributes to the fulfillment of a need or furtherance of an effort or purpose,neutral,none
+lithographer,a printmaker who uses lithography,neutral,none
+doorkeeper,an official stationed at the entrance of a courtroom or legislative chamber,neutral,none
+broker,a businessman who buys or sells for another in exchange for a commission,neutral,none
+attendant,someone who waits on or tends to or attends to the needs of another,neutral,none
+clerical,of or relating to clerks,neutral,none
+retired,go into retirement; stop performing one's work or withdraw from one's position,neutral,none
+sales,income (at invoice values) received for goods and services over some given period of time,neutral,none
+clergy,in Christianity, clergymen collectively (as distinguished from the laity),neutral,none
+physician,a licensed medical practitioner,neutral,none
+guard,a person who keeps watch over something or someone,neutral,none
+artist,a person whose creative work shows sensitivity and imagination,neutral,none
+official,a worker who holds or is invested with an office,neutral,none
+police,the force of policemen and officers,neutral,none
