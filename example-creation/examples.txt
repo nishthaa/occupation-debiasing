@@ -1,0 +1,4 @@
+abbot;Maurice Abbot,Newton Abbot,Abbot Academy,Brian Abbot,Abbot,Prince-abbot;Abbot,Russ Abbot,The Abbot,George Abbot (bishop),Newton Abbot
+accountant;The Accountant (2016 film),The Sniffing Accountant,Institute of Chartered Accountants of India,Institute of Chartered Accountants Australia;The Sniffing Accountant,The Accountant (2016 film),The Accountant (2001 film),Village accountant
+accoutre;;
+actor;Actor,Pretty Woman,Wonder Woman (2017 film),Lists of actors,Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Leading Role;Actor,Marlboro Man,Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Leading Role,Zee Cine Award for Best Actor in a Supporting Role – Male

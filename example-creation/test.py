@@ -25,7 +25,10 @@ try:
                 if((i in str(search_result[j]).lower() or occupation in str(search_result[j]).lower()) and search_result[j] not in results_women):
                     #print(search_result[j])
                     results_women.append(search_result[j])
-                    rw+=search_result[j]+","
+                    if rw!="":
+                        rw += "," + search_result[j]
+                    else:
+                        rw += search_result[j]
 
         results_men = []
         rm=""
@@ -38,10 +41,13 @@ try:
                 if((i in str(search_result[j]).lower() or occupation in str(search_result[j]).lower()) and search_result[j] not in results_men):
                     #print(search_result[j])
                     results_men.append(search_result[j])
-                    rm+=search_result[j]+","
+                    if rm != "":
+                        rm += "," + search_result[j]
+                    else:
+                        rm += search_result[j]
 
         #relevant_results = {"female":results_women,"male":results_men}
 
-        fw.write(occupation + ";" + "FEMALE"+","+rw + ";" +"MALE"+","+rm+"\n")
-except :
-    print(search_token)
+        fw.write(occupation + ";" + rw + ";" + rm + "\n")
+except Exception as err:
+    print(search_token,err)
