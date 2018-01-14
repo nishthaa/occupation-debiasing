@@ -42,6 +42,6 @@ try:
 
         #relevant_results = {"female":results_women,"male":results_men}
 
-        fw.write(occupation + ";" + rw + ";" + rm)
+        fw.write(occupation + ";" + "FEMALE"+","+rw + ";" +"MALE"+","+rm+"\n")
 except :
     print(search_token)
