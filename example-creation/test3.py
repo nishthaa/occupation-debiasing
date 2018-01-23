@@ -11,21 +11,25 @@ def get_example_urls(occ,gender):
     url = get_url_string(occ,gender)
     html = r.get(url).content
     df_list = p.read_html(html)
-    return df_list[0][0][1]+","+df_list[0][0][2]+","+df_list[0][0][3]+","+df_list[0][0][4]+","+df_list[0][0][5]
+    #print(df_list)
+    print (df_list[0][0][1]+","+df_list[0][0][2]+","+df_list[0][0][3]+","+df_list[0][0][4]+","+df_list[0][0][5])
 
 
-fh = open("neutral-words.txt","r")
-fr = open("examples.txt",'a')
-for line in fh:
-    occ = line.strip().capitalize()
-    try:
-        fr.write(occ+";"+get_example_urls(occ,'male')+";"+get_example_urls(occ,'female'))
-    except:
-        fr.write(occ+"- NOT FOUND")
-fr.close()
-fh.close()
+# fh = open("neutral-words.txt","r")
+# fr = open("examples.txt",'a')
+# for line in fh:
+#     occ = line.strip().capitalize()
+#     try:
+#         print("DOING")
+#         fr.write(occ+";"+get_example_urls(occ,'male')+"\n")
+#         fr.write(get_example_urls(occ,'female\n'))
+#     except Exception as err:
+#         print(err,occ)
+# fr.close()
+# fh.close()
 
-# df.to_csv('my data.csv')
+
+print(get_example_urls('author'.capitalize(),'female'))
 
 
 
