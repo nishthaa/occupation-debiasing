@@ -4,8 +4,13 @@ certifi==2017.11.5
 chardet==3.0.4
 idna==2.6
 isodate==0.6.0
+lxml==4.1.1
 nltk==3.2.5
+numpy==1.14.0
+pandas==0.22.0
 pyparsing==2.2.0
+python-dateutil==2.6.1
+pytz==2017.3
 rdflib==4.2.2
 requests==2.18.4
 six==1.11.0
