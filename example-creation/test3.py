@@ -11,14 +11,19 @@ def get_example_urls(occ,gender):
     url = get_url_string(occ,gender)
     html = r.get(url).content
     df_list = p.read_html(html)
-    print (occ)
-    print (df_list[0][0])
+    return df_list[0][0][1]+","+df_list[0][0][2]+","+df_list[0][0][3]+","+df_list[0][0][4]+","+df_list[0][0][5]
 
 
 fh = open("neutral-words.txt","r")
+fr = open("examples.txt",'a')
 for line in fh:
-    occ = " ".join(w.capitalize() for w in line.strip().split("_")[0])
-    print (occ)
+    occ = line.strip().capitalize()
+    try:
+        fr.write(occ+";"+get_example_urls(occ,'male')+";"+get_example_urls(occ,'female'))
+    except:
+        fr.write(occ+"- NOT FOUND")
+fr.close()
+fh.close()
 
 # df.to_csv('my data.csv')
 
