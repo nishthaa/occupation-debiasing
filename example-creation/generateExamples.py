@@ -11,25 +11,28 @@ def get_example_urls(occ,gender):
     url = get_url_string(occ,gender)
     html = r.get(url).content
     df_list = p.read_html(html)
-    #print(df_list)
-    print (df_list[0][0][1]+","+df_list[0][0][2]+","+df_list[0][0][3]+","+df_list[0][0][4]+","+df_list[0][0][5])
+    examples = df_list[0][0][1]+","+df_list[0][0][2]+","+df_list[0][0][3]+","+df_list[0][0][4]+","+df_list[0][0][5]
+    examples = examples.encode('latin1').decode('utf8')
+    return examples
 
 
-# fh = open("neutral-words.txt","r")
-# fr = open("examples.txt",'a')
-# for line in fh:
-#     occ = line.strip().capitalize()
-#     try:
-#         print("DOING")
-#         fr.write(occ+";"+get_example_urls(occ,'male')+"\n")
-#         fr.write(get_example_urls(occ,'female\n'))
-#     except Exception as err:
-#         print(err,occ)
-# fr.close()
-# fh.close()
+fh = open("neutral-words.txt","r")
+fw = open("examples.txt",'a','utf-8')
+for line in fh:
+    occ = line.strip().capitalize()
+    try:
+        female_examples = get_example_urls(occ,'female')
+        male_examples = get_example_urls(occ, 'male')
+        fw.write(occ + ";" + male_examples + ";" + female_examples + "\n")
+    except Exception as err:
+        print(err,occ)
 
 
-print(get_example_urls('author'.capitalize(),'female'))
+fw.close()
+fh.close()
+
+
+
 
 
 
