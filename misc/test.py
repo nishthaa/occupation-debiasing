@@ -18,4 +18,3 @@ print(ulist.ul.li)
 
 
 
-# let's talk on slack or fb? Slack plij. okay
