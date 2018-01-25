@@ -17,7 +17,7 @@ def get_example_urls(occ,gender):
 
 
 fh = open("neutral-words.txt","r")
-fw = open("examples.txt",'a','utf-8')
+fw = open("examples.txt",'a')
 for line in fh:
     occ = line.strip().capitalize()
     try:
