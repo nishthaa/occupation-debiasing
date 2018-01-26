@@ -23,17 +23,24 @@ def get_example_urls(occ,gender):
     return examples
 
 
-fh = open("neutral-words.txt","r")
+fh = open("batch2.txt","r")
 fw = open("examples.txt",'a')
+fe = open("not-found.txt",'a')
+count = 464
 for line in fh:
     occ = line.strip().capitalize()
     try:
         female_examples = get_example_urls(occ,'female')
         male_examples = get_example_urls(occ, 'male')
         fw.write(occ + ";" + male_examples + ";" + female_examples + "\n")
+        print(count)
+        count+=1
     except Exception as err:
-        print(err,occ)
+        fe.write(str(err)+" "+occ+"\n")
+        print(count)
+        count+=1
 
 
 fw.close()
 fh.close()
+fe.close()
