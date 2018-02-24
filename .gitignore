@@ -1,1 +1,2 @@
-ibm
+.virtualenvs
+./app/data
