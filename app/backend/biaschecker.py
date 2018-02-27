@@ -118,11 +118,6 @@ def getAllObjs(v):
     objs = [tok for tok in rights if tok.dep_ in OBJECTS]
     objs.extend(getObjsFromPrepositions(rights))
 
-    #potentialNewVerb, potentialNewObjs = getObjsFromAttrs(rights)
-    #if potentialNewVerb is not None and potentialNewObjs is not None and len(potentialNewObjs) > 0:
-    #    objs.extend(potentialNewObjs)
-    #    v = potentialNewVerb
-
     potentialNewVerb, potentialNewObjs = getObjFromXComp(rights)
     if potentialNewVerb is not None and potentialNewObjs is not None and len(potentialNewObjs) > 0:
         objs.extend(potentialNewObjs)
@@ -145,22 +140,22 @@ def findSVOs(tokens):
                     svos.append((sub.lower_, "!" + v.lower_ if verbNegated or objNegated else v.lower_, obj.lower_))
     return svos
 
-def getAbuserOntoVictimSVOs(tokens):
-    maleAbuser = {'he', 'boyfriend', 'bf', 'father', 'dad', 'husband', 'brother', 'man'}
-    femaleAbuser = {'she', 'girlfriend', 'gf', 'mother', 'mom', 'wife', 'sister', 'woman'}
-    neutralAbuser = {'pastor', 'abuser', 'offender', 'ex', 'x', 'lover', 'church', 'they'}
-    victim = {'me', 'sister', 'brother', 'child', 'kid', 'baby', 'friend', 'her', 'him', 'man', 'woman'}
+# def getAbuserOntoVictimSVOs(tokens):
+#     maleAbuser = {'he', 'boyfriend', 'bf', 'father', 'dad', 'husband', 'brother', 'man'}
+#     femaleAbuser = {'she', 'girlfriend', 'gf', 'mother', 'mom', 'wife', 'sister', 'woman'}
+#     neutralAbuser = {'pastor', 'abuser', 'offender', 'ex', 'x', 'lover', 'church', 'they'}
+#     victim = {'me', 'sister', 'brother', 'child', 'kid', 'baby', 'friend', 'her', 'him', 'man', 'woman'}
 
-    svos = findSVOs(tokens)
-    wnl = WordNetLemmatizer()
-    passed = []
-    for s, v, o in svos:
-        s = wnl.lemmatize(s)
-        v = "!" + wnl.lemmatize(v[1:], 'v') if v[0] == "!" else wnl.lemmatize(v, 'v')
-        o = "!" + wnl.lemmatize(o[1:]) if o[0] == "!" else wnl.lemmatize(o)
-        if s in maleAbuser.union(femaleAbuser).union(neutralAbuser) and o in victim:
-            passed.append((s, v, o))
-    return passed
+#     svos = findSVOs(tokens)
+#     wnl = WordNetLemmatizer()
+#     passed = []
+#     for s, v, o in svos:
+#         s = wnl.lemmatize(s)
+#         v = "!" + wnl.lemmatize(v[1:], 'v') if v[0] == "!" else wnl.lemmatize(v, 'v')
+#         o = "!" + wnl.lemmatize(o[1:]) if o[0] == "!" else wnl.lemmatize(o)
+#         if s in maleAbuser.union(femaleAbuser).union(neutralAbuser) and o in victim:
+#             passed.append((s, v, o))
+#     return passed
 
 def printDeps(toks):
     for tok in toks:
@@ -169,9 +164,9 @@ def printDeps(toks):
 def testSVOs():
     nlp = spacy.load('en')
 
-    tok = nlp("Reena, who is a nurse likes Shyam, who is a scientist.")
+    tok = nlp("Sumit is under the bed")
     svos = findSVOs(tok)
-    #printDeps(tok)
+    printDeps(tok)
     #assert set(svos) == {('i', '!have', 'assistance'), ('he', '!provide', 'support')}
     print(svos)
 
