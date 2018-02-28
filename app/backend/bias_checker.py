@@ -36,6 +36,7 @@ def check_for_bias(sentence):
 	hits = [triples for triples in svos if is_occupation(triples[2]) == "neutral"]
 	biased = [("male", triples[2]) for triples in hits if is_male(triples[0])]
 	biased.extend([("female", triples[2]) for triples in hits if is_female(triples[0])])
+	#print(svos)
 	return biased
 
 def extract_examples(word, gender):

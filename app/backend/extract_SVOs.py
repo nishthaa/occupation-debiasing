@@ -2,7 +2,7 @@ from nltk.stem.wordnet import WordNetLemmatizer
 import spacy
 
 SUBJECT_TOKENS = ["nsubj", "nsubjpass", "csubj", "csubjpass", "agent", "expl"]
-OBJECT_TOKENS = ["dobj", "dative", "attr", "oprd"]
+OBJECT_TOKENS = ["dobj", "dative", "attr", "oprd", "appos"]
 
 def get_subjects_from_conj(sbj_tok):
     subject_words = []
@@ -70,7 +70,7 @@ def get_objects_from_preps(deps):
 
 def get_objects_from_xcomp(deps):
     for dep in deps:
-        if dep.pos_ == "VERB" and dep.dep_ == "xcomp":
+        if dep.pos_ == "VERB" and (dep.dep_ == "xcomp" or dep.dep_ == "ccomp"):
             v = dep
             right_children = list(v.rights)
             objs = [tok for tok in right_children if tok.dep_ in OBJECT_TOKENS]
@@ -78,6 +78,8 @@ def get_objects_from_xcomp(deps):
             if len(objs) > 0:
                 return v, objs
     return None, None
+
+
 
 def get_all_subjects(v):
     negative_verb = is_negative(v)
@@ -103,14 +105,28 @@ def get_objects(v):
         objs.extend(get_objects_from_conj(objs))
     return v, objs
 
+
+
 def find_triplets(tokens):
     svos = []
     verbs = [tok for tok in tokens if tok.pos_ == "VERB" and tok.dep_ != "aux"]
+    nouns = [tok for tok in tokens if tok.pos_ == "NOUN" or tok.pos_ == "PROPN"]
+    
+    #print(nouns)
+    
+    for noun in nouns:
+        for child in noun.rights:
+            if child.pos_ == "NOUN":
+                svos.append((noun.orth_.lower().strip(),"is",child.orth_.lower().strip()))
+    
+    #print(svos)
+    
     for v in verbs:
         sbj_tok, negative_verb = get_all_subjects(v)
         # hopefully there are sbj_tok, if not, don't examine this verb any longer
         if len(sbj_tok) > 0:
             v, objs = get_objects(v)
+            #print("Objects:", v, objs)
             for sub in sbj_tok:
                 for obj in objs:
                     objNegated = is_negative(obj)
@@ -119,14 +135,15 @@ def find_triplets(tokens):
 
 
 
-# def printDeps(toks):
-#     for tok in toks:
-#         print(tok.orth_, tok.dep_, tok.pos_, tok.head.orth_, [t.orth_ for t in tok.left_children], [t.orth_ for t in tok.right_children])
+def printDeps(toks):
+    for tok in toks:
+        print(tok.orth_, tok.dep_, tok.pos_, tok.head.orth_, [t.orth_ for t in tok.lefts], [t.orth_ for t in tok.rights])
 
 def extract_triplets(sentence):
     nlp = spacy.load('en')
 
     tok = nlp(sentence)
+    #printDeps(tok)
     svos = find_triplets(tok)
     
     return svos
