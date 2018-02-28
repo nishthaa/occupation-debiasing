@@ -8,7 +8,7 @@ def get_subjects_from_conj(sbj_tok):
     subject_words = []
     for sub in sbj_tok:
         # right_children is a generator
-        right_children = list(sub.right_children)
+        right_children = list(sub.rights)
         right_deps = {tok.lower_ for tok in right_children}
         if "and" in right_deps:
             subject_words.extend([tok for tok in right_children if tok.dep_ in SUBJECT_TOKENS or tok.pos_ == "NOUN"])
@@ -20,7 +20,7 @@ def get_objects_from_conj(objs):
     objects_words = []
     for obj in objs:
         # right_children is a generator
-        right_children = list(obj.right_children)
+        right_children = list(obj.rights)
         right_deps = {tok.lower_ for tok in right_children}
         if "and" in right_deps:
             objects_words.extend([tok for tok in right_children if tok.dep_ in OBJECT_TOKENS or tok.pos_ == "NOUN"])
@@ -31,9 +31,9 @@ def get_objects_from_conj(objs):
 def get_verbs_from_conj(verbs):
     verb_words = []
     for verb in verbs:
-        right_deps = {tok.lower_ for tok in verb.right_children}
+        right_deps = {tok.lower_ for tok in verb.rights}
         if "and" in right_deps:
-            verb_words.extend([tok for tok in verb.right_children if tok.pos_ == "VERB"])
+            verb_words.extend([tok for tok in verb.rights if tok.pos_ == "VERB"])
             if len(verb_words) > 0:
                 verb_words.extend(get_verbs_from_conj(verb_words))
     return verb_words
@@ -43,7 +43,7 @@ def find_subjects(tok):
     while head.pos_ != "VERB" and head.pos_ != "NOUN" and head.head != head:
         head = head.head
     if head.pos_ == "VERB":
-        sbj_tok = [tok for tok in head.left_children if tok.dep_ == "SUB"]
+        sbj_tok = [tok for tok in head.lefts if tok.dep_ == "SUB"]
         if len(sbj_tok) > 0:
             negative_verb = is_negative(head)
             sbj_tok.extend(get_subjects_from_conj(sbj_tok))
@@ -56,7 +56,7 @@ def find_subjects(tok):
 
 def is_negative(tok):
     negations = {"no", "not", "n't", "never", "none"}
-    for dep in list(tok.left_children) + list(tok.right_children):
+    for dep in list(tok.lefts) + list(tok.rights):
         if dep.lower_ in negations:
             return True
     return False
@@ -65,14 +65,14 @@ def get_objects_from_preps(deps):
     objs = []
     for dep in deps:
         if dep.pos_ == "ADP" and dep.dep_ == "prep":
-            objs.extend([tok for tok in dep.right_children if tok.dep_  in OBJECT_TOKENS or (tok.pos_ == "PRON" and tok.lower_ == "me")])
+            objs.extend([tok for tok in dep.rights if tok.dep_  in OBJECT_TOKENS or (tok.pos_ == "PRON" and tok.lower_ == "me")])
     return objs
 
 def get_objects_from_xcomp(deps):
     for dep in deps:
         if dep.pos_ == "VERB" and dep.dep_ == "xcomp":
             v = dep
-            right_children = list(v.right_children)
+            right_children = list(v.rights)
             objs = [tok for tok in right_children if tok.dep_ in OBJECT_TOKENS]
             objs.extend(get_objects_from_preps(right_children))
             if len(objs) > 0:
@@ -81,7 +81,7 @@ def get_objects_from_xcomp(deps):
 
 def get_all_subjects(v):
     negative_verb = is_negative(v)
-    sbj_tok = [tok for tok in v.left_children if tok.dep_ in SUBJECT_TOKENS and tok.pos_ != "DET"]
+    sbj_tok = [tok for tok in v.lefts if tok.dep_ in SUBJECT_TOKENS and tok.pos_ != "DET"]
     if len(sbj_tok) > 0:
         sbj_tok.extend(get_subjects_from_conj(sbj_tok))
     else:
@@ -91,7 +91,7 @@ def get_all_subjects(v):
 
 def get_objects(v):
     # right_children is a generator
-    right_children = list(v.right_children)
+    right_children = list(v.rights)
     objs = [tok for tok in right_children if tok.dep_ in OBJECT_TOKENS]
     objs.extend(get_objects_from_preps(right_children))
 
@@ -133,7 +133,7 @@ def extract_triplets(sentence):
 
 
 def test():
-    extract_triplets("I am a scientist")
+    print(extract_triplets("I am a scientist"))
 
 if __name__ == "__main__":
     test()
