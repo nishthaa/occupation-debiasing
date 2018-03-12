@@ -1,0 +1,12 @@
+SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)
+    WHERE {
+        ?person rdf:type ?occupation .
+        FILTER contains(str(?occupation),"Painter") .
+        ?person foaf:gender "female"@en .
+        ?person dbo:birthPlace ?bcity .
+        ?bcity dbo:country ?bcountry .
+        ?person dbo:deathPlace ?dcity .
+        ?dcity dbo:country ?dcountry .
+        ?person dbo:birthDate ?birthDate .
+        ?person dbo:deathDate ?deathDate .
+    } GROUP BY ?person

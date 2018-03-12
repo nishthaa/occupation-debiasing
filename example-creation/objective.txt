@@ -1,6 +1,0 @@
-Nistha to share dataset of movies (co-referenced name tags are present)
-With cast  - the gender is also appended
-
-
-To start doing -
-1. Take in a sentence and extract the subject and its occupation and compare it to the co-referenced plots provided.
