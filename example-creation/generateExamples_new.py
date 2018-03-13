@@ -32,10 +32,10 @@ def generate_result(occupation, gender):
     return results
 
 
-fh = open("batch-1.txt","r")
+fh = open("batch-2.txt","r")
 fw = open("examples-new.txt",'a')
 fe = open("not-found.txt",'a')
-count = 1
+count = 51
 for line in fh:
     occ = line.strip().capitalize()
     try:
