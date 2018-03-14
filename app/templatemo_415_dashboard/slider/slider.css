@@ -135,3 +135,25 @@
 #flat-slider .ui-slider-pip.ui-slider-pip-inrange .ui-slider-line {
   background-color: #25daa5;
 }
+
+#flat-slider .ui-slider .ui-slider-pip-initial-1 .ui-slider-label {
+  color: #E80949; }
+                    
+#flat-slider .ui-slider .ui-slider-pip-initial-2 .ui-slider-label {
+  color: #920AFF; }
+
+input {
+  
+  margin: 40px;
+  height: 30px;
+  width: 60px;
+  border: 1px solid #999;
+  border-radius: 2px;
+  padding: 0 0 0 10px;
+  
+}
+
+
+
+
+

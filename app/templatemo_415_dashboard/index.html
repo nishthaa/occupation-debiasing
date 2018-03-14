@@ -47,6 +47,9 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
             <ul class="templatemo-submenu">
               <li><a href="javascript:;">
                 <div id="flat-slider"></div>
+                <input type="number" id = "from" value="5">
+                <input type="number" id = "to" value="10">
+
               </a></li>
             </ul>
           </li>
@@ -136,12 +139,20 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
           backgroundColor: '#ffffff',
           color: '#333',
           hoverOpacity: 0.7,
-          selectedColor: '#666666',
+          selectedColor: '#ff45ff',
           enableZoom: true,
           showTooltip: true,
           values: sample_data,
           scaleColors: ['#C8EEFF', '#006491'],
+          onRegionClick:function(event, code) {                         
+            var name = (code);                        
+            //alert(name);
+            console.log(name);                    
+          },
           normalizeFunction: 'polynomial'
+          // onRegionClick: function (event, code) {
+          //   alert(map.getRegionName(code));
+          // }
         });
       });
     </script>
