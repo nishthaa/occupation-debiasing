@@ -47,8 +47,8 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
               <i class="fa fa-calendar"></i> Select Time Period <div class="pull-right"><span class="caret"></span></div>
             <ul class="templatemo-submenu">
               <li><a href="javascript:;">
-                <input type="number" id = "from" value="15">
-                <input type="number" id = "to" value="35"></a>
+                <input type="number" id = "from" value="1970">
+                <input type="number" id = "to" value="2000"></a>
               </li>
               <li><a href="javascript:;">
                 
@@ -80,7 +80,7 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
                       <label for="about">Insert your story here</label>
                       <input name="about" type="hidden">
                       <div id="editor-container">
-                        <p>Type here...</p>
+                        <p></p>
                       </div>
                     </div>
                     <div class = "row">
@@ -99,8 +99,7 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
           <div class="main" id="section2">
             <section>
                <div class="list-group" id="exampleSection">
-                <ul>
-                </ul>
+                
                 </div>
             </section>
            
@@ -113,7 +112,7 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
           
         </div>
       </div>
-      </div> -->
+      </div>
       <footer class="templatemo-footer">
         <div class="templatemo-copyright">
           <p>Copyright &copy; 2084 Your Company Name</p>
@@ -202,10 +201,14 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
         $("#submit").on('click', function(event) {
           event.preventDefault();
           var myQuery = quill.getText();
+          var time_from = $("#from").val();
+          var time_to = $("#to").val();
+          
+          console.log(time_from);
 
           var reply = " ";
 
-          var resp = $.post("/api/bias-checker", {query: myQuery}, function(a){
+          var resp = $.post("/api/bias-checker", {query: myQuery, from: time_from, to: time_to}, function(a){
             reply = a;
             console.log(reply);
             var lines = a.split("\n");
@@ -213,50 +216,56 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
             numLines = lines.length;
 
             var exampleSection = document.getElementById("exampleSection");
-            var exampleList = exampleSection.childNodes[1];
-            while (exampleList.hasChildNodes()) {
-              exampleList.removeChild(exampleList.lastChild);
+            //var exampleList = exampleSection.childNodes[1];
+            while (exampleSection.hasChildNodes()) {
+              exampleSection.removeChild(exampleSection.lastChild);
             }
-            console.log(exampleList);
+            console.log(exampleSection);
          
 
-            var start = document.createElement("LI");
+            var start = document.createElement("A");
             start.className = "list-group-item active";
             var heading  = document.createElement("H4");
             heading.className = "list-group-item-heading";
             heading.textContent = lines[0];
             console.log(lines[1]);
             start.appendChild(heading);
-            exampleList.appendChild(start);
+            exampleSection.appendChild(start);
             //console.log(exampleList + "hi");
 
             if(numLines > 1) {
 
               for(var i=1; i < numLines;i++){
 
-                var displayLine = document.createElement("LI");
-                displayLine.className = "list-group-item";
+                if(lines[i].length > 1) {
+                  var displayLine = document.createElement("A");
+                  displayLine.className = "list-group-item";
 
-                var exampleContent = lines[i].split(";");
-                var numExamples = exampleContent.length;
+                  var exampleContent = lines[i].split(";");
+                  var numExamples = exampleContent.length;
 
-                var exampleHeading = document.createElement("H4");
-                exampleHeading.className = "list-group-item-heading";
-                exampleHeading.textContent = exampleContent[0];
+                  var exampleHeading = document.createElement("H4");
+                  exampleHeading.className = "list-group-item-heading";
+                  exampleHeading.textContent = exampleContent[0];
+                  displayLine.appendChild(exampleHeading);
+                  
 
-                exampleListings = document.createElement("UL");
+                  exampleListings = document.createElement("UL");
 
-                for(var j=1; j<numExamples; j++){
+                  for(var j=1; j<numExamples; j++){
 
-                  exampleEntry = document.createElement("LI");
-                  //exampleEntry.className = "list-group-item";
-                  exampleText = document.createTextNode(exampleContent[j]);
-                  exampleEntry.appendChild(exampleText);
-                  exampleListings.appendChild(exampleEntry);
+                    exampleEntry = document.createElement("LI");
+                    exampleEntry.className = "list-group-item-text";
+                    exampleText = document.createTextNode(exampleContent[j]);
+                    exampleEntry.appendChild(exampleText);
+                    exampleListings.appendChild(exampleEntry);
 
+                  }
+
+
+                  displayLine.appendChild(exampleListings);
+                  exampleSection.appendChild(displayLine);
                 }
-
-                exampleList.appendChild(exampleListings);
 
               }
               

@@ -2,10 +2,11 @@ $(document).ready( function() {
 
 	$("#flat-slider")
     .slider({
-        max: 50,
-        min: 0,
+        max: 2020,
+        min: 1000,
         range: true,
-        values: [15, 35],
+        step: 5,
+        values: [1970, 2000],
         
     })
     .slider("pips", {
@@ -16,8 +17,8 @@ $(document).ready( function() {
 
     var $slider = $("#flat-slider"),
         $input = $("#from")
-          min = 0,
-          max = 50;
+          min = 1000,
+          max = 2020;
 
       $input.on("change", function(e) {
       
@@ -49,8 +50,8 @@ $(document).ready( function() {
       });
 
         $input2 = $("#to")
-          min = 0,
-          max = 50;
+          min = 1000,
+          max = 2020;
 
       $input2.on("change", function(e) {
       
@@ -80,6 +81,8 @@ $(document).ready( function() {
         $input2.val( ui.values[1] );
       
       });
+
+
 
 
 
