@@ -3,7 +3,7 @@ import string
 
 
 def is_occupation(occ):
-	fh = open("../data/result.txt")
+	fh = open("data/result.txt")
 	for line in fh:
 		toks = line.split(",")
 		words = [tok.strip().lower() for tok in toks]
@@ -14,7 +14,7 @@ def is_occupation(occ):
 	return False
 
 def is_male(subj):
-	fm = open("../data/male.txt")
+	fm = open("data/male.txt")
 	for line in fm:
 		if(line.strip().lower() == subj):
 			fm.close()
@@ -23,7 +23,7 @@ def is_male(subj):
 	return False
 
 def is_female(subj):
-	fm = open("../data/female.txt")
+	fm = open("data/female.txt")
 	for line in fm:
 		if(line.strip().lower() == subj):
 			fm.close()
@@ -40,7 +40,7 @@ def check_for_bias(sentence):
 	return biased
 
 def extract_examples(word, gender):
-	fe = open("../data/examples.txt")
+	fe = open("data/examples.txt")
 	for line in fe:
 		toks = line.split(";")
 		if toks[0].lower() == word and gender == "male":
@@ -50,30 +50,31 @@ def extract_examples(word, gender):
 	return None
 
 def output(biased):
-	fe = open("../data/examples.txt")
+	fe = open("data/examples.txt")
 	examples = ""
 	
 	if len(biased) == 0:
-		start = ("\nThis sentence is completely free from bias!\n")
+		start = "This sentence is completely free from bias!\n"
 	else:
-		start = ("\nYour sentence seems to have some bias towards a gender. Here is where you can improve it:\n")
+		start = "Your sentence seems to have some bias towards a gender. Here is where you can improve it:\n"
 
 	for pair in biased:
 		if(pair[0] == "male"):
 			examples = extract_examples(pair[1], "female")
-			show(pair[1], examples, "female", start)
+			return show(pair[1], examples, "female", start)
 		else:
-			examples = extract_examples(pair[1], "male", start)
-			show(pair[1], examples, "male")
+			examples = extract_examples(pair[1], "male")
+			return show(pair[1], examples, "male", start)
 
 def show(occupation, examples, gender, start):
-	s = start + ("- %s can be a %s too. Here are some examples - \n\n" %(occupation.capitalize(), gender))
+	s = start + occupation.capitalize() + " can be a " + gender + " too. Here are some examples - "
 	examples = examples.split(",")
 	for example in examples:
 		nname = example.split("/")[-1]
 		name = nname.replace("_", " ")
-		s = s + ("\t- %s (%s)\n" %(name.strip(), example.strip()))
+		s = s + ";" + name.strip() + " [" + example.strip() + "]" 
 	s = s + "\n"
+	return s
 
 
 def test():
