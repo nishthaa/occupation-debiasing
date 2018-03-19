@@ -1,9 +1,0 @@
-SELECT DISTINCT ?person, ?occupation, ?city, ?country, ?birthDate, ?deathDate WHERE {
-?person rdf:type ?occupation .
-FILTER contains(str(?occupation),"Painter") .
-?person foaf:gender "female"@en .
-?person dbo:birthPlace ?city .
-?city dbo:country ?country .
-?person dbo:birthDate ?birthDate .
-?person dbo:deathDate ?deathDate .
-}
