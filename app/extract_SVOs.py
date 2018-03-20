@@ -5,6 +5,9 @@ from neuralcoref import Coref
 
 SUBJECT_TOKENS = ["nsubj", "nsubjpass", "csubj", "csubjpass", "agent", "expl"]
 OBJECT_TOKENS = ["dobj", "dative", "attr", "oprd", "appos"]
+ENGLISH_MALE = ['albert', 'alfred', 'adolf', 'brian', 'callum', 'charles', 'charlie', 'christopher', 'connor', 'daniel', 'david', 'elvis', 'ethan', 'friedrich', 'geoffrey', 'george', 'harry', 'jack', 'jacob', 'jake', 'james', 'jerry', 'joe', 'john', 'johnathon', 'joseph', 'liam', 'mason', 'matthew', 'michael', 'noah', 'oliver', 'oscar', 'patrick', 'phillip', 'ralph', 'richard', 'robert', 'ronaldo', 'russell', 'scott', 'simon', 'stanley', 'stephen', 'stuart', 'thomas', 'tom', 'travis', 'victor', 'wayne', 'william']
+ENGLISH_FEMALE = ['abigail', 'agatha', 'amelia', 'amy', 'annabelle', 'ava', 'barbara', 'bethany', 'bridget', 'caroline', 'charlotte', 'elizabeth', 'emily', 'emma', 'gloria', 'heidi', 'hillary', 'isabella', 'jasmine', 'jennifer', 'jessica', 'joanne', 'kathleen', 'kimberly', 'lacy', 'lauren', 'lily', 'linda', 'madison', 'madonna', 'margaret', 'maria', 'megan', 'melinda', 'mia', 'michelle', 'naomi', 'olivia', 'olivia', 'oprah', 'patricia', 'poppy', 'samantha', 'sarah', 'sophia', 'susan', 'suzanne', 'tracy', 'vanessa', 'victoria']
+DEFAULT = 'mary'
 
 def get_subjects_from_conj(sbj_tok):
     subject_words = []
@@ -161,10 +164,14 @@ def is_female(subj):
 
 def extract_triplets(sentence):
     nlp = spacy.load('en')
+    tok = nlp("John is a doctor and Mary is a nurse")
+    svos = find_triplets(tok)
+    print(svos)
+
 
     ne_tree = nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sentence)))
     iob_tagged = nltk.tree2conlltags(ne_tree)
-
+    print(iob_tagged)
     male_counter = 0
     female_counter = 0
     mappings = {}
@@ -174,50 +181,65 @@ def extract_triplets(sentence):
     for name in ENGLISH_FEMALE:
         mappings[name] = []
 
+    mappings[DEFAULT] = []
+
+    b_persons = []
 
     for ent in iob_tagged:
         if ent[1] == 'NNP':
             if ent[2] != 'B-PERSON':
-                if(is_male(ent[1])) and male_counter < len(ENGLISH_MALE):
-                    sentence.replace(ent[1], ENGLISH_MALE[male_counter])
-                    mappings[ENGLISH_MALE[male_counter]].append(ent[1])
+                print(is_male(ent[0].lower()))
+                if is_male(ent[0].lower()) and male_counter < len(ENGLISH_MALE):
+                    sentence = sentence.replace(ent[0], ENGLISH_MALE[male_counter].capitalize())
+                    mappings[ENGLISH_MALE[male_counter]].append(ent[0])
                     male_counter+=1
-                else if(is_female(ent[1])) and female_counter < len(ENGLISH_FEMALE):
-                    sentence.replace(ent[1], ENGLISH_FEMALE[female_counter])
-                    mappings[ENGLISH_FEMALE[female_counter]].append(ent[1])
+                elif is_female(ent[0].lower()) and female_counter < len(ENGLISH_FEMALE):
+                    sentence = sentence.replace(ent[0], ENGLISH_FEMALE[female_counter].capitalize())
+                    mappings[ENGLISH_FEMALE[female_counter]].append(ent[0])
                     female_counter+=1
                 else:
-                    sentence.replace(ent[1], DEFAULT)
+                    sentence = sentence.replace(ent[0], DEFAULT)
+                    mappings[DEFAULT].append(ent[0])
 
+            else:
+                b_persons.append(ent[1])
+
+    print(sentence, "***********************")
     coref = Coref()
     clusters = coref.continuous_coref(utterances=sentence)
 
-    sentence = coref.get_resolved_utterances()
+    sentence = coref.get_resolved_utterances()[0]
     print(sentence)
 
     tok = nlp(sentence)
 
 
     svos = find_triplets(tok)
-
+   
     count = 0
 
+    new_svos = []
+
     for triplet in svos:
-        if triplet[0] != DEFAULT:
-            if(triplet[0] in mappings.keys()):
-                popped = svos.pop(triplet)
-                addition = (mappings[popped[0]], popped[1], popped[2])
-        else:
-            popped = svos.pop(triplet)
-            addition = (mappings[popped[0][count]], popped[1], popped[2])
-            count += 1
+
+        if triplet[0] not in b_persons:
+            if triplet[0] != DEFAULT:
+                if triplet[0] in mappings.keys():
+                    popped = triplet
+                    addition = (mappings[popped[0]][0], popped[1], popped[2])
+                    new_svos.append(addition)
+            else:
+                popped = triplet
+                addition = (mappings[popped[0][count]], popped[1], popped[2])
+                new_svos.append(addition)
+                count += 1
     
-    return svos
+    return new_svos
 
 
 
 def test():
-    print(extract_triplets("Ram is a doctor. Sita is a nurse"))
+    print(extract_triplets("John works in a hospital. He is a doctor"))
 
 if __name__ == "__main__":
     test()
