@@ -164,14 +164,14 @@ def is_female(subj):
 
 def extract_triplets(sentence):
     nlp = spacy.load('en')
-    tok = nlp("John is a doctor and Mary is a nurse")
-    svos = find_triplets(tok)
-    print(svos)
+    # tok = nlp("John is a doctor and Mary is a nurse")
+    # svos = find_triplets(tok)
+    # #print(svos)
 
 
     ne_tree = nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sentence)))
     iob_tagged = nltk.tree2conlltags(ne_tree)
-    print(iob_tagged)
+    #print(iob_tagged)
     male_counter = 0
     female_counter = 0
     mappings = {}
@@ -188,7 +188,7 @@ def extract_triplets(sentence):
     for ent in iob_tagged:
         if ent[1] == 'NNP':
             if ent[2] != 'B-PERSON':
-                print(is_male(ent[0].lower()))
+                #print(is_male(ent[0].lower()))
                 if is_male(ent[0].lower()) and male_counter < len(ENGLISH_MALE):
                     sentence = sentence.replace(ent[0], ENGLISH_MALE[male_counter].capitalize())
                     mappings[ENGLISH_MALE[male_counter]].append(ent[0])
@@ -202,14 +202,14 @@ def extract_triplets(sentence):
                     mappings[DEFAULT].append(ent[0])
 
             else:
-                b_persons.append(ent[1])
+                b_persons.append(ent[0])
 
-    print(sentence, "***********************")
+    #print(sentence, "***********************")
     coref = Coref()
     clusters = coref.continuous_coref(utterances=sentence)
 
     sentence = coref.get_resolved_utterances()[0]
-    print(sentence)
+    #print(sentence)
 
     tok = nlp(sentence)
 
@@ -221,8 +221,7 @@ def extract_triplets(sentence):
     new_svos = []
 
     for triplet in svos:
-
-        if triplet[0] not in b_persons:
+        if triplet[0].capitalize() not in b_persons:
             if triplet[0] != DEFAULT:
                 if triplet[0] in mappings.keys():
                     popped = triplet
@@ -233,13 +232,15 @@ def extract_triplets(sentence):
                 addition = (mappings[popped[0][count]], popped[1], popped[2])
                 new_svos.append(addition)
                 count += 1
+        else:
+            new_svos.append(triplet)
     
     return new_svos
 
 
 
 def test():
-    print(extract_triplets("John works in a hospital. He is a doctor"))
+    print(extract_triplets("Widowed and ailing Savitri Choudhury lives a wealthy lifestyle along with her son Anil in a palatial mansion in India."))
 
 if __name__ == "__main__":
     test()
