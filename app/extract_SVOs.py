@@ -240,7 +240,7 @@ def extract_triplets(sentence):
 
 
 def test():
-    print(extract_triplets("Widowed and ailing Savitri Choudhury lives a wealthy lifestyle along with her son Anil in a palatial mansion in India."))
+    print(extract_triplets("Rohit is an aspiring Abbot who works as a salesman in a car showroom, run by Malik. One day he meets Sonia, daughter of Mr. Saxena, when he goes to deliver a car to her home as her birthday present."))
 
 if __name__ == "__main__":
     test()

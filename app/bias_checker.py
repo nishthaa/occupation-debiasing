@@ -36,9 +36,10 @@ def is_female(subj):
 def check_for_bias(sentence):
 	svos = extract_SVOs.extract_triplets(sentence)
 	hits = [triples for triples in svos if is_occupation(triples[2]) == "neutral"]
-	biased = [("male", triples[2]) for triples in hits if is_male(triples[0])]
-	biased.extend([("female", triples[2]) for triples in hits if is_female(triples[0])])
+	biased = [("male", triples[2]) for triples in hits if is_male(triples[0].lower())]
+	biased.extend([("female", triples[2]) for triples in hits if is_female(triples[0].lower())])
 	#print(svos)
+	#print(biased)
 	return biased
 
 def extract_examples(word, gender):
