@@ -15,12 +15,16 @@ def index():
 
 @app.route("/api/bias-checker", methods=['POST', 'GET'])
 def handle():
-	q = request.args.get('query', type=str)
+	print(request.form['query'])
+	tf = int(request.form['from'])
+	tt = int(request.form['to'])
+	country = str(request.form['place'])
+	print(tf, tt, country)
 	sentence = str(request.form['query'])
 	print(sentence)
 	biased = bias_checker.check_for_bias(sentence)
-	print(bias_checker.output(biased))
-	resp = bias_checker.output(biased)
+	print(bias_checker.output(biased, tf, tt, country))
+	resp = bias_checker.output(biased, tf, tt, country)
 	return resp
 
 

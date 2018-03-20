@@ -115,7 +115,7 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
       </div>
       <footer class="templatemo-footer">
         <div class="templatemo-copyright">
-          <p>Copyright &copy; 2084 Your Company Name</p>
+          <p>Copyright &copy; IBM IRL</p>
         </div>
       </footer>
     </div>
@@ -140,6 +140,7 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
           showTooltip: true,
           values: sample_data,
           scaleColors: ['#C8EEFF', '#006491'],
+          selectedRegions: ['in'],
           onRegionClick:function(event, code) {                         
             var name = (code);                        
             //alert(name);
@@ -198,17 +199,47 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
 
         alert("ok");
 
+        var ctry = "in";
+
+        $('#vmap_world').vectorMap({
+          map: 'world_en',
+          backgroundColor: '#ffffff',
+          color: '#333',
+          hoverOpacity: 0.7,
+          selectedColor: '#ff45ff',
+          enableZoom: true,
+          showTooltip: true,
+          values: sample_data,
+          scaleColors: ['#C8EEFF', '#006491'],
+          selectedRegions: ['in'],
+          onRegionSelect:function(event, code) {                         
+            var name = (code);                        
+            //alert(name);
+            ctry = (code);
+            console.log(code);                    
+          },
+          normalizeFunction: 'polynomial'
+          // onRegionClick: function (event, code) {
+          //   alert(map.getRegionName(code));
+          // }
+        });
+
+
+        // Code for submit button
         $("#submit").on('click', function(event) {
           event.preventDefault();
           var myQuery = quill.getText();
           var time_from = $("#from").val();
           var time_to = $("#to").val();
+          var place = ctry;
+          console.log("------------");
+          console.log(place);
           
           console.log(time_from);
 
           var reply = " ";
 
-          var resp = $.post("/api/bias-checker", {query: myQuery, from: time_from, to: time_to}, function(a){
+          var resp = $.post("/api/bias-checker", {query: myQuery, from: time_from, to: time_to, place: place}, function(a){
             reply = a;
             console.log(reply);
             var lines = a.split("\n");

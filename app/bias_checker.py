@@ -42,7 +42,7 @@ def check_for_bias(sentence):
 	return biased
 
 def extract_examples(word, gender):
-	fe = open("data/examples-new.txt")
+	fe = open("data/examples-new2.txt")
 	for line in fe:
 		toks = line.split("|")
 		if toks[0].lower() == word and gender == "male":
@@ -52,7 +52,7 @@ def extract_examples(word, gender):
 	return None
 
 def output(biased, time_from, time_to, place):
-	fe = open("data/examples-new.txt")
+	fe = open("data/examples-new2.txt")
 	examples = ""
 	
 	if len(biased) == 0:
@@ -75,27 +75,32 @@ def output(biased, time_from, time_to, place):
 	
 
 	if s != "":
-		return start + s
+		return s
 	else:
 		start = "This sentence is completely free from bias!\n"
 		return start
 
 def show(occupation, examples, gender, start, time_from, time_to, place):
+
+	place = COUNTRY_CODES[place.lower()]
 	s = start + occupation.capitalize() + " can be a " + gender + " too. Here are some examples - "
+	examples = examples.rstrip(";")
 	examples = examples.split(";")
 	count = 0
 	for example in examples:
-		fields = example.split(",")
-		nname = fields[0].split("/")[-1]
-		name = nname.replace("_", " ")
-		birth_country = fields[3].split("/")[-1].lower().replace("_"," ")
-		death_country = fields[5].split("/")[-1].lower().replace("_"," ")
-		birth_year = int(fields[7].split("-")[0])
-		death_year = int(fields[8].split("-")[0])
+		if len(example) > 1:
 
-		if birth_year >= time_from and birth_year <= time_to and (birth_country == place or death_country == place):
-			s = s + ";" + name.strip() + " [" + fields[0].strip() + "]"	   
-			count+=1
+			fields = example.split("\t")
+			nname = fields[0].split("/")[-1]
+			name = nname.replace("_", " ")
+			birth_country = fields[3].split("/")[-1].lower().replace("_"," ")
+			death_country = fields[5].split("/")[-1].lower().replace("_"," ")
+			birth_year = int(fields[6].split("-")[0])
+			death_year = int(fields[7].split("-")[0])
+
+			if birth_year >= time_from and birth_year <= time_to and (birth_country == place or death_country == place):
+				s = s + ";" + name.strip() + " [" + fields[0].strip() + "]"	   
+				count+=1
 		
 		 
 	s = s + "\n"
@@ -111,7 +116,7 @@ def test():
 	time_to = int(input("Please enter end of time period - \n\n\t"))
 	country = input("Please enter country - \n\n\t")
 	biased = check_for_bias(sentence)
-	output(biased, time_from, time_to, country.lower().strip())
+	print(output(biased, time_from, time_to, country))
 
 if __name__ == "__main__":
 	test()
