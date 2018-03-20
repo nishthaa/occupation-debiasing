@@ -1,5 +1,7 @@
 from nltk.stem.wordnet import WordNetLemmatizer
+import nltk
 import spacy
+from neuralcoref import Coref
 
 SUBJECT_TOKENS = ["nsubj", "nsubjpass", "csubj", "csubjpass", "agent", "expl"]
 OBJECT_TOKENS = ["dobj", "dative", "attr", "oprd", "appos"]
@@ -139,18 +141,83 @@ def printDeps(toks):
     for tok in toks:
         print(tok.orth_, tok.dep_, tok.pos_, tok.head.orth_, [t.orth_ for t in tok.lefts], [t.orth_ for t in tok.rights])
 
+def is_male(subj):
+    fm = open("data/male.txt")
+    for line in fm:
+        if(line.strip().lower() == subj):
+            fm.close()
+            return True
+    fm.close()
+    return False
+
+def is_female(subj):
+    fm = open("data/female.txt")
+    for line in fm:
+        if(line.strip().lower() == subj):
+            fm.close()
+            return True
+    fm.close()
+    return False
+
 def extract_triplets(sentence):
     nlp = spacy.load('en')
 
+    ne_tree = nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sentence)))
+    iob_tagged = nltk.tree2conlltags(ne_tree)
+
+    male_counter = 0
+    female_counter = 0
+    mappings = {}
+
+    for name in ENGLISH_MALE:
+        mappings[name] = []
+    for name in ENGLISH_FEMALE:
+        mappings[name] = []
+
+
+    for ent in iob_tagged:
+        if ent[1] == 'NNP':
+            if ent[2] != 'B-PERSON':
+                if(is_male(ent[1])) and male_counter < len(ENGLISH_MALE):
+                    sentence.replace(ent[1], ENGLISH_MALE[male_counter])
+                    mappings[ENGLISH_MALE[male_counter]].append(ent[1])
+                    male_counter+=1
+                else if(is_female(ent[1])) and female_counter < len(ENGLISH_FEMALE):
+                    sentence.replace(ent[1], ENGLISH_FEMALE[female_counter])
+                    mappings[ENGLISH_FEMALE[female_counter]].append(ent[1])
+                    female_counter+=1
+                else:
+                    sentence.replace(ent[1], DEFAULT)
+
+    coref = Coref()
+    clusters = coref.continuous_coref(utterances=sentence)
+
+    sentence = coref.get_resolved_utterances()
+    print(sentence)
+
     tok = nlp(sentence)
-    #printDeps(tok)
+
+
     svos = find_triplets(tok)
+
+    count = 0
+
+    for triplet in svos:
+        if triplet[0] != DEFAULT:
+            if(triplet[0] in mappings.keys()):
+                popped = svos.pop(triplet)
+                addition = (mappings[popped[0]], popped[1], popped[2])
+        else:
+            popped = svos.pop(triplet)
+            addition = (mappings[popped[0][count]], popped[1], popped[2])
+            count += 1
     
     return svos
 
 
+
 def test():
-    print(extract_triplets("I am a scientist"))
+    print(extract_triplets("Ram is a doctor. Sita is a nurse"))
 
 if __name__ == "__main__":
     test()
