@@ -241,8 +241,9 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
 
           var resp = $.post("/api/bias-checker", {query: myQuery, from: time_from, to: time_to, place: place}, function(a){
             reply = a;
-            console.log(reply);
-            var lines = a.split("\n");
+            console.log(reply['response'][0]);
+
+            var lines = reply['response'][0].split("\n");
             console.log(lines.length);
             numLines = lines.length;
 
@@ -300,15 +301,25 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
 
               }
               
+              var triplets = reply['response'][1]
+
+              console.log(triplets)
+
+              for (var i = 0; i < triplets.length; i++) {
+                
+              }
 
             }
+
+
+
 
             
 
 
           });
           
-        })
+        });
 
       });
     </script>

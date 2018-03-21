@@ -162,12 +162,37 @@ def is_female(subj):
     fm.close()
     return False
 
+def is_occupation(occ):
+    fh = open("data/result.txt")
+    for line in fh:
+        toks = line.split(",")
+        words = [tok.strip().lower() for tok in toks]
+        if words[0] == occ.lower().strip():
+            fh.close()
+            return words[2]
+    fh.close()
+    return False
+
 def extract_triplets(sentence):
     nlp = spacy.load('en')
     # tok = nlp("John is a doctor and Mary is a nurse")
     # svos = find_triplets(tok)
     # #print(svos)
 
+    # make all occupation words to lower
+    # for higher accuracy
+    words = sentence.split()
+    cleaned_words = []
+    for word in words:
+        cleaned_word = word
+        check_word = word.strip(",").strip(";").strip(".")
+        if is_occupation(check_word.lower()):
+            cleaned_word = cleaned_word.lower()
+        cleaned_words.append(cleaned_word)
+
+    sentence = " ".join(cleaned_words)
+
+    #print(sentence)
 
     ne_tree = nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sentence)))
     iob_tagged = nltk.tree2conlltags(ne_tree)
@@ -209,7 +234,7 @@ def extract_triplets(sentence):
     clusters = coref.continuous_coref(utterances=sentence)
 
     sentence = coref.get_resolved_utterances()[0]
-    #print(sentence)
+    print(sentence)
 
     tok = nlp(sentence)
 
@@ -240,7 +265,7 @@ def extract_triplets(sentence):
 
 
 def test():
-    print(extract_triplets("Rohit is an aspiring Abbot who works as a salesman in a car showroom, run by Malik. One day he meets Sonia, daughter of Mr. Saxena, when he goes to deliver a car to her home as her birthday present."))
+    print(extract_triplets("Ram works at the church. He is an Abbot."))
 
 if __name__ == "__main__":
     test()

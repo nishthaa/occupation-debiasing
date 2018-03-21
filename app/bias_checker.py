@@ -40,7 +40,7 @@ def check_for_bias(sentence):
 	biased.extend([("female", triples[2]) for triples in hits if is_female(triples[0].lower())])
 	#print(svos)
 	#print(biased)
-	return biased
+	return biased, svos
 
 def extract_examples(word, gender):
 	fe = open("data/examples-new2.txt")
@@ -116,7 +116,7 @@ def test():
 	time_from = int(input("Please enter start of time period - \n\n\t"))
 	time_to = int(input("Please enter end of time period - \n\n\t"))
 	country = input("Please enter country - \n\n\t")
-	biased = check_for_bias(sentence)
+	biased, svos = check_for_bias(sentence)
 	print(output(biased, time_from, time_to, country))
 
 if __name__ == "__main__":
