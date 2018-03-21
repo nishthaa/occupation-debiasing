@@ -20,6 +20,10 @@ $(document).ready( function() {
           min = 1000,
           max = 2020;
 
+        $inputList = $("#from2")
+          min = 1000
+          max = 2020
+
       $input.on("change", function(e) {
       
         var num = parseFloat( $input.val() ),
@@ -46,12 +50,17 @@ $(document).ready( function() {
       
       $slider.on("slide", function(e,ui) {
         $input.val( ui.values[0] );
+        $inputList.val( ui.values[0] );
       
       });
 
         $input2 = $("#to")
           min = 1000,
           max = 2020;
+
+        $inputList2 = $("#to2")
+          min = 1000,
+          max = 2020;        
 
       $input2.on("change", function(e) {
       
@@ -79,6 +88,8 @@ $(document).ready( function() {
       
       $slider.on("slide", function(e,ui) {
         $input2.val( ui.values[1] );
+        $inputList2.val( ui.values[1] );
+
       
       });
 

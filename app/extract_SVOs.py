@@ -175,6 +175,7 @@ def is_occupation(occ):
 
 def extract_triplets(sentence):
     nlp = spacy.load('en')
+    
     # tok = nlp("John is a doctor and Mary is a nurse")
     # svos = find_triplets(tok)
     # #print(svos)
@@ -212,24 +213,22 @@ def extract_triplets(sentence):
 
     for ent in iob_tagged:
         if ent[1] == 'NNP':
-            if ent[2] != 'B-PERSON':
-                #print(is_male(ent[0].lower()))
-                if is_male(ent[0].lower()) and male_counter < len(ENGLISH_MALE):
-                    sentence = sentence.replace(ent[0], ENGLISH_MALE[male_counter].capitalize())
-                    mappings[ENGLISH_MALE[male_counter]].append(ent[0])
-                    male_counter+=1
-                elif is_female(ent[0].lower()) and female_counter < len(ENGLISH_FEMALE):
-                    sentence = sentence.replace(ent[0], ENGLISH_FEMALE[female_counter].capitalize())
-                    mappings[ENGLISH_FEMALE[female_counter]].append(ent[0])
-                    female_counter+=1
-                else:
-                    sentence = sentence.replace(ent[0], DEFAULT)
-                    mappings[DEFAULT].append(ent[0])
-
+            #print(is_male(ent[0].lower()))
+            if is_male(ent[0].lower()) and male_counter < len(ENGLISH_MALE):
+                sentence = sentence.replace(ent[0], ENGLISH_MALE[male_counter].capitalize())
+                mappings[ENGLISH_MALE[male_counter]].append(ent[0])
+                male_counter+=1
+            elif is_female(ent[0].lower()) and female_counter < len(ENGLISH_FEMALE):
+                sentence = sentence.replace(ent[0], ENGLISH_FEMALE[female_counter].capitalize())
+                mappings[ENGLISH_FEMALE[female_counter]].append(ent[0])
+                female_counter+=1
             else:
-                b_persons.append(ent[0])
+                sentence = sentence.replace(ent[0], DEFAULT)
+                mappings[DEFAULT].append(ent[0])
 
-    #print(sentence, "***********************")
+
+
+
     coref = Coref()
     clusters = coref.continuous_coref(utterances=sentence)
 
@@ -265,7 +264,7 @@ def extract_triplets(sentence):
 
 
 def test():
-    print(extract_triplets("Ram works at the church. He is an Abbot."))
+    print(extract_triplets("Ram is an Abbot and Sita is a nurse."))
 
 if __name__ == "__main__":
     test()
