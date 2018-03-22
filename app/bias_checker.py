@@ -102,7 +102,7 @@ def show(occupation, examples, gender, start, time_from, time_to, place):
 			if fields[7].split("-")[0] != "": death_year = int(fields[7].split("-")[0])
 
 			if ((birth_year >= time_from and birth_year <= time_to) or (death_year <= time_to and death_year >=time_from)) and (birth_country == place or death_country == place):
-				s = s + ";" + name.strip() + " [" + fields[0].strip() + "]"	   
+				s = s + ";" + name.strip() + " " + fields[0].strip()	   
 				count+=1
 		
 		 

@@ -325,8 +325,12 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
 
                     exampleEntry = document.createElement("LI");
                     exampleEntry.className = "list-group-item-text";
-                    exampleText = document.createTextNode(exampleContent[j]);
-                    exampleEntry.appendChild(exampleText);
+                    exampleLink = document.createElement("A");
+                    exampleLinkText = exampleContent[j].split(" ").slice(-1)[0];
+                    exampleLink.href = exampleLinkText;
+                    exampleLink.target = "_blank";
+                    exampleLink.text = exampleContent[j].split(" ").slice(0, exampleContent[j].split(" ").length - 1).join(" ");
+                    exampleEntry.appendChild(exampleLink);
                     exampleListings.appendChild(exampleEntry);
 
                   }
