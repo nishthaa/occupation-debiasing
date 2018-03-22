@@ -59,7 +59,7 @@ def output(biased, time_from, time_to, place):
 		start = "This sentence is completely free from bias!\n"
 		return start
 	else:
-		start = "Your sentence seems to have some bias towards a gender. Here is where you can improve it:\n"
+		start = "Your input displays Gender Bias from occupational viewpoint.\n"
 
 	s = ""
 
