@@ -249,7 +249,7 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
 
               tmp = toks[i].replace(/(^[ '\n\.\^\$\*#&]+)|([ '\.\^\$\*#&\n]+$)/g, '');
               console.log("tmp: " + tmp);
-              if(tmp == triplets[j][0] || tmp == triplets[j][2]) {
+              if(tmp == triplets[j][0] || tmp == triplets[j][2] || tmp.toLowerCase() == triplets[j][2]) {
                 console.log(tmp + " " + j);
                 quill.formatText(content.indexOf(tmp), tmp.length, {'bold': false, 'color': 'rgb(0, 0, 255)'});
                 // toks[i] = toks[i].replace(tmp, "<mark>" + tmp + "</mark>");
@@ -348,7 +348,6 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
                 console.log(text)
                 text = applyHighlights(text, triplets);
                 console.log(text);
-              //quill.setText(text);
               }            
 
             }    
