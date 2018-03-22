@@ -41,7 +41,7 @@ def check_for_bias(sentence):
 	return biased, svos
 
 def extract_examples(word, gender):
-	fe = open("data/examples-new2.txt")
+	fe = open("data/examples.txt")
 	for line in fe:
 		toks = line.split("|")
 		if toks[0].lower() == word and gender == "male":
@@ -52,7 +52,7 @@ def extract_examples(word, gender):
 	return None
 
 def output(biased, time_from, time_to, place):
-	fe = open("data/examples-new2.txt")
+	fe = open("data/examples.txt")
 	examples = ""
 	
 	if len(biased) == 0:

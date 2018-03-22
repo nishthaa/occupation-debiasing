@@ -15,12 +15,43 @@ No examples found Assayer
 No examples found Babysitter
 No examples found Bagger
 No examples found Bagman
-No examples found Balancer
-No examples found Bank_robber
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Balancer") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Balancer
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Bank_robber") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Bank_robber
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Banker") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Banker
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Bard") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Bard
 No examples found Bargeman
-No examples found Barkeeper
-No examples found Baseball_player
-No examples found Basketmaker
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Barkeeper") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Barkeeper
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Barker") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Barker
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Baseball_player") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Baseball_player
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Basketmaker") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Basketmaker
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Bassoonist") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Bassoonist
 No examples found Bedder
 No examples found Beguine
 No examples found Bell_founder
@@ -55,6 +86,7 @@ No examples found Chief_financial_officer
 No examples found Chamberlain
 No examples found Chambermaid
 No examples found Charlatan
+'utf-8' codec can't decode byte 0x9c in position 103836: invalid start byte Chemist
 No examples found Chiffonier
 No examples found Cio
 No examples found Civil_engineer
@@ -69,7 +101,7 @@ No examples found Cosmetologist
 No examples found Costume_designer
 No examples found Courier
 No examples found Cowherd
-[Errno 60] Operation timed out Cowper
+No examples found Cowper
 No examples found Cowpoke
 No examples found Cpa
 No examples found Certified_public_accountant
@@ -78,34 +110,34 @@ No examples found Cropper
 No examples found Cutler
 No examples found Cutpurse
 No examples found Dairyman
-'utf-8' codec can't decode byte 0xf9 in position 41538: invalid start byte Dancer
+'utf-8' codec can't decode byte 0xcf in position 41538: invalid continuation byte Dancer
 No examples found Dba
 No examples found Day_laborer
-EndPointInternalError: endpoint returned code 500 and response. 
-
-Response:
-b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/csv\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Dermatologist") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Dermatologist
-HTTP Error 502: Bad Gateway Detective
-Remote end closed connection without response Dictator
 No examples found Dilettante
-No examples found Disc_jockeyNo examples found Docker
+No examples found Disc_jockey
+No examples found Docker
 No examples found Doctor_of_medicine
 No examples found Doorman
 No examples found Dowser
 No examples found Drawer
 No examples found Dresser
 No examples found Dressmaker
-No examples found Drill_instructor
+HTTP Error 502: Bad Gateway Drill_instructor
 No examples found Drover
 No examples found Dustman
 No examples found Educationalist
+'utf-8' codec can't decode byte 0xba in position 182607: invalid start byte Educator
 No examples found Egyptologist
 No examples found Electrical_engineer
 No examples found Emptor
 No examples found Engine_driver
-<urlopen error [Errno 65] No route to host> Enumerator
+No examples found Enumerator
 No examples found Estimator
 No examples found Exciseman
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Executioner") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Executioner
 No examples found Exotic_dancer
 No examples found Exterminator
 No examples found Factory_worker
@@ -124,9 +156,7 @@ No examples found Fishmonger
 No examples found Fitter
 No examples found Flight_attendant
 No examples found Floater
-[Errno 54] Connection reset by peer Flutist
-IncompleteRead(146880 bytes read, 1942592 more expected) Footballer
-Remote end closed connection without response Footpad
+No examples found Footpad
 No examples found Fortune_teller
 No examples found Fruiterer
 No examples found Fruitier
@@ -165,13 +195,16 @@ No examples found Hostler
 No examples found Hotel_manager
 No examples found Huckster
 No examples found Huntsman
-No examples found Husbandman
+<urlopen error [Errno 110] Connection timed out> Husbandman
 No examples found Iceman
 No examples found Illusionist
 No examples found Importer
 No examples found Indian_chief
 No examples found Innkeeper
-No examples found Interior_designer
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Interior_designer") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Interior_designer
 No examples found Interrogator
 No examples found Investment_banker
 No examples found Jagger
@@ -179,18 +212,38 @@ No examples found Jailer
 No examples found Janitor
 No examples found Joiner
 No examples found Jongleur
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Juggler") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Juggler
 No examples found Knacker
-No examples found Lagger
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Lagger") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Lagger
 No examples found Landed_gentry
 No examples found Landsman
 No examples found Lapidary
-No examples found Laster
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Laster") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Laster
 No examples found Law_enforcement
-No examples found Leech
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Leech") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Leech
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Lifeguard") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Lifeguard
 No examples found Lighterman
 No examples found Lighthouse_keeper
 No examples found Limner
-No examples found Lister
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Lister") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Lister
 No examples found Longshoreman
 No examples found Maderer
 No examples found Mailer
@@ -228,18 +281,15 @@ No examples found Pasteler
 No examples found Pavior
 No examples found Pettifogger
 No examples found Physical_therapist
+'utf-8' codec can't decode byte 0xd1 in position 440243: invalid continuation byte Physicist
 No examples found Piano_tuner
 No examples found Pickpocket
 No examples found Pigman
-EndPointInternalError: endpoint returned code 500 and response. 
-
-Response:
-b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/csv\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Pioneer") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Pioneer
 No examples found Plaiter
 No examples found Poacher
 No examples found Police_detective
 No examples found Police_officer
-'utf-8' codec can't decode byte 0xba in position 43175: invalid start byte Politician
+'utf-8' codec can't decode byte 0xba in position 43172: invalid start byte Politician
 No examples found Postillion
 No examples found Potboy
 No examples found Prestidigitator
@@ -250,7 +300,10 @@ No examples found Proctologist
 No examples found Procurator
 No examples found Proofreader
 No examples found Public_speaker
-No examples found Purser
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Purser") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Purser
 No examples found Quack
 No examples found Radiographer
 No examples found Ragpicker
@@ -264,7 +317,8 @@ No examples found Riveter
 No examples found Roofer
 No examples found Ropemaker
 No examples found Roper
-No examples found SacristanNo examples found Saddler
+No examples found Sacristan
+No examples found Saddler
 No examples found Salter
 No examples found Sartor
 No examples found Saucier
@@ -289,6 +343,7 @@ No examples found Shearer
 No examples found Shingler
 No examples found Shop_assistant
 No examples found Shrimper
+<urlopen error [Errno 110] Connection timed out> Slater
 No examples found Sleeper
 No examples found Sleuth
 No examples found Smelter
@@ -304,7 +359,8 @@ No examples found Stabler
 No examples found Stainer
 No examples found Stapler
 No examples found Stationer
-No examples found SteersmanNo examples found Stillroom
+No examples found Steersman
+No examples found Stillroom
 No examples found Stitcher
 No examples found Street_cleaner
 No examples found Street_sweeper
@@ -331,7 +387,37 @@ No examples found Test_pilot
 No examples found Theatre_director
 No examples found Theologist
 No examples found Thresher
-Remote end closed connection without response ThrowsterNo examples found Warrener
+No examples found Tiler
+No examples found Tiller
+No examples found Timekeeper
+No examples found Tinker
+No examples found Tinner
+No examples found Tinter
+No examples found Tippler
+No examples found Tipstaff
+No examples found Toller
+No examples found Toolmaker
+No examples found Tradesman
+No examples found Tramper
+No examples found Trampler
+EndPointInternalError: endpoint returned code 500 and response. 
+
+Response:
+b'Virtuoso S1T00 Error SR171: Transaction timed out\n\nSPARQL query:\n\n#output-format:text/tab-separated-values\n\n        SELECT ?person (SAMPLE(?occupation) AS ?perOcc) (SAMPLE(?bcity) AS ?perBcity) (SAMPLE(?bcountry) AS ?perBcountry) (SAMPLE(?dcity) AS ?perDcity) (SAMPLE(?dcountry) AS ?perDcountry) (SAMPLE(?birthDate) AS ?perBdate) (SAMPLE(?deathDate) AS ?perDdate)\n        WHERE {\n            ?person rdf:type ?occupation .\n            FILTER contains(str(?occupation),"Translator") .\n            ?person foaf:gender "male"@en .\n            ?person dbo:birthPlace ?bcity .\n            ?bcity dbo:country ?bcountry .\n            ?person dbo:deathPlace ?dcity .\n            ?dcity dbo:country ?dcountry .\n            ?person dbo:birthDate ?birthDate .\n            ?person dbo:deathDate ?deathDate .\n        } GROUP BY ?person\n    ' Translator
+No examples found Trencherman
+No examples found Truck_driver
+No examples found Tumbler
+No examples found Turnkey
+No examples found Typist
+No examples found Undercover_agent
+No examples found Unemployed
+No examples found Upholder
+No examples found Upholsterer
+No examples found Verger
+No examples found Victualler
+No examples found Vintager
+No examples found Warder
+No examples found Warrener
 No examples found Waterman
 No examples found Weatherman
 No examples found Weeper
@@ -352,3 +438,85 @@ No examples found Caretaker
 No examples found Croupier
 No examples found Palmist
 No examples found Insurance_broker
+No examples found Barman
+No examples found Travel_agent
+No examples found Ticket_collector
+No examples found Telecaster
+No examples found Farm_worker
+No examples found Poulterer
+No examples found Merchandiser
+No examples found Employment_agent
+No examples found Estate_agent
+No examples found Repairer
+No examples found Prosthetist
+No examples found Glassworker
+No examples found Farrier
+No examples found Coxswain
+No examples found Foster_parent
+No examples found Housekeeper
+No examples found Prison_guard
+No examples found Prompter
+No examples found Window_dresser
+No examples found Wine_maker
+No examples found Landscape_gardener
+No examples found Minister_of_religion
+No examples found Sales_representative
+No examples found Radiotherapist
+No examples found Varnisher
+No examples found Insurance_agent
+No examples found Commercial_traveller
+No examples found Knitter
+No examples found Legal_assistant
+No examples found Nurse_practitioner
+No examples found Head_teacher
+No examples found Orthoptist
+No examples found Landscape_architect
+No examples found Camera_operator
+No examples found Newspaper_editor
+No examples found Art_teacher
+No examples found Dental_surgeon
+No examples found Veterinary_surgeon
+No examples found Bus_driver
+'utf-8' codec can't decode byte 0xc6 in position 222597: invalid continuation byte Producer
+No examples found Valuer
+No examples found Fire_fighter
+No examples found Buyer
+No examples found Storekeeper
+No examples found Labourer
+No examples found Ship's_officer
+No examples found Domestic_help
+No examples found Music_director
+No examples found Concreter
+No examples found Army_officer
+No examples found Cleaner
+No examples found Financial_analyst
+No examples found Harpooner
+No examples found Maltster
+No examples found Haematologist
+No examples found Public_prosecutor
+No examples found Art_critic
+No examples found Coder
+No examples found Sericulturist
+No examples found Galvaniser
+No examples found Telephonist
+No examples found Garbage_man
+No examples found Tour_guide
+No examples found Pipe_fitter
+No examples found Funeral_director
+No examples found Shunter
+No examples found Pawnbroker
+No examples found Dish_washer
+No examples found Flight_engineer
+No examples found Train_dispatcher
+No examples found Dry_cleaner
+No examples found Financial_officer
+No examples found Art_director
+No examples found Assessor
+No examples found Private_investigator
+No examples found Tracklayer
+No examples found Real_estate_agent
+No examples found Scene_painter
+No examples found Ship_broker
+No examples found Draughtsman
+No examples found Window_cleaner
+'utf-8' codec can't decode byte 0x90 in position 1024457: invalid start byte Artist
