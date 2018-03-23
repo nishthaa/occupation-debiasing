@@ -38,7 +38,7 @@ def check_for_bias(sentence):
 	hits = [triples for triples in svos if is_occupation(triples[2]) == "neutral"]
 	biased = [("male", triples[2]) for triples in hits if is_male(triples[0].lower())]
 	biased.extend([("female", triples[2]) for triples in hits if is_female(triples[0].lower())])
-	return biased, svos
+	return biased, hits
 
 def extract_examples(word, gender):
 	fe = open("data/examples.txt")
@@ -51,7 +51,7 @@ def extract_examples(word, gender):
 			return toks[2]
 	return None
 
-def output(biased, time_from, time_to, place):
+def output(biased, time_from, time_to, place, hits):
 	fe = open("data/examples.txt")
 	examples = ""
 	
@@ -68,19 +68,30 @@ def output(biased, time_from, time_to, place):
 			examples = extract_examples(pair[1], "female")
 			ans = None
 			if examples != None: ans = show(pair[1], examples, "female", start, time_from, time_to, place)
-			if ans != None: s = s + ans 
+			if ans != None: 
+				s = s + ans 
+			else:
+				for i in range(len(hits)):
+					if hits[i][2] == pair[1]:
+						hits.pop(i) 
+
 		else:
 			examples = extract_examples(pair[1], "male")
 			ans = None
 			if examples != None: ans = show(pair[1], examples, "male", start, time_from, time_to, place)
-			if ans != None: s = s + ans
+			if ans != None: 
+				s = s + ans
+			else:
+				for i in range(len(hits)):
+					if hits[i][2] == pair[1]:
+						hits.pop(i)
 	
 
 	if s != "":
-		return start + s
+		return start + s, hits
 	else:
 		start = "This sentence is completely free from bias!\n"
-		return start
+		return start, hits
 
 def show(occupation, examples, gender, start, time_from, time_to, place):
 
@@ -119,7 +130,7 @@ def test():
 	time_to = int(input("Please enter end of time period - \n\n\t"))
 	country = input("Please enter country - \n\n\t")
 	biased, svos = check_for_bias(sentence)
-	print(output(biased, time_from, time_to, country))
+	print(output(biased, time_from, time_to, country, svos))
 
 if __name__ == "__main__":
 	test()
