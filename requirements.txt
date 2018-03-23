@@ -6,7 +6,6 @@ click==6.7
 cymem==1.31.2
 cytoolz==0.8.2
 dill==0.2.7.1
-en-core-web-sm==2.0.0
 falcon==1.4.1
 Flask==0.12.2
 ftfy==4.4.3
@@ -23,7 +22,6 @@ msgpack-numpy==0.4.1
 msgpack-python==0.5.4
 murmurhash==0.28.0
 neovim==0.2.1
-neuralcoref==0.1
 nltk==3.2.5
 numpy==1.14.1
 pandas==0.22.0
