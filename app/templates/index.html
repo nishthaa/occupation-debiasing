@@ -473,6 +473,11 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
           }
           console.log(exampleSection);
 
+          var loading = document.createElement("IMG");
+          loading.setAttribute('src', '../static/loading.gif');
+          loading.style.display = 'block';
+          loading.style.margin = 'auto';
+          exampleSection.appendChild(loading);
           
           var myQuery = quill.getText();
           var time_from = $("#from").val();
@@ -486,6 +491,13 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
           var reply = " ";
 
           var resp = $.post("/api/bias-checker", {query: myQuery, from: time_from, to: time_to, place: place}, function(a){
+            
+            var exampleSection = document.getElementById("exampleSection");
+            //var exampleList = exampleSection.childNodes[1];
+            while (exampleSection.hasChildNodes()) {
+              exampleSection.removeChild(exampleSection.lastChild);
+            }
+
             reply = a;
             console.log(reply['response'][0]);
 
@@ -560,6 +572,9 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
 
             }    
           });
+
+
+
           
         });
 
