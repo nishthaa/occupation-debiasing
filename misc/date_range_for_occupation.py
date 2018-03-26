@@ -9,7 +9,7 @@ time_from = int(sys.argv[2])
 time_to = int(sys.argv[3])
 
 
-fh = open("../app/data/examples-new2.txt")
+fh = open("../app/data/examples.txt")
 
 for line in fh:
 
