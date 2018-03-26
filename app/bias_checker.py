@@ -38,6 +38,8 @@ def check_for_bias(sentence):
 	hits = [triples for triples in svos if is_occupation(triples[2]) == "neutral"]
 	biased = [("male", triples[2]) for triples in hits if is_male(triples[0].lower())]
 	biased.extend([("female", triples[2]) for triples in hits if is_female(triples[0].lower())])
+	print('biased:',biased)
+	print('hits:',hits)
 	return biased, hits
 
 def extract_examples(word, gender):
@@ -57,7 +59,7 @@ def output(biased, time_from, time_to, place, hits):
 	
 	if len(biased) == 0:
 		start = "This sentence is completely free from bias!\n"
-		return start
+		return start, hits
 	else:
 		start = "Your input displays Gender Bias from occupational viewpoint.\n"
 
