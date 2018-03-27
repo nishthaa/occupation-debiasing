@@ -363,8 +363,8 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
               scrollTop: $(hash).offset().top
             }, 800, function(){
          
-              // Add hash (#) to URL when done scrolling (default click behavior)
-              window.location.hash = hash;
+              // // Add hash (#) to URL when done scrolling (default click behavior)
+              // window.location.hash = hash;
             });
           } // End if
         });
@@ -641,6 +641,10 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
             exampleSection.removeChild(exampleSection.lastChild);
           }
           // console.log(exampleSection);
+
+          $('html,body').animate({
+            scrollTop: $(".logo").offset().top},
+            800);
           
         });
 
