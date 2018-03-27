@@ -38,8 +38,8 @@ def check_for_bias(sentence):
 	hits = [triples for triples in svos if is_occupation(triples[2]) == "neutral"]
 	biased = [("male", triples[2]) for triples in hits if is_male(triples[0].lower())]
 	biased.extend([("female", triples[2]) for triples in hits if is_female(triples[0].lower())])
-	print('biased:',biased)
-	print('hits:',hits)
+	# print('biased:',biased)
+	# print('hits:',hits)
 	return biased, hits
 
 def extract_examples(word, gender):
@@ -108,7 +108,7 @@ def show(occupation, examples, gender, start, time_from, time_to, place):
 			fields = example.split("\t")
 			nname = fields[0].split("/")[-1]
 			name = nname.replace("_", " ")
-			print(fields)
+			# print(fields)
 			birth_country = fields[3].split("/")[-1].lower().replace("_"," ")
 			death_country = fields[5].split("/")[-1].lower().replace("_"," ")
 			if fields[6].split("-")[0] != "": birth_year = int(fields[6].split("-")[0])

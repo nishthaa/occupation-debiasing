@@ -386,7 +386,7 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
         var countrySpace = document.getElementById("countryName");
         var options = document.getElementsByTagName("option");
         var dropDown = document.getElementById("dropdown");
-        console.log(countrySpace);
+        // console.log(countrySpace);
 
         var ctry = "in";
 
@@ -422,8 +422,8 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
             for (var i = 0; i < Object.keys(country_codes).length; i++) {
               
               if(options[i].value == code) {
-                console.log("hiiiiii");
-                console.log(options[i]);
+                // console.log("hiiiiii");
+                // console.log(options[i]);
                 
                 dropDown.selectedIndex = i;
                 break;
@@ -434,7 +434,7 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
             }
 
             
-            console.log(code);
+            // console.log(code);
 
           },
           normalizeFunction: 'polynomial'
@@ -444,19 +444,19 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
         function applyHighlights(text, triplets) {
 
           var textArea = document.getElementById('editor-container').childNodes[0].childNodes[0];
-          console.log(textArea)
+          // console.log(textArea)
           var content = quill.getText()
 
           toks = content.split(" ");
-          console.log("toks: " + toks);
+          // console.log("toks: " + toks);
           for (var i = 0; i < toks.length; i++) {
             
             for (var j = 0; j < triplets.length; j++) {
 
               tmp = toks[i].replace(/(^[ '\n\.\^\$\*#&]+)|([ '\.\^\$\*#&\n]+$)/g, '');
-              console.log("tmp: " + tmp);
+              // console.log("tmp: " + tmp);
               if(tmp == triplets[j][0] || tmp == triplets[j][2] || tmp.toLowerCase() == triplets[j][2]) {
-                console.log(tmp + " " + j);
+                // console.log(tmp + " " + j);
                 quill.formatText(content.indexOf(tmp), tmp.length, {'bold': true, 'background-color': '#A2D9CE'});
                 // toks[i] = toks[i].replace(tmp, "<mark>" + tmp + "</mark>");
               }
@@ -473,7 +473,7 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
           while (exampleSection.hasChildNodes()) {
             exampleSection.removeChild(exampleSection.lastChild);
           }
-          console.log(exampleSection);
+          // console.log(exampleSection);
 
           var loading = document.createElement("IMG");
           loading.setAttribute('src', '../static/loading.gif');
@@ -485,10 +485,10 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
           var time_from = $("#from").val();
           var time_to = $("#to").val();
           var place = ctry;
-          console.log("------------");
-          console.log(place);
+          // console.log("------------");
+          // console.log(place);
           
-          console.log(time_from);
+          // console.log(time_from);
 
           var reply = " ";
 
@@ -501,10 +501,10 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
             }
 
             reply = a;
-            console.log(reply['response'][0]);
+            // console.log(reply['response'][0]);
 
             var lines = reply['response'][0].split("\n");
-            console.log(lines.length);
+            // console.log(lines.length);
             numLines = lines.length;
 
             
@@ -515,7 +515,7 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
             var heading  = document.createElement("H4");
             heading.className = "list-group-item-heading";
             heading.textContent = lines[0];
-            console.log(lines[1]);
+            // console.log(lines[1]);
             start.appendChild(heading);
             exampleSection.appendChild(start);
             //console.log(exampleList + "hi");
@@ -564,12 +564,12 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
               {
                 var triplets = reply['response'][1]
 
-                console.log(triplets)
+                // console.log(triplets)
 
                 text = quill.getText();
-                console.log(text)
+                // console.log(text)
                 text = applyHighlights(text, triplets);
-                console.log(text);
+                // console.log(text);
               }            
 
             }    
@@ -640,7 +640,7 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
           while (exampleSection.hasChildNodes()) {
             exampleSection.removeChild(exampleSection.lastChild);
           }
-          console.log(exampleSection);
+          // console.log(exampleSection);
           
         });
 
