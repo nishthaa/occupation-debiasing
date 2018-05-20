@@ -58,10 +58,10 @@ def output(biased, time_from, time_to, place, hits):
 	examples = ""
 	
 	if len(biased) == 0:
-		start = "This sentence is completely free from bias!\n"
+		start = "Our system didn't find any evidence of Occupational Gender Bias!\n"
 		return start, hits
 	else:
-		start = "Your input displays Gender Bias from occupational viewpoint.\n"
+		start = "Our system suggests that there is a presence of Occupational Gender Bias.\n"
 
 	s = ""
 
@@ -92,7 +92,7 @@ def output(biased, time_from, time_to, place, hits):
 	if s != "":
 		return start + s, hits
 	else:
-		start = "This sentence is completely free from bias!\n"
+		start = "Our system didn't find any evidence of Occupational Gender Bias!\n"
 		return start, hits
 
 def show(occupation, examples, gender, start, time_from, time_to, place):
