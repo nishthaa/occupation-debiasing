@@ -23,7 +23,7 @@ msgpack-python==0.5.4
 murmurhash==0.28.0
 neovim==0.2.1
 nltk==3.4.5
-numpy==1.14.1
+numpy==1.22.0
 pandas==0.22.0
 pathlib==1.0.1
 plac==0.9.6
